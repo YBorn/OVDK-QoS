@@ -1,0 +1,345 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-include	./Makefile	/^SYMLINK-$(CONFIG_RTE_LIBRTE_SCHED)-include := rte_sched.h rte_bitmap.h rte_sched_common.h rte_red.h rte_approx.h$/;"	m
+CFLAGS_rte_red.o	./Makefile	/^CFLAGS_rte_red.o := -D_GNU_SOURCE$/;"	m
+LIB	./Makefile	/^LIB = librte_sched.a$/;"	m
+RTE_BITMAP_CL_BIT_MASK	./rte_bitmap.h	88;"	d
+RTE_BITMAP_CL_BIT_SIZE	./rte_bitmap.h	86;"	d
+RTE_BITMAP_CL_BIT_SIZE_LOG2	./rte_bitmap.h	87;"	d
+RTE_BITMAP_CL_SLAB_MASK	./rte_bitmap.h	92;"	d
+RTE_BITMAP_CL_SLAB_SIZE	./rte_bitmap.h	90;"	d
+RTE_BITMAP_CL_SLAB_SIZE_LOG2	./rte_bitmap.h	91;"	d
+RTE_BITMAP_OPTIMIZATIONS	./rte_bitmap.h	74;"	d
+RTE_BITMAP_SLAB_BIT_MASK	./rte_bitmap.h	83;"	d
+RTE_BITMAP_SLAB_BIT_SIZE	./rte_bitmap.h	81;"	d
+RTE_BITMAP_SLAB_BIT_SIZE_LOG2	./rte_bitmap.h	82;"	d
+RTE_RED_2POW16	./rte_red.h	62;"	d
+RTE_RED_ASSERT	./rte_red.h	68;"	d
+RTE_RED_ASSERT	./rte_red.h	75;"	d
+RTE_RED_INT16_NBITS	./rte_red.h	63;"	d
+RTE_RED_MAXP_INV_MAX	./rte_red.h	61;"	d
+RTE_RED_MAXP_INV_MIN	./rte_red.h	60;"	d
+RTE_RED_MAX_TH_MAX	./rte_red.h	57;"	d
+RTE_RED_S	./rte_red.h	56;"	d
+RTE_RED_SCALING	./rte_red.h	55;"	d
+RTE_RED_WQ_LOG2_MAX	./rte_red.h	59;"	d
+RTE_RED_WQ_LOG2_MIN	./rte_red.h	58;"	d
+RTE_RED_WQ_LOG2_NUM	./rte_red.h	64;"	d
+RTE_SCHED_BMP_POS_INVALID	./rte_sched.c	103;"	d	file:
+RTE_SCHED_DEBUG	./rte_sched.c	56;"	d	file:
+RTE_SCHED_ENQUEUE	./rte_sched.c	67;"	d	file:
+RTE_SCHED_FRAME_OVERHEAD_DEFAULT	./rte_sched.h	112;"	d
+RTE_SCHED_GRINDER_PCACHE_SIZE	./rte_sched.c	99;"	d	file:
+RTE_SCHED_OPTIMIZATIONS	./rte_sched.c	60;"	d	file:
+RTE_SCHED_PIPE_INVALID	./rte_sched.c	101;"	d	file:
+RTE_SCHED_PIPE_PROFILES_PER_PORT	./rte_sched.h	101;"	d
+RTE_SCHED_PORT_N_GRINDERS	./rte_sched.c	90;"	d	file:
+RTE_SCHED_QUEUES_PER_PIPE	./rte_sched.h	95;"	d
+RTE_SCHED_QUEUES_PER_TRAFFIC_CLASS	./rte_sched.h	92;"	d
+RTE_SCHED_TB_RATE_CONFIG_ERR	./rte_sched.c	80;"	d	file:
+RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE	./rte_sched.h	89;"	d
+RTE_SCHED_TS	./rte_sched.c	69;"	d	file:
+RTE_SCHED_TS_CREDITS_CHECK	./rte_sched.c	73;"	d	file:
+RTE_SCHED_TS_CREDITS_CHECK	./rte_sched.c	76;"	d	file:
+RTE_SCHED_TS_CREDITS_UPDATE	./rte_sched.c	72;"	d	file:
+RTE_SCHED_TS_CREDITS_UPDATE	./rte_sched.c	75;"	d	file:
+RTE_SCHED_WRR	./rte_sched.c	83;"	d	file:
+RTE_SCHED_WRR_SHIFT	./rte_sched.c	86;"	d	file:
+__INCLUDE_RTE_APPROX_H__	./rte_approx.h	35;"	d
+__INCLUDE_RTE_BITMAP_H__	./rte_bitmap.h	35;"	d
+__INCLUDE_RTE_SCHED_COMMON_H__	./rte_sched_common.h	35;"	d
+__INCLUDE_RTE_SCHED_H__	./rte_sched.h	35;"	d
+__RTE_RED_H_INCLUDED__	./rte_red.h	35;"	d
+__rte_aligned_16	./rte_sched.c	/^	uint32_t grinder_base_bmp_pos[RTE_SCHED_PORT_N_GRINDERS] __rte_aligned_16;$/;"	m	struct:rte_sched_port	file:
+__rte_aligned_16	./rte_sched_common.h	43;"	d
+__rte_bitmap_get_memory_footprint	./rte_bitmap.h	/^__rte_bitmap_get_memory_footprint(uint32_t n_bits, $/;"	f
+__rte_bitmap_index1_inc	./rte_bitmap.h	/^__rte_bitmap_index1_inc(struct rte_bitmap *bmp)$/;"	f
+__rte_bitmap_index2_set	./rte_bitmap.h	/^__rte_bitmap_index2_set(struct rte_bitmap *bmp)$/;"	f
+__rte_bitmap_line_not_empty	./rte_bitmap.h	/^__rte_bitmap_line_not_empty(uint64_t *slab2)$/;"	f
+__rte_bitmap_mask1_get	./rte_bitmap.h	/^__rte_bitmap_mask1_get(struct rte_bitmap *bmp)$/;"	f
+__rte_bitmap_scan_init	./rte_bitmap.h	/^__rte_bitmap_scan_init(struct rte_bitmap *bmp)$/;"	f
+__rte_bitmap_scan_read	./rte_bitmap.h	/^__rte_bitmap_scan_read(struct rte_bitmap *bmp, uint32_t *pos, uint64_t *slab)$/;"	f
+__rte_bitmap_scan_read_init	./rte_bitmap.h	/^__rte_bitmap_scan_read_init(struct rte_bitmap *bmp)$/;"	f
+__rte_bitmap_scan_search	./rte_bitmap.h	/^__rte_bitmap_scan_search(struct rte_bitmap *bmp)$/;"	f
+__rte_cache_aligned	./rte_sched.c	/^	uint8_t memory[0] __rte_cache_aligned;$/;"	m	struct:rte_sched_port	file:
+__rte_cache_aligned	./rte_sched.c	/^} __rte_cache_aligned;$/;"	v	typeref:struct:rte_sched_pipe
+__rte_cache_aligned	./rte_sched.c	/^} __rte_cache_aligned;$/;"	v	typeref:struct:rte_sched_port
+__rte_red_calc_qempty_factor	./rte_red.h	/^__rte_red_calc_qempty_factor(uint8_t wq_log2, uint16_t m)$/;"	f
+__rte_red_drop	./rte_red.h	/^__rte_red_drop(const struct rte_red_config *red_cfg, struct rte_red *red)$/;"	f
+__rte_red_init_tables	./rte_red.c	/^__rte_red_init_tables(void)$/;"	f	file:
+array1	./rte_bitmap.h	/^	uint64_t *array1;                        \/**< Bitmap array1 *\/$/;"	m	struct:rte_bitmap
+array1_size	./rte_bitmap.h	/^	uint32_t array1_size;                    \/**< Number of 64-bit slabs in array1 that are actually used *\/$/;"	m	struct:rte_bitmap
+array2	./rte_bitmap.h	/^	uint64_t *array2;                        \/**< Bitmap array2 *\/$/;"	m	struct:rte_bitmap
+array2_size	./rte_bitmap.h	/^	uint32_t array2_size;                    \/**< Number of 64-bit slabs in array2 *\/$/;"	m	struct:rte_bitmap
+avg	./rte_red.h	/^	uint32_t avg;      \/**< Average queue size (avg), scaled in fixed-point format *\/$/;"	m	struct:rte_red
+bmp	./rte_sched.c	/^	struct rte_bitmap *bmp;$/;"	m	struct:rte_sched_port	typeref:struct:rte_sched_port::rte_bitmap	file:
+bmp_array	./rte_sched.c	/^	uint8_t *bmp_array;$/;"	m	struct:rte_sched_port	file:
+busy_grinders	./rte_sched.c	/^	uint32_t busy_grinders;$/;"	m	struct:rte_sched_port	file:
+color	./rte_sched.h	/^	uint32_t color:2;                \/**< Color *\/$/;"	m	struct:rte_sched_port_hierarchy
+count	./rte_red.h	/^	uint32_t count;    \/**< Number of packets since last marked packet (count) *\/$/;"	m	struct:rte_red
+cycles_per_byte	./rte_sched.c	/^	double cycles_per_byte;       \/* CPU cycles per byte *\/$/;"	m	struct:rte_sched_port	file:
+debug_check_queue_slab	./rte_sched.c	/^debug_check_queue_slab(struct rte_sched_port *port, uint32_t bmp_pos, uint64_t bmp_slab)$/;"	f	file:
+debug_pipe_is_empty	./rte_sched.c	/^debug_pipe_is_empty(struct rte_sched_port *port, uint32_t pindex)$/;"	f	file:
+e_GRINDER_PREFETCH_MBUF	./rte_sched.c	/^	e_GRINDER_PREFETCH_MBUF,$/;"	e	enum:grinder_state	file:
+e_GRINDER_PREFETCH_PIPE	./rte_sched.c	/^	e_GRINDER_PREFETCH_PIPE = 0,$/;"	e	enum:grinder_state	file:
+e_GRINDER_PREFETCH_TC_QUEUE_ARRAYS	./rte_sched.c	/^	e_GRINDER_PREFETCH_TC_QUEUE_ARRAYS,$/;"	e	enum:grinder_state	file:
+e_GRINDER_READ_MBUF	./rte_sched.c	/^	e_GRINDER_READ_MBUF$/;"	e	enum:grinder_state	file:
+e_RTE_SCHED_PORT_ARRAY_BMP_ARRAY	./rte_sched.c	/^	e_RTE_SCHED_PORT_ARRAY_BMP_ARRAY,$/;"	e	enum:rte_sched_port_array	file:
+e_RTE_SCHED_PORT_ARRAY_PIPE	./rte_sched.c	/^	e_RTE_SCHED_PORT_ARRAY_PIPE,$/;"	e	enum:rte_sched_port_array	file:
+e_RTE_SCHED_PORT_ARRAY_PIPE_PROFILES	./rte_sched.c	/^	e_RTE_SCHED_PORT_ARRAY_PIPE_PROFILES,$/;"	e	enum:rte_sched_port_array	file:
+e_RTE_SCHED_PORT_ARRAY_QUEUE	./rte_sched.c	/^	e_RTE_SCHED_PORT_ARRAY_QUEUE,$/;"	e	enum:rte_sched_port_array	file:
+e_RTE_SCHED_PORT_ARRAY_QUEUE_ARRAY	./rte_sched.c	/^	e_RTE_SCHED_PORT_ARRAY_QUEUE_ARRAY,$/;"	e	enum:rte_sched_port_array	file:
+e_RTE_SCHED_PORT_ARRAY_QUEUE_EXTRA	./rte_sched.c	/^	e_RTE_SCHED_PORT_ARRAY_QUEUE_EXTRA,$/;"	e	enum:rte_sched_port_array	file:
+e_RTE_SCHED_PORT_ARRAY_SUBPORT	./rte_sched.c	/^	e_RTE_SCHED_PORT_ARRAY_SUBPORT = 0,$/;"	e	enum:rte_sched_port_array	file:
+e_RTE_SCHED_PORT_ARRAY_TOTAL	./rte_sched.c	/^	e_RTE_SCHED_PORT_ARRAY_TOTAL,$/;"	e	enum:rte_sched_port_array	file:
+find_best_rational_approximation	./rte_approx.c	/^find_best_rational_approximation(uint32_t alpha_num, uint32_t d_num, uint32_t denum, uint32_t *p, uint32_t *q)$/;"	f	file:
+find_exact_solution_left	./rte_approx.c	/^find_exact_solution_left(uint32_t p_a, uint32_t q_a, uint32_t p_b, uint32_t q_b, $/;"	f	file:
+find_exact_solution_right	./rte_approx.c	/^find_exact_solution_right(uint32_t p_a, uint32_t q_a, uint32_t p_b, uint32_t q_b,$/;"	f	file:
+frame_overhead	./rte_sched.c	/^	uint32_t frame_overhead;$/;"	m	struct:rte_sched_port	file:
+frame_overhead	./rte_sched.h	/^	uint32_t frame_overhead;         \/**< Framing overhead per packet (measured in bytes) *\/$/;"	m	struct:rte_sched_port_params
+go2	./rte_bitmap.h	/^	uint32_t go2;     \/**< Bitmap scan: Go\/stop condition for current array2 cache line *\/$/;"	m	struct:rte_bitmap
+grinder	./rte_sched.c	/^	struct rte_sched_grinder grinder[RTE_SCHED_PORT_N_GRINDERS];$/;"	m	struct:rte_sched_port	typeref:struct:rte_sched_port::rte_sched_grinder	file:
+grinder_credits_check	./rte_sched.c	/^grinder_credits_check(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_credits_update	./rte_sched.c	/^grinder_credits_update(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_credits_update	./rte_sched.c	1436;"	d	file:
+grinder_evict	./rte_sched.c	1975;"	d	file:
+grinder_handle	./rte_sched.c	/^grinder_handle(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_next_pipe	./rte_sched.c	/^grinder_next_pipe(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_next_tc	./rte_sched.c	/^grinder_next_tc(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_pcache_populate	./rte_sched.c	/^grinder_pcache_populate(struct rte_sched_port *port, uint32_t pos, uint32_t bmp_pos, uint64_t bmp_slab)$/;"	f	file:
+grinder_pipe_exists	./rte_sched.c	/^grinder_pipe_exists(struct rte_sched_port *port, uint32_t base_pipe)$/;"	f	file:
+grinder_prefetch_mbuf	./rte_sched.c	/^grinder_prefetch_mbuf(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_prefetch_pipe	./rte_sched.c	/^grinder_prefetch_pipe(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_prefetch_tc_queue_arrays	./rte_sched.c	/^grinder_prefetch_tc_queue_arrays(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_schedule	./rte_sched.c	/^grinder_schedule(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_state	./rte_sched.c	/^enum grinder_state {$/;"	g	file:
+grinder_tc_ov_credits_update	./rte_sched.c	/^grinder_tc_ov_credits_update(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_tccache_populate	./rte_sched.c	/^grinder_tccache_populate(struct rte_sched_port *port, uint32_t pos, uint32_t qindex, uint16_t qmask)$/;"	f	file:
+grinder_wrr	./rte_sched.c	/^grinder_wrr(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_wrr_load	./rte_sched.c	/^grinder_wrr_load(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_wrr_load	./rte_sched.c	1888;"	d	file:
+grinder_wrr_store	./rte_sched.c	/^grinder_wrr_store(struct rte_sched_port *port, uint32_t pos)$/;"	f	file:
+grinder_wrr_store	./rte_sched.c	1890;"	d	file:
+index1	./rte_bitmap.h	/^	uint32_t index1;  \/**< Bitmap scan: Index of current array1 slab *\/$/;"	m	struct:rte_bitmap
+index2	./rte_bitmap.h	/^	uint32_t index2;  \/**< Bitmap scan: Index of current array2 slab *\/$/;"	m	struct:rte_bitmap
+less	./rte_approx.c	/^less(uint32_t a, uint32_t b, uint32_t c, uint32_t d)$/;"	f	file:
+less_or_equal	./rte_approx.c	/^less_or_equal(uint32_t a, uint32_t b, uint32_t c, uint32_t d)$/;"	f	file:
+matches	./rte_approx.c	/^matches(uint32_t a, uint32_t b, $/;"	f	file:
+max_th	./rte_red.h	/^	uint16_t max_th;   \/**< Maximum threshold for queue (max_th) *\/$/;"	m	struct:rte_red_params
+max_th	./rte_red.h	/^	uint32_t max_th;   \/**< max_th scaled in fixed-point format *\/$/;"	m	struct:rte_red_config
+maxp_inv	./rte_red.h	/^	uint16_t maxp_inv; \/**< Inverse of packet marking probability maximum value (maxp = 1 \/ maxp_inv) *\/$/;"	m	struct:rte_red_params
+maxp_inv	./rte_red.h	/^	uint8_t maxp_inv;  \/**< maxp_inv *\/$/;"	m	struct:rte_red_config
+memory	./rte_bitmap.h	/^	uint8_t memory[0];$/;"	m	struct:rte_bitmap
+min_th	./rte_red.h	/^	uint16_t min_th;   \/**< Minimum threshold for queue (max_th) *\/$/;"	m	struct:rte_red_params
+min_th	./rte_red.h	/^	uint32_t min_th;   \/**< min_th scaled in fixed-point format *\/$/;"	m	struct:rte_red_config
+mtu	./rte_sched.c	/^	uint32_t mtu;$/;"	m	struct:rte_sched_port	file:
+mtu	./rte_sched.h	/^	uint32_t mtu;                    \/**< Maximum Ethernet frame size (measured in bytes). Should not include the framing overhead. *\/$/;"	m	struct:rte_sched_port_params
+n_bytes	./rte_sched.h	/^	uint32_t n_bytes;                \/**< Number of bytes successfully written to current queue *\/$/;"	m	struct:rte_sched_queue_stats
+n_bytes_dropped	./rte_sched.h	/^	uint32_t n_bytes_dropped;        \/**< Number of bytes dropped due to current queue being full or congested *\/	$/;"	m	struct:rte_sched_queue_stats
+n_bytes_tc	./rte_sched.h	/^	uint32_t n_bytes_tc[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE]; \/**< Number of bytes successfully written to current $/;"	m	struct:rte_sched_subport_stats
+n_bytes_tc_dropped	./rte_sched.h	/^	uint32_t n_bytes_tc_dropped[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE]; \/**< Number of bytes dropped by the current $/;"	m	struct:rte_sched_subport_stats
+n_pipe_profiles	./rte_sched.c	/^	uint32_t n_pipe_profiles;$/;"	m	struct:rte_sched_port	file:
+n_pipe_profiles	./rte_sched.h	/^	uint32_t n_pipe_profiles;        \/**< Number of profiles in the pipe profile table *\/$/;"	m	struct:rte_sched_port_params
+n_pipes_per_subport	./rte_sched.c	/^	uint32_t n_pipes_per_subport;$/;"	m	struct:rte_sched_port	file:
+n_pipes_per_subport	./rte_sched.h	/^	uint32_t n_pipes_per_subport;    \/**< Number of pipes for each port scheduler subport *\/$/;"	m	struct:rte_sched_port_params
+n_pkts	./rte_sched.h	/^	uint32_t n_pkts;                 \/**< Number of packets successfully written to current queue *\/$/;"	m	struct:rte_sched_queue_stats
+n_pkts_dropped	./rte_sched.h	/^	uint32_t n_pkts_dropped;         \/**< Number of packets dropped due to current queue being full or congested *\/$/;"	m	struct:rte_sched_queue_stats
+n_pkts_out	./rte_sched.c	/^	uint32_t n_pkts_out;$/;"	m	struct:rte_sched_port	file:
+n_pkts_tc	./rte_sched.h	/^	uint32_t n_pkts_tc[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE]; \/**< Number of packets successfully written to current$/;"	m	struct:rte_sched_subport_stats
+n_pkts_tc_dropped	./rte_sched.h	/^	uint32_t n_pkts_tc_dropped[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE]; \/**< Number of packets dropped by the current$/;"	m	struct:rte_sched_subport_stats
+n_subports_per_port	./rte_sched.c	/^	uint32_t n_subports_per_port;$/;"	m	struct:rte_sched_port	file:
+n_subports_per_port	./rte_sched.h	/^	uint32_t n_subports_per_port;    \/**< Number of subports for the current port scheduler instance*\/$/;"	m	struct:rte_sched_port_params
+name	./rte_sched.h	/^	const char *name;                \/**< Literal string to be associated to the current port scheduler instance *\/$/;"	m	struct:rte_sched_port_params
+offset1	./rte_bitmap.h	/^	uint32_t offset1; \/**< Bitmap scan: Offset of current bit within current array1 slab *\/$/;"	m	struct:rte_bitmap
+pa_const	./rte_red.h	/^	uint32_t pa_const; \/**< Precomputed constant value used for pa calculation (scaled in fixed-point format) *\/$/;"	m	struct:rte_red_config
+pcache_qindex	./rte_sched.c	/^	uint32_t pcache_qindex[RTE_SCHED_GRINDER_PCACHE_SIZE];$/;"	m	struct:rte_sched_grinder	file:
+pcache_qmask	./rte_sched.c	/^	uint16_t pcache_qmask[RTE_SCHED_GRINDER_PCACHE_SIZE];$/;"	m	struct:rte_sched_grinder	file:
+pcache_r	./rte_sched.c	/^	uint32_t pcache_r;$/;"	m	struct:rte_sched_grinder	file:
+pcache_w	./rte_sched.c	/^	uint32_t pcache_w;$/;"	m	struct:rte_sched_grinder	file:
+pindex	./rte_sched.c	/^	uint32_t pindex;$/;"	m	struct:rte_sched_grinder	file:
+pipe	./rte_sched.c	/^	struct rte_sched_pipe *pipe;$/;"	m	struct:rte_sched_grinder	typeref:struct:rte_sched_grinder::rte_sched_pipe	file:
+pipe	./rte_sched.c	/^	struct rte_sched_pipe *pipe;$/;"	m	struct:rte_sched_port	typeref:struct:rte_sched_port::rte_sched_pipe	file:
+pipe	./rte_sched.h	/^	uint32_t pipe:20;                \/**< Pipe ID *\/$/;"	m	struct:rte_sched_port_hierarchy
+pipe_exhaustion	./rte_sched.c	/^	uint32_t pipe_exhaustion;$/;"	m	struct:rte_sched_port	file:
+pipe_loop	./rte_sched.c	/^	uint32_t pipe_loop;$/;"	m	struct:rte_sched_port	file:
+pipe_params	./rte_sched.c	/^	struct rte_sched_pipe_profile *pipe_params;$/;"	m	struct:rte_sched_grinder	typeref:struct:rte_sched_grinder::rte_sched_pipe_profile	file:
+pipe_profiles	./rte_sched.c	/^	struct rte_sched_pipe_profile *pipe_profiles;$/;"	m	struct:rte_sched_port	typeref:struct:rte_sched_port::rte_sched_pipe_profile	file:
+pipe_profiles	./rte_sched.h	/^	struct rte_sched_pipe_params *pipe_profiles; \/**< Pipe profile table defined for current port scheduler instance.$/;"	m	struct:rte_sched_port_params	typeref:struct:rte_sched_port_params::rte_sched_pipe_params
+pipe_tc3_rate_max	./rte_sched.c	/^	uint32_t pipe_tc3_rate_max;$/;"	m	struct:rte_sched_port	file:
+pkt	./rte_sched.c	/^	struct rte_mbuf *pkt;$/;"	m	struct:rte_sched_grinder	typeref:struct:rte_sched_grinder::rte_mbuf	file:
+pkts_out	./rte_sched.c	/^	struct rte_mbuf **pkts_out;$/;"	m	struct:rte_sched_port	typeref:struct:rte_sched_port::rte_mbuf	file:
+productive	./rte_sched.c	/^	uint32_t productive;$/;"	m	struct:rte_sched_grinder	file:
+profile	./rte_sched.c	/^	uint32_t profile;$/;"	m	struct:rte_sched_pipe	file:
+q_time	./rte_red.h	/^	uint64_t q_time;   \/**< Start of the queue idle time (q_time) *\/$/;"	m	struct:rte_red
+qbase	./rte_sched.c	/^	struct rte_mbuf **qbase[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE];$/;"	m	struct:rte_sched_grinder	typeref:struct:rte_sched_grinder::rte_mbuf	file:
+qindex	./rte_sched.c	/^	uint32_t qindex[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE];$/;"	m	struct:rte_sched_grinder	file:
+qmask	./rte_sched.c	/^	uint32_t qmask;$/;"	m	struct:rte_sched_grinder	file:
+qpos	./rte_sched.c	/^	uint32_t qpos;$/;"	m	struct:rte_sched_grinder	file:
+qr	./rte_sched.c	/^	uint16_t qr;$/;"	m	struct:rte_sched_queue	file:
+qsize	./rte_sched.c	/^	uint16_t qsize;$/;"	m	struct:rte_sched_grinder	file:
+qsize	./rte_sched.c	/^	uint16_t qsize[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE];$/;"	m	struct:rte_sched_port	file:
+qsize	./rte_sched.h	/^	uint16_t qsize[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE]; \/**< Packet queue size for each traffic class. All queues $/;"	m	struct:rte_sched_port_params
+qsize_add	./rte_sched.c	/^	uint32_t qsize_add[RTE_SCHED_QUEUES_PER_PIPE];$/;"	m	struct:rte_sched_port	file:
+qsize_sum	./rte_sched.c	/^	uint32_t qsize_sum;$/;"	m	struct:rte_sched_port	file:
+queue	./rte_sched.c	/^	struct rte_sched_queue *queue;$/;"	m	struct:rte_sched_port	typeref:struct:rte_sched_port::rte_sched_queue	file:
+queue	./rte_sched.c	/^	struct rte_sched_queue *queue[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE];$/;"	m	struct:rte_sched_grinder	typeref:struct:rte_sched_grinder::rte_sched_queue	file:
+queue	./rte_sched.h	/^	uint32_t queue:2;                \/**< Queue ID (0 .. 3) *\/$/;"	m	struct:rte_sched_port_hierarchy
+queue_array	./rte_sched.c	/^	struct rte_mbuf **queue_array;$/;"	m	struct:rte_sched_port	typeref:struct:rte_sched_port::rte_mbuf	file:
+queue_extra	./rte_sched.c	/^	struct rte_sched_queue_extra *queue_extra;$/;"	m	struct:rte_sched_port	typeref:struct:rte_sched_port::rte_sched_queue_extra	file:
+qw	./rte_sched.c	/^	uint16_t qw;$/;"	m	struct:rte_sched_queue	file:
+rate	./rte_sched.c	/^	uint32_t rate;$/;"	m	struct:rte_sched_port	file:
+rate	./rte_sched.h	/^	uint32_t rate;                   \/**< Output port rate (measured in bytes per second) *\/$/;"	m	struct:rte_sched_port_params
+red	./rte_sched.c	/^	struct rte_red red;$/;"	m	struct:rte_sched_queue_extra	typeref:struct:rte_sched_queue_extra::rte_red	file:
+red_config	./rte_sched.c	/^	struct rte_red_config red_config[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE][e_RTE_METER_COLORS];$/;"	m	struct:rte_sched_port	typeref:struct:rte_sched_port::rte_red_config	file:
+red_params	./rte_sched.h	/^	struct rte_red_params red_params[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE][e_RTE_METER_COLORS]; \/**< RED parameters *\/$/;"	m	struct:rte_sched_port_params	typeref:struct:rte_sched_port_params::rte_red_params
+reserved	./rte_sched.c	/^	uint8_t reserved[3];$/;"	m	struct:rte_sched_pipe	file:
+rte_approx	./rte_approx.c	/^int rte_approx(double alpha, double d, uint32_t *p, uint32_t *q)$/;"	f
+rte_bitmap	./rte_bitmap.h	/^struct rte_bitmap {$/;"	s
+rte_bitmap_clear	./rte_bitmap.h	/^rte_bitmap_clear(struct rte_bitmap *bmp, uint32_t pos)$/;"	f
+rte_bitmap_free	./rte_bitmap.h	/^rte_bitmap_free(struct rte_bitmap *bmp)$/;"	f
+rte_bitmap_get	./rte_bitmap.h	/^rte_bitmap_get(struct rte_bitmap *bmp, uint32_t pos)$/;"	f
+rte_bitmap_get_memory_footprint	./rte_bitmap.h	/^rte_bitmap_get_memory_footprint(uint32_t n_bits) {$/;"	f
+rte_bitmap_init	./rte_bitmap.h	/^rte_bitmap_init(uint32_t n_bits, uint8_t *mem, uint32_t mem_size)$/;"	f
+rte_bitmap_prefetch0	./rte_bitmap.h	/^rte_bitmap_prefetch0(struct rte_bitmap *bmp, uint32_t pos)$/;"	f
+rte_bitmap_reset	./rte_bitmap.h	/^rte_bitmap_reset(struct rte_bitmap *bmp)$/;"	f
+rte_bitmap_scan	./rte_bitmap.h	/^rte_bitmap_scan(struct rte_bitmap *bmp, uint32_t *pos, uint64_t *slab)$/;"	f
+rte_bitmap_set	./rte_bitmap.h	/^rte_bitmap_set(struct rte_bitmap *bmp, uint32_t pos)$/;"	f
+rte_bitmap_set_slab	./rte_bitmap.h	/^rte_bitmap_set_slab(struct rte_bitmap *bmp, uint32_t pos, uint64_t slab)$/;"	f
+rte_bsf64	./rte_bitmap.h	/^rte_bsf64(uint64_t slab, uint32_t *pos)$/;"	f
+rte_fast_rand	./rte_red.h	/^rte_fast_rand(void)$/;"	f
+rte_get_gcd	./rte_sched_common.h	/^rte_get_gcd(uint32_t a, uint32_t b)$/;"	f
+rte_get_lcd	./rte_sched_common.h	/^rte_get_lcd(uint32_t a, uint32_t b)$/;"	f
+rte_min_pos_4_u16	./rte_sched_common.h	/^rte_min_pos_4_u16(uint16_t *x)$/;"	f
+rte_red	./rte_red.h	/^struct rte_red {$/;"	s
+rte_red_config	./rte_red.h	/^struct rte_red_config {$/;"	s
+rte_red_config_init	./rte_red.c	/^rte_red_config_init(struct rte_red_config *red_cfg,$/;"	f
+rte_red_enqueue	./rte_red.h	/^rte_red_enqueue(const struct rte_red_config *red_cfg,$/;"	f
+rte_red_enqueue_empty	./rte_red.h	/^rte_red_enqueue_empty(const struct rte_red_config *red_cfg,$/;"	f
+rte_red_enqueue_nonempty	./rte_red.h	/^rte_red_enqueue_nonempty(const struct rte_red_config *red_cfg,$/;"	f
+rte_red_init_done	./rte_red.c	/^static int rte_red_init_done = 0;     \/**< Flag to indicate that global initialisation is done *\/$/;"	v	file:
+rte_red_log2_1_minus_Wq	./rte_red.c	/^uint16_t rte_red_log2_1_minus_Wq[RTE_RED_WQ_LOG2_NUM];$/;"	v
+rte_red_mark_queue_empty	./rte_red.h	/^rte_red_mark_queue_empty(struct rte_red *red, const uint64_t time)$/;"	f
+rte_red_params	./rte_red.h	/^struct rte_red_params {$/;"	s
+rte_red_pow2_frac_inv	./rte_red.c	/^uint16_t rte_red_pow2_frac_inv[16];$/;"	v
+rte_red_rand_seed	./rte_red.c	/^uint32_t rte_red_rand_seed = 0;       \/**< Seed for random number generation *\/$/;"	v
+rte_red_rand_val	./rte_red.c	/^uint32_t rte_red_rand_val = 0;        \/**< Random value cache *\/$/;"	v
+rte_red_rt_data_init	./rte_red.c	/^rte_red_rt_data_init(struct rte_red *red)$/;"	f
+rte_sched_grinder	./rte_sched.c	/^struct rte_sched_grinder {$/;"	s	file:
+rte_sched_min_val_2_u32	./rte_sched_common.h	/^rte_sched_min_val_2_u32(uint32_t x, uint32_t y)$/;"	f
+rte_sched_pipe	./rte_sched.c	/^struct rte_sched_pipe {$/;"	s	file:
+rte_sched_pipe_config	./rte_sched.c	/^rte_sched_pipe_config(struct rte_sched_port *port,$/;"	f
+rte_sched_pipe_params	./rte_sched.h	/^struct rte_sched_pipe_params {$/;"	s
+rte_sched_pipe_profile	./rte_sched.c	/^struct rte_sched_pipe_profile {$/;"	s	file:
+rte_sched_port	./rte_sched.c	/^struct rte_sched_port {$/;"	s	file:
+rte_sched_port_array	./rte_sched.c	/^enum rte_sched_port_array {$/;"	g	file:
+rte_sched_port_check_params	./rte_sched.c	/^rte_sched_port_check_params(struct rte_sched_port_params *params)$/;"	f	file:
+rte_sched_port_config	./rte_sched.c	/^rte_sched_port_config(struct rte_sched_port_params *params)$/;"	f
+rte_sched_port_config_pipe_profile_table	./rte_sched.c	/^rte_sched_port_config_pipe_profile_table(struct rte_sched_port *port, struct rte_sched_port_params *params)$/;"	f	file:
+rte_sched_port_config_qsize	./rte_sched.c	/^rte_sched_port_config_qsize(struct rte_sched_port *port)$/;"	f	file:
+rte_sched_port_dequeue	./rte_sched.c	/^rte_sched_port_dequeue(struct rte_sched_port *port, struct rte_mbuf **pkts, uint32_t n_pkts)$/;"	f
+rte_sched_port_enqueue	./rte_sched.c	/^rte_sched_port_enqueue(struct rte_sched_port *port, struct rte_mbuf **pkts, uint32_t n_pkts)$/;"	f
+rte_sched_port_enqueue_qptrs_prefetch0	./rte_sched.c	/^rte_sched_port_enqueue_qptrs_prefetch0(struct rte_sched_port *port, struct rte_mbuf *pkt)$/;"	f	file:
+rte_sched_port_enqueue_qwa	./rte_sched.c	/^rte_sched_port_enqueue_qwa(struct rte_sched_port *port, uint32_t qindex, struct rte_mbuf **qbase, struct rte_mbuf *pkt)$/;"	f	file:
+rte_sched_port_enqueue_qwa_prefetch0	./rte_sched.c	/^rte_sched_port_enqueue_qwa_prefetch0(struct rte_sched_port *port, uint32_t qindex, struct rte_mbuf **qbase)$/;"	f	file:
+rte_sched_port_exceptions	./rte_sched.c	/^rte_sched_port_exceptions(struct rte_sched_port *port)$/;"	f	file:
+rte_sched_port_free	./rte_sched.c	/^rte_sched_port_free(struct rte_sched_port *port)$/;"	f
+rte_sched_port_get_array_base	./rte_sched.c	/^rte_sched_port_get_array_base(struct rte_sched_port_params *params, enum rte_sched_port_array array)$/;"	f	file:
+rte_sched_port_get_memory_footprint	./rte_sched.c	/^rte_sched_port_get_memory_footprint(struct rte_sched_port_params *params)$/;"	f
+rte_sched_port_hierarchy	./rte_sched.h	/^struct rte_sched_port_hierarchy {$/;"	s
+rte_sched_port_log_pipe_profile	./rte_sched.c	/^rte_sched_port_log_pipe_profile(struct rte_sched_port *port, uint32_t i)$/;"	f	file:
+rte_sched_port_log_subport_config	./rte_sched.c	/^rte_sched_port_log_subport_config(struct rte_sched_port *port, uint32_t i)$/;"	f	file:
+rte_sched_port_params	./rte_sched.h	/^struct rte_sched_port_params {$/;"	s
+rte_sched_port_pkt_read_color	./rte_sched.h	/^rte_sched_port_pkt_read_color(struct rte_mbuf *pkt)$/;"	f
+rte_sched_port_pkt_read_tree_path	./rte_sched.h	/^rte_sched_port_pkt_read_tree_path(struct rte_mbuf *pkt, uint32_t *subport, uint32_t *pipe, uint32_t *traffic_class, uint32_t *queue)$/;"	f
+rte_sched_port_pkt_write	./rte_sched.h	/^rte_sched_port_pkt_write(struct rte_mbuf *pkt, $/;"	f
+rte_sched_port_qbase	./rte_sched.c	/^rte_sched_port_qbase(struct rte_sched_port *port, uint32_t qindex)$/;"	f	file:
+rte_sched_port_qindex	./rte_sched.c	/^rte_sched_port_qindex(struct rte_sched_port *port, uint32_t subport, uint32_t pipe, uint32_t traffic_class, uint32_t queue)$/;"	f	file:
+rte_sched_port_qsize	./rte_sched.c	/^rte_sched_port_qsize(struct rte_sched_port *port, uint32_t qindex)$/;"	f	file:
+rte_sched_port_queue_is_empty	./rte_sched.c	/^rte_sched_port_queue_is_empty(struct rte_sched_port *port, uint32_t qindex)$/;"	f	file:
+rte_sched_port_queue_is_full	./rte_sched.c	/^rte_sched_port_queue_is_full(struct rte_sched_port *port, uint32_t qindex)$/;"	f	file:
+rte_sched_port_queues_per_port	./rte_sched.c	/^rte_sched_port_queues_per_port(struct rte_sched_port *port)$/;"	f	file:
+rte_sched_port_queues_per_subport	./rte_sched.c	/^rte_sched_port_queues_per_subport(struct rte_sched_port *port)$/;"	f	file:
+rte_sched_port_red_drop	./rte_sched.c	/^rte_sched_port_red_drop(struct rte_sched_port *port, struct rte_mbuf *pkt, uint32_t qindex, uint16_t qlen)$/;"	f	file:
+rte_sched_port_red_drop	./rte_sched.c	1109;"	d	file:
+rte_sched_port_set_queue_empty_timestamp	./rte_sched.c	/^rte_sched_port_set_queue_empty_timestamp(struct rte_sched_port *port, uint32_t qindex)$/;"	f	file:
+rte_sched_port_set_queue_empty_timestamp	./rte_sched.c	1111;"	d	file:
+rte_sched_port_time_resync	./rte_sched.c	/^rte_sched_port_time_resync(struct rte_sched_port *port)$/;"	f	file:
+rte_sched_port_update_queue_stats	./rte_sched.c	/^rte_sched_port_update_queue_stats(struct rte_sched_port *port, uint32_t qindex, struct rte_mbuf *pkt)$/;"	f	file:
+rte_sched_port_update_queue_stats_on_drop	./rte_sched.c	/^rte_sched_port_update_queue_stats_on_drop(struct rte_sched_port *port, uint32_t qindex, struct rte_mbuf *pkt)$/;"	f	file:
+rte_sched_port_update_subport_stats	./rte_sched.c	/^rte_sched_port_update_subport_stats(struct rte_sched_port *port, uint32_t qindex, struct rte_mbuf *pkt)$/;"	f	file:
+rte_sched_port_update_subport_stats_on_drop	./rte_sched.c	/^rte_sched_port_update_subport_stats_on_drop(struct rte_sched_port *port, uint32_t qindex, struct rte_mbuf *pkt)$/;"	f	file:
+rte_sched_queue	./rte_sched.c	/^struct rte_sched_queue {$/;"	s	file:
+rte_sched_queue_extra	./rte_sched.c	/^struct rte_sched_queue_extra {$/;"	s	file:
+rte_sched_queue_read_stats	./rte_sched.c	/^rte_sched_queue_read_stats(struct rte_sched_port *port,$/;"	f
+rte_sched_queue_stats	./rte_sched.h	/^struct rte_sched_queue_stats {$/;"	s
+rte_sched_subport	./rte_sched.c	/^struct rte_sched_subport {$/;"	s	file:
+rte_sched_subport_config	./rte_sched.c	/^rte_sched_subport_config(struct rte_sched_port *port, $/;"	f
+rte_sched_subport_params	./rte_sched.h	/^struct rte_sched_subport_params {$/;"	s
+rte_sched_subport_read_stats	./rte_sched.c	/^rte_sched_subport_read_stats(struct rte_sched_port *port,$/;"	f
+rte_sched_subport_stats	./rte_sched.h	/^struct rte_sched_subport_stats {$/;"	s
+rte_sched_time_ms_to_bytes	./rte_sched.c	/^rte_sched_time_ms_to_bytes(uint32_t time_ms, uint32_t rate)$/;"	f	file:
+socket	./rte_sched.h	/^	int socket;                      \/**< CPU socket ID where the memory for port scheduler should be allocated *\/$/;"	m	struct:rte_sched_port_params
+state	./rte_sched.c	/^	enum grinder_state state;$/;"	m	struct:rte_sched_grinder	typeref:enum:rte_sched_grinder::grinder_state	file:
+stats	./rte_sched.c	/^	struct rte_sched_queue_stats stats;$/;"	m	struct:rte_sched_queue_extra	typeref:struct:rte_sched_queue_extra::rte_sched_queue_stats	file:
+stats	./rte_sched.c	/^	struct rte_sched_subport_stats stats;$/;"	m	struct:rte_sched_subport	typeref:struct:rte_sched_subport::rte_sched_subport_stats	file:
+subport	./rte_sched.c	/^	struct rte_sched_subport *subport;$/;"	m	struct:rte_sched_grinder	typeref:struct:rte_sched_grinder::rte_sched_subport	file:
+subport	./rte_sched.c	/^	struct rte_sched_subport *subport;$/;"	m	struct:rte_sched_port	typeref:struct:rte_sched_port::rte_sched_subport	file:
+subport	./rte_sched.h	/^	uint32_t subport:6;              \/**< Subport ID *\/$/;"	m	struct:rte_sched_port_hierarchy
+tb_credits	./rte_sched.c	/^	uint32_t tb_credits;$/;"	m	struct:rte_sched_pipe	file:
+tb_credits	./rte_sched.c	/^	uint32_t tb_credits;$/;"	m	struct:rte_sched_subport	file:
+tb_credits_per_period	./rte_sched.c	/^	uint32_t tb_credits_per_period;$/;"	m	struct:rte_sched_pipe_profile	file:
+tb_credits_per_period	./rte_sched.c	/^	uint32_t tb_credits_per_period;$/;"	m	struct:rte_sched_subport	file:
+tb_period	./rte_sched.c	/^	uint32_t tb_period;$/;"	m	struct:rte_sched_pipe_profile	file:
+tb_period	./rte_sched.c	/^	uint32_t tb_period;$/;"	m	struct:rte_sched_subport	file:
+tb_rate	./rte_sched.h	/^	uint32_t tb_rate;                \/**< Pipe token bucket rate (measured in bytes per second) *\/$/;"	m	struct:rte_sched_pipe_params
+tb_rate	./rte_sched.h	/^	uint32_t tb_rate;                \/**< Subport token bucket rate (measured in bytes per second) *\/$/;"	m	struct:rte_sched_subport_params
+tb_size	./rte_sched.c	/^	uint32_t tb_size;$/;"	m	struct:rte_sched_pipe_profile	file:
+tb_size	./rte_sched.c	/^	uint32_t tb_size;$/;"	m	struct:rte_sched_subport	file:
+tb_size	./rte_sched.h	/^	uint32_t tb_size;                \/**< Pipe token bucket size (measured in credits) *\/$/;"	m	struct:rte_sched_pipe_params
+tb_size	./rte_sched.h	/^	uint32_t tb_size;                \/**< Subport token bucket size (measured in credits) *\/$/;"	m	struct:rte_sched_subport_params
+tb_time	./rte_sched.c	/^	uint64_t tb_time; \/* time of last update *\/$/;"	m	struct:rte_sched_pipe	file:
+tb_time	./rte_sched.c	/^	uint64_t tb_time; \/* time of last update *\/$/;"	m	struct:rte_sched_subport	file:
+tc_credits	./rte_sched.c	/^	uint32_t tc_credits[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE];$/;"	m	struct:rte_sched_pipe	file:
+tc_credits	./rte_sched.c	/^	uint32_t tc_credits[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE];$/;"	m	struct:rte_sched_subport	file:
+tc_credits_per_period	./rte_sched.c	/^	uint32_t tc_credits_per_period[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE];$/;"	m	struct:rte_sched_pipe_profile	file:
+tc_credits_per_period	./rte_sched.c	/^	uint32_t tc_credits_per_period[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE];$/;"	m	struct:rte_sched_subport	file:
+tc_index	./rte_sched.c	/^	uint32_t tc_index;$/;"	m	struct:rte_sched_grinder	file:
+tc_ov	./rte_sched.c	/^	uint8_t tc_ov;$/;"	m	struct:rte_sched_subport	file:
+tc_ov_credits	./rte_sched.c	/^	uint32_t tc_ov_credits;$/;"	m	struct:rte_sched_pipe	file:
+tc_ov_n	./rte_sched.c	/^	uint32_t tc_ov_n;$/;"	m	struct:rte_sched_subport	file:
+tc_ov_period_id	./rte_sched.c	/^	uint8_t tc_ov_period_id;$/;"	m	struct:rte_sched_pipe	file:
+tc_ov_period_id	./rte_sched.c	/^	uint8_t tc_ov_period_id;$/;"	m	struct:rte_sched_subport	file:
+tc_ov_rate	./rte_sched.c	/^	double tc_ov_rate;$/;"	m	struct:rte_sched_subport	file:
+tc_ov_weight	./rte_sched.c	/^	uint8_t tc_ov_weight;$/;"	m	struct:rte_sched_pipe_profile	file:
+tc_ov_weight	./rte_sched.h	/^	uint8_t tc_ov_weight;            \/**< Weight for the current pipe in the event of subport traffic class 3 oversubscription *\/$/;"	m	struct:rte_sched_pipe_params
+tc_ov_wm	./rte_sched.c	/^	uint32_t tc_ov_wm;$/;"	m	struct:rte_sched_subport	file:
+tc_ov_wm_max	./rte_sched.c	/^	uint32_t tc_ov_wm_max;$/;"	m	struct:rte_sched_subport	file:
+tc_ov_wm_min	./rte_sched.c	/^	uint32_t tc_ov_wm_min;$/;"	m	struct:rte_sched_subport	file:
+tc_period	./rte_sched.c	/^	uint32_t tc_period;$/;"	m	struct:rte_sched_pipe_profile	file:
+tc_period	./rte_sched.c	/^	uint32_t tc_period;$/;"	m	struct:rte_sched_subport	file:
+tc_period	./rte_sched.h	/^	uint32_t tc_period;              \/**< Enforcement period for pipe traffic class rates (measured in milliseconds) *\/$/;"	m	struct:rte_sched_pipe_params
+tc_period	./rte_sched.h	/^	uint32_t tc_period;              \/**< Enforcement period for traffic class rates (measured in milliseconds) *\/$/;"	m	struct:rte_sched_subport_params
+tc_rate	./rte_sched.h	/^	uint32_t tc_rate[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE]; \/**< Pipe traffic class rates (measured in bytes per second) *\/$/;"	m	struct:rte_sched_pipe_params
+tc_rate	./rte_sched.h	/^	uint32_t tc_rate[RTE_SCHED_TRAFFIC_CLASSES_PER_PIPE]; \/**< Subport traffic class rates (measured in bytes per second) *\/$/;"	m	struct:rte_sched_subport_params
+tc_time	./rte_sched.c	/^	uint64_t tc_time; \/* time of next update *\/$/;"	m	struct:rte_sched_pipe	file:
+tc_time	./rte_sched.c	/^	uint64_t tc_time; \/* time of next update *\/$/;"	m	struct:rte_sched_subport	file:
+tccache_qindex	./rte_sched.c	/^	uint32_t tccache_qindex[4];$/;"	m	struct:rte_sched_grinder	file:
+tccache_qmask	./rte_sched.c	/^	uint8_t tccache_qmask[4];$/;"	m	struct:rte_sched_grinder	file:
+tccache_r	./rte_sched.c	/^	uint32_t tccache_r;$/;"	m	struct:rte_sched_grinder	file:
+tccache_w	./rte_sched.c	/^	uint32_t tccache_w;$/;"	m	struct:rte_sched_grinder	file:
+time	./rte_sched.c	/^	uint64_t time;                \/* Current NIC TX time measured in bytes *\/$/;"	m	struct:rte_sched_port	file:
+time_cpu_bytes	./rte_sched.c	/^	uint64_t time_cpu_bytes;      \/* Current CPU time measured in bytes *\/$/;"	m	struct:rte_sched_port	file:
+time_cpu_cycles	./rte_sched.c	/^	uint64_t time_cpu_cycles;     \/* Current CPU time measured in CPU cyles *\/$/;"	m	struct:rte_sched_port	file:
+traffic_class	./rte_sched.h	/^	uint32_t traffic_class:2;        \/**< Traffic class ID (0 .. 3)*\/$/;"	m	struct:rte_sched_port_hierarchy
+wq_log2	./rte_red.h	/^	uint16_t wq_log2;  \/**< Negated log2 of queue weight (wq = 1 \/ (2 ^ wq_log2)) *\/$/;"	m	struct:rte_red_params
+wq_log2	./rte_red.h	/^	uint8_t wq_log2;   \/**< wq_log2 *\/$/;"	m	struct:rte_red_config
+wrr_cost	./rte_sched.c	/^	uint8_t  wrr_cost[RTE_SCHED_QUEUES_PER_PIPE];$/;"	m	struct:rte_sched_pipe_profile	file:
+wrr_cost	./rte_sched.c	/^	uint8_t wrr_cost[RTE_SCHED_QUEUES_PER_TRAFFIC_CLASS];$/;"	m	struct:rte_sched_grinder	file:
+wrr_mask	./rte_sched.c	/^	uint16_t wrr_mask[RTE_SCHED_QUEUES_PER_TRAFFIC_CLASS];$/;"	m	struct:rte_sched_grinder	file:
+wrr_tokens	./rte_sched.c	/^	uint16_t wrr_tokens[RTE_SCHED_QUEUES_PER_TRAFFIC_CLASS];$/;"	m	struct:rte_sched_grinder	file:
+wrr_tokens	./rte_sched.c	/^	uint8_t wrr_tokens[RTE_SCHED_QUEUES_PER_PIPE];$/;"	m	struct:rte_sched_pipe	file:
+wrr_weights	./rte_sched.h	/^	uint8_t  wrr_weights[RTE_SCHED_QUEUES_PER_PIPE]; \/**< WRR weights for the queues of the current pipe *\/$/;"	m	struct:rte_sched_pipe_params

@@ -1,0 +1,143 @@
+# Guide to M4 Macros:
+#
+#   m4_define([name], [substitution])
+#     Substitutes the word(s) given by ``name`` with the text given in
+#     ``substitution``
+#   m4_if([name], [value], [execution])
+#     If the value of the ``name`` variable equals that of the ``value``
+#     variable, then execute ``execution``
+#
+# Guide to Autotest Macros:
+#   Autotest macros are just predefined M4 macros. There are a number of them
+#
+#   AT_SETUP(title)
+#     Begin a test group named ``title``. This title is really the identifier
+#     of the test group, used in quiet and verbose outputs. It should be
+#     short, but descriptive.
+#   AT_CHECK(commands, [status = 0], [stdout], [stderr])
+#     Execute a test by performing given shell commands. These commands
+#     should normally exit with status, while producing expected stdout and
+#     stderr contents.
+#   AT_CLEANUP()
+#     End a test group.
+
+##############################################################################
+# Macros
+##############################################################################
+
+m4_define([OVDK_CHECK_ACTION_EXECUTE],
+[AT_BANNER([action_execute unit tests - dpdk datapath])
+AT_SETUP([execute an output action])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- action_execute_output], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([execute an output action with invalid parameters])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- action_execute_output__invalid_params], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([execute a corrupt action])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- action_execute_output__corrupt_action], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([execute a drop action])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- action_execute_drop], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([execute a pop VLAN action])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- action_execute_pop_vlan], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([execute a set ethernet action])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- action_execute_set_ethernet], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([execute a set ipv4 action])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- action_execute_set_ipv4], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([execute a push VLAN vid action])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- action_execute_push_vlan__vid], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([execute a push VLAN pcp action])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- action_execute_push_vlan__pcp], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([execute multiple actions with three output actions])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- action_execute_multiple_actions__three_output], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([execute multiple actions with a pop vlan and output action])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- action_execute_multiple_actions__pop_vlan_and_output], [0], [ignore], [])
+AT_CLEANUP
+ ])
+
+##############################################################################
+
+m4_define([OVDK_CHECK_FLOW_TABLE],
+[AT_BANNER([flow table unit tests - dpdk datapath])
+AT_SETUP([add a flow to the flow table])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- flow_table_add_flow], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([delete a flow from the flow table])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- flow_table_del_flow], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([delete all flows from the flow table])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- flow_table_del_all], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([get a flow from the flow table])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- flow_table_get_flow], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([modify a flow in the flow table])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- flow_table_mod_flow], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([get the first flow from the flow table])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- flow_table_get_first_flow], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([get the next flow from the flow table])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- flow_table_get_next_flow], [0], [ignore], [])
+AT_CLEANUP
+])
+
+##############################################################################
+
+m4_define([OVDK_CHECK_STATS],
+[AT_BANNER([stats unit tests - dpdk datapath])
+AT_SETUP([increment stats for all vports])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- stats_vport_xxx_increment], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([get stats for all vports])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- stats_vport_xxx_get], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([clear stats for all vports])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- stats_vport_xxx_clear], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([increment stats for the vswitch])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- stats_vswitch_increment], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([get stats for the vswitch])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- stats_vswitch_get], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([clear stats for the vswitch])
+AT_CHECK([sudo -E $srcdir/dpdk/test-datapath -c 1 -n 4 -- stats_vswitch_clear], [0], [ignore], [])
+AT_CLEANUP
+ ])
+
+##############################################################################
+# Execute Macros
+##############################################################################
+
+OVDK_CHECK_ACTION_EXECUTE([])
+OVDK_CHECK_FLOW_TABLE([])
+OVDK_CHECK_STATS([])

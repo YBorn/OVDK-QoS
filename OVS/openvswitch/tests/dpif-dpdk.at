@@ -1,0 +1,65 @@
+m4_define([CHECK_DPIF_DPDK],
+
+[AT_BANNER([Test dpif-dpdk.c ])
+AT_SETUP([Test dpif_dpdk_get_stats])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_get_stats], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_port_add])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_port_add], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_port_del])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_port_del], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_port_query_by_number])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_port_query_by_number], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_port_query_by_name])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_port_query_by_name], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_get_max_ports])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_get_max_ports], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_port_dump_start])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_port_dump_start], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_port_dump_next])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_port_dump_next], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_port_dump_done])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_port_dump_done], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_port_poll])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_port_poll], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_port_poll_wait])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_port_poll_wait], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_flow_put])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_flow_put], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_flow_del])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_flow_del], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_flow_dump_start])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_flow_dump_start], [0], [ignore], [])
+AT_CLEANUP
+
+AT_SETUP([Test dpif_dpdk_flow_dump_next])
+AT_CHECK([sudo -E $srcdir/test-dpif-dpdk -c 1 -n 4 -- --dpif_dpdk_flow_dump_next], [0], [ignore], [])
+AT_CLEANUP
+])
+CHECK_DPIF_DPDK([])
+

@@ -1,0 +1,206 @@
+--- a/lib/librte_eal/linuxapp/eal/include/exec-env/rte_kni_common.h
++++ b/lib/librte_eal/linuxapp/eal/include/exec-env/rte_kni_common.h
+@@ -101,6 +101,7 @@ struct rte_kni_device_info {
+ 
+ 	/* mbuf size */
+ 	unsigned mbuf_size;
++	uint64_t mempool_size;
+ };
+ 
+ #define KNI_DEVICE "kni"
+--- a/lib/librte_eal/linuxapp/kni/kni_misc.c
++++ b/lib/librte_eal/linuxapp/kni/kni_misc.c
+@@ -21,6 +21,19 @@ MODULE_DESCRIPTION("Kernel Module for managing kni devices");
+ 
+ #define KNI_MAX_DEVICES 32
+ 
++#define PCI_VENDOR_ID_IVSHMEM 0x1AF4
++#define PCI_DEVICE_ID_IVSHMEM 0x1110
++#define BAR2                  2
++#define IVSHMEM_MAGIC         0x0BADC0DE
++#define IVSHMEM_METADATA_SIZE 0x4000
++#define KNI_FIFO_COUNT_MAX    1024
++#define KNI_FIFO_SIZE         ((KNI_FIFO_COUNT_MAX) * sizeof(void *) + \
++                              sizeof(struct rte_kni_fifo))
++
++#define get_virt_addr(x) get_virt_addr_by_size(x,KNI_FIFO_SIZE)
++#define get_virt_addr_by_size(x,s) (has_ivshmem_metadata ? \
++                                    ioremap(x, s) : phys_to_virt(x))
++
+ extern void kni_net_rx(struct kni_dev *kni);
+ extern void kni_net_init(struct net_device *dev);
+ extern void kni_net_config_lo_mode(char *lo_str);
+@@ -47,6 +60,8 @@ static int kni_thread_single(void *unused);
+ /* KNI processing for multiple kernel thread mode */
+ static int kni_thread_multiple(void *param);
+ 
++static int kni_has_ivshmem_metadata(void);
++
+ static struct file_operations kni_fops = {
+ 	.owner = THIS_MODULE,
+ 	.open = kni_open,
+@@ -72,6 +87,7 @@ static unsigned multiple_kthread_on = 0;
+ 
+ static volatile unsigned long device_in_use; /* device in use flag */
+ static struct task_struct *kni_kthread;
++static int has_ivshmem_metadata = 0;
+ 
+ /* kni list lock */
+ static DECLARE_RWSEM(kni_list_lock);
+@@ -100,6 +116,10 @@ kni_init(void)
+ 	/* Configure the lo mode according to the input parameter */
+ 	kni_net_config_lo_mode(lo_mode);
+ 
++	has_ivshmem_metadata = kni_has_ivshmem_metadata();
++	KNI_PRINT("IVSHMEM metadata %s \n",
++				has_ivshmem_metadata ? "found" : "NOT found");
++
+ 	KNI_PRINT("######## DPDK kni module loaded  ########\n");
+ 
+ 	return 0;
+@@ -178,6 +198,19 @@ kni_release(struct inode *inode, struct file *file)
+ #endif
+ 		kni_dev_remove(dev);
+ 		list_del(&dev->list);
++
++		if (has_ivshmem_metadata) {
++			KNI_PRINT("iounmapping KNI FIFOs for device '%s'\n", dev->name);
++			iounmap(dev->tx_q);
++			iounmap(dev->rx_q);
++			iounmap(dev->alloc_q);
++			iounmap(dev->free_q);
++			iounmap(dev->req_q);
++			iounmap(dev->resp_q);
++			iounmap(dev->sync_kva);
++			iounmap(dev->mbuf_kva);
++		}
++
+ 	}
+ 	up_write(&kni_list_lock);
+ 
+@@ -339,17 +372,17 @@ kni_ioctl_create(unsigned int ioctl_num, unsigned long ioctl_param)
+ 	strncpy(kni->name, dev_info.name, RTE_KNI_NAMESIZE);
+ 
+ 	/* Translate user space info into kernel space info */
+-	kni->tx_q = phys_to_virt(dev_info.tx_phys);
+-	kni->rx_q = phys_to_virt(dev_info.rx_phys);
+-	kni->alloc_q = phys_to_virt(dev_info.alloc_phys);
+-	kni->free_q = phys_to_virt(dev_info.free_phys);
++	kni->tx_q = get_virt_addr(dev_info.tx_phys);
++	kni->rx_q = get_virt_addr(dev_info.rx_phys);
++	kni->alloc_q = get_virt_addr(dev_info.alloc_phys);
++	kni->free_q = get_virt_addr(dev_info.free_phys);
+ 
+-	kni->req_q = phys_to_virt(dev_info.req_phys);
+-	kni->resp_q = phys_to_virt(dev_info.resp_phys);
++	kni->req_q = get_virt_addr(dev_info.req_phys);
++	kni->resp_q = get_virt_addr(dev_info.resp_phys);
+ 	kni->sync_va = dev_info.sync_va;
+-	kni->sync_kva = phys_to_virt(dev_info.sync_phys);
++	kni->sync_kva = get_virt_addr(dev_info.sync_phys);
+ 
+-	kni->mbuf_kva = phys_to_virt(dev_info.mbuf_phys);
++	kni->mbuf_kva = get_virt_addr_by_size(dev_info.mbuf_phys, dev_info.mempool_size);
+ 	kni->mbuf_va = dev_info.mbuf_va;
+ 
+ #ifdef RTE_KNI_VHOST
+@@ -552,6 +585,40 @@ kni_compat_ioctl(struct inode *inode,
+ 	return -EINVAL;
+ }
+ 
++static int
++kni_has_ivshmem_metadata(void)
++{
++	struct pci_dev *ivshm_dev = NULL;
++	phys_addr_t ivshmem_metadata_addr = 0;
++	void *ivshmem_metadata = NULL;
++	int ivshmem_magic_number;
++
++	ivshm_dev = pci_get_device(PCI_VENDOR_ID_IVSHMEM, PCI_DEVICE_ID_IVSHMEM,
++			NULL);
++
++	if (ivshm_dev == NULL) {
++		printk("No IVSHMEM device found!\n");
++		return 0;
++	}
++
++	/* IVSHMEM metadata will be received at the very last 4K of the BAR2 */
++	ivshmem_metadata_addr = (pci_resource_end(ivshm_dev, BAR2)
++			- IVSHMEM_METADATA_SIZE) + 1;
++
++	ivshmem_metadata = ioremap(ivshmem_metadata_addr, IVSHMEM_METADATA_SIZE);
++	if (ivshmem_metadata == NULL) {
++		printk("Could not ioremap IVSHMEM metadata\n");
++		return 0;
++	}
++
++	/* The first sizeof(int) bytes contain the magic number that tells us
++	 * ivshmem_metadata is coming from the host */
++	ivshmem_magic_number = ((int*) ivshmem_metadata)[0];
++	iounmap(ivshmem_metadata);
++	return !!(ivshmem_magic_number == IVSHMEM_MAGIC);
++}
++
++
+ module_init(kni_init);
+ module_exit(kni_exit);
+ 
+--- a/lib/librte_eal/linuxapp/kni/kni_net.c
++++ b/lib/librte_eal/linuxapp/kni/kni_net.c
+@@ -50,15 +50,16 @@ kni_net_open(struct net_device *dev)
+ 	struct rte_kni_request req;
+ 	struct kni_dev *kni = netdev_priv(dev);
+ 
+-	if (kni->lad_dev)
+-		memcpy(dev->dev_addr, kni->lad_dev->dev_addr, ETH_ALEN);
+-	else
+-		/*
+-		 * Generate random mac address. eth_random_addr() is the newer
+-		 * version of generating mac address in linux kernel.
+-		 */
+-		random_ether_addr(dev->dev_addr);
+-
++	if (!is_valid_ether_addr(dev->dev_addr)) {
++		if (kni->lad_dev)
++			memcpy(dev->dev_addr, kni->lad_dev->dev_addr, ETH_ALEN);
++		else
++			/*
++			 * Generate random mac address. eth_random_addr() is the newer
++			 * version of generating mac address in linux kernel.
++			 */
++			random_ether_addr(dev->dev_addr);
++	}
+ 	netif_start_queue(dev);
+ 
+ 	memset(&req, 0, sizeof(req));
+@@ -459,6 +460,22 @@ kni_net_tx_timeout (struct net_device *dev)
+ 	return;
+ }
+ 
++static int
++kni_set_mac_address(struct net_device *dev, void *addr_ptr)
++{
++	struct sockaddr *addr = addr_ptr;
++
++	if (netif_running(dev))
++		return -EBUSY;
++
++	if (!is_valid_ether_addr(addr->sa_data))
++		return -EADDRNOTAVAIL;
++
++	memcpy(dev->dev_addr, addr->sa_data, dev->addr_len);
++
++	return 0;
++}
++
+ /*
+  * Ioctl commands
+  */
+@@ -608,6 +625,7 @@ static const struct net_device_ops kni_net_netdev_ops = {
+ 	.ndo_do_ioctl = kni_net_ioctl,
+ 	.ndo_get_stats = kni_net_stats,
+ 	.ndo_tx_timeout = kni_net_tx_timeout,
++	.ndo_set_mac_address = kni_set_mac_address,
+ };
+ 
+ void

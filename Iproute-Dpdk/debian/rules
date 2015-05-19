@@ -1,0 +1,32 @@
+#!/usr/bin/make -f
+
+DEB_BUILD_GNU_TYPE := $(shell dpkg-architecture -qDEB_BUILD_GNU_TYPE)
+DEB_HOST_GNU_TYPE  := $(shell dpkg-architecture -qDEB_HOST_GNU_TYPE)
+
+ifeq ($(DEB_BUILD_GNU_TYPE),$(DEB_HOST_GNU_TYPE))
+	CROSS :=
+else
+	CROSS := CC=$(DEB_HOST_GNU_TYPE)-gcc
+endif
+
+%:
+	dh $@
+
+override_dh_clean:
+	dh_clean
+	make distclean
+	-rm -f doc/*.txt
+
+override_dh_installexamples:
+	dh_installexamples -p iproute-doc examples/*
+
+override_dh_shlibdeps:
+	dh_shlibdeps -a -Xq_atm.so -Xm_xt.so -Xm_ipt.so
+	dh_shlibdeps -a -- -pipmods -dRecommends -e debian/iproute/usr/lib/tc/m_xt.so -e debian/iproute/usr/lib/tc/q_atm.so -xlibc6
+
+override_dh_auto_configure:
+	$(CROSS) dh_auto_configure
+
+override_dh_auto_build:
+	$(MAKE) -C doc all txt
+	$(MAKE) KERNEL_INCLUDE=./include $(CROSS)

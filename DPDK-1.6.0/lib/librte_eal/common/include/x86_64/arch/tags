@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+RTE_ATOMIC64_INIT	./rte_atomic.h	94;"	d
+_RTE_X86_64_ATOMIC_H_	./rte_atomic.h	45;"	d
+cnt	./rte_atomic.h	/^	volatile int64_t cnt;  \/**< Internal counter value. *\/$/;"	m	struct:__anon1
+rte_atomic64_add	./rte_atomic.h	/^rte_atomic64_add(rte_atomic64_t *v, int64_t inc)$/;"	f
+rte_atomic64_add_return	./rte_atomic.h	/^rte_atomic64_add_return(rte_atomic64_t *v, int64_t inc)$/;"	f
+rte_atomic64_clear	./rte_atomic.h	/^static inline void rte_atomic64_clear(rte_atomic64_t *v)$/;"	f
+rte_atomic64_cmpset	./rte_atomic.h	/^rte_atomic64_cmpset(volatile uint64_t *dst, uint64_t exp, uint64_t src)$/;"	f
+rte_atomic64_dec	./rte_atomic.h	/^rte_atomic64_dec(rte_atomic64_t *v)$/;"	f
+rte_atomic64_dec_and_test	./rte_atomic.h	/^static inline int rte_atomic64_dec_and_test(rte_atomic64_t *v)$/;"	f
+rte_atomic64_inc	./rte_atomic.h	/^rte_atomic64_inc(rte_atomic64_t *v)$/;"	f
+rte_atomic64_inc_and_test	./rte_atomic.h	/^static inline int rte_atomic64_inc_and_test(rte_atomic64_t *v)$/;"	f
+rte_atomic64_init	./rte_atomic.h	/^rte_atomic64_init(rte_atomic64_t *v)$/;"	f
+rte_atomic64_read	./rte_atomic.h	/^rte_atomic64_read(rte_atomic64_t *v)$/;"	f
+rte_atomic64_set	./rte_atomic.h	/^rte_atomic64_set(rte_atomic64_t *v, int64_t new_value)$/;"	f
+rte_atomic64_sub	./rte_atomic.h	/^rte_atomic64_sub(rte_atomic64_t *v, int64_t dec)$/;"	f
+rte_atomic64_sub_return	./rte_atomic.h	/^rte_atomic64_sub_return(rte_atomic64_t *v, int64_t dec)$/;"	f
+rte_atomic64_t	./rte_atomic.h	/^} rte_atomic64_t;$/;"	t	typeref:struct:__anon1
+rte_atomic64_test_and_set	./rte_atomic.h	/^static inline int rte_atomic64_test_and_set(rte_atomic64_t *v)$/;"	f

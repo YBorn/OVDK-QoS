@@ -1,0 +1,1406 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP	./Makefile	/^APP = testpmd$/;"	m
+BURST_TX_RETRIES	./macfwd-retry.c	74;"	d	file:
+BURST_TX_WAIT_US	./macfwd-retry.c	73;"	d	file:
+CACHE_LINE_SIZE_ROUNDUP	./testpmd.h	68;"	d
+CFLAGS_cmdline.o	./Makefile	/^CFLAGS_cmdline.o := -D_GNU_SOURCE$/;"	m
+CFLAGS_mempool_anon.o	./Makefile	/^CFLAGS_mempool_anon.o := -D_GNU_SOURCE$/;"	m
+CHECK_INTERVAL	./testpmd.c	1434;"	d	file:
+DCB_4_TCS_Q_MAPPING	./testpmd.h	/^	DCB_4_TCS_Q_MAPPING,$/;"	e	enum:dcb_queue_mapping_mode
+DCB_8_TCS_Q_MAPPING	./testpmd.h	/^	DCB_8_TCS_Q_MAPPING$/;"	e	enum:dcb_queue_mapping_mode
+DCB_ENABLED	./testpmd.h	/^	DCB_ENABLED$/;"	e	enum:dcb_mode_enable
+DCB_VT_ENABLED	./testpmd.h	/^	DCB_VT_ENABLED,$/;"	e	enum:dcb_mode_enable
+DCB_VT_Q_MAPPING	./testpmd.h	/^	DCB_VT_Q_MAPPING = 0,$/;"	e	enum:dcb_queue_mapping_mode
+DEFAULT_MBUF_DATA_SIZE	./testpmd.h	57;"	d
+DEF_PKT_BURST	./testpmd.h	66;"	d
+ETQF_FILTER_1588_REG	./ieee1588fwd.c	186;"	d	file:
+IEEE1588_TIMINCA_INIT	./ieee1588fwd.c	192;"	d	file:
+IGBE_82576_AUXSTMPH0	./ieee1588fwd.c	142;"	d	file:
+IGBE_82576_AUXSTMPH1	./ieee1588fwd.c	144;"	d	file:
+IGBE_82576_AUXSTMPL0	./ieee1588fwd.c	141;"	d	file:
+IGBE_82576_AUXSTMPL1	./ieee1588fwd.c	143;"	d	file:
+IGBE_82576_ETQF	./ieee1588fwd.c	115;"	d	file:
+IGBE_82576_ETQF_1588_TIMESTAMP	./ieee1588fwd.c	117;"	d	file:
+IGBE_82576_ETQF_FILTER_ENABLE	./ieee1588fwd.c	116;"	d	file:
+IGBE_82576_RXSATRH	./ieee1588fwd.c	125;"	d	file:
+IGBE_82576_RXSATRL	./ieee1588fwd.c	124;"	d	file:
+IGBE_82576_RXSTMPH	./ieee1588fwd.c	123;"	d	file:
+IGBE_82576_RXSTMPL	./ieee1588fwd.c	122;"	d	file:
+IGBE_82576_SYSTIMH	./ieee1588fwd.c	132;"	d	file:
+IGBE_82576_SYSTIML	./ieee1588fwd.c	131;"	d	file:
+IGBE_82576_TIMADJH	./ieee1588fwd.c	135;"	d	file:
+IGBE_82576_TIMADJL	./ieee1588fwd.c	134;"	d	file:
+IGBE_82576_TIMINCA	./ieee1588fwd.c	133;"	d	file:
+IGBE_82576_TRGTTIMH0	./ieee1588fwd.c	138;"	d	file:
+IGBE_82576_TRGTTIMH1	./ieee1588fwd.c	140;"	d	file:
+IGBE_82576_TRGTTIML0	./ieee1588fwd.c	137;"	d	file:
+IGBE_82576_TRGTTIML1	./ieee1588fwd.c	139;"	d	file:
+IGBE_82576_TSAUXC	./ieee1588fwd.c	136;"	d	file:
+IGBE_82576_TSSDP	./ieee1588fwd.c	146;"	d	file:
+IGBE_82576_TSYNCRXCFG	./ieee1588fwd.c	145;"	d	file:
+IGBE_82576_TSYNCRXCTL	./ieee1588fwd.c	119;"	d	file:
+IGBE_82576_TSYNCRXCTL_RXTS_ENABLE	./ieee1588fwd.c	120;"	d	file:
+IGBE_82576_TSYNCTXCTL	./ieee1588fwd.c	126;"	d	file:
+IGBE_82576_TSYNCTXCTL_TXTS_ENABLE	./ieee1588fwd.c	127;"	d	file:
+IGBE_82576_TXSTMPH	./ieee1588fwd.c	130;"	d	file:
+IGBE_82576_TXSTMPL	./ieee1588fwd.c	129;"	d	file:
+IP_DEFTTL	./csumonly.c	78;"	d	file:
+IP_DEFTTL	./txonly.c	82;"	d	file:
+IP_DST_ADDR	./txonly.c	80;"	d	file:
+IP_HDRLEN	./csumonly.c	80;"	d	file:
+IP_HDRLEN	./txonly.c	84;"	d	file:
+IP_SRC_ADDR	./txonly.c	79;"	d	file:
+IP_VERSION	./csumonly.c	79;"	d	file:
+IP_VERSION	./txonly.c	83;"	d	file:
+IP_VHL_DEF	./csumonly.c	81;"	d	file:
+IP_VHL_DEF	./txonly.c	85;"	d	file:
+IXGBE_82599_AUXSTMPH0	./ieee1588fwd.c	179;"	d	file:
+IXGBE_82599_AUXSTMPH1	./ieee1588fwd.c	181;"	d	file:
+IXGBE_82599_AUXSTMPL0	./ieee1588fwd.c	178;"	d	file:
+IXGBE_82599_AUXSTMPL1	./ieee1588fwd.c	180;"	d	file:
+IXGBE_82599_ETQF	./ieee1588fwd.c	151;"	d	file:
+IXGBE_82599_ETQF_1588_TIMESTAMP	./ieee1588fwd.c	153;"	d	file:
+IXGBE_82599_ETQF_FILTER_ENABLE	./ieee1588fwd.c	152;"	d	file:
+IXGBE_82599_RXMTRL	./ieee1588fwd.c	162;"	d	file:
+IXGBE_82599_RXSATRH	./ieee1588fwd.c	161;"	d	file:
+IXGBE_82599_RXSATRL	./ieee1588fwd.c	160;"	d	file:
+IXGBE_82599_RXSTMPH	./ieee1588fwd.c	159;"	d	file:
+IXGBE_82599_RXSTMPL	./ieee1588fwd.c	158;"	d	file:
+IXGBE_82599_SYSTIMH	./ieee1588fwd.c	169;"	d	file:
+IXGBE_82599_SYSTIML	./ieee1588fwd.c	168;"	d	file:
+IXGBE_82599_TIMADJH	./ieee1588fwd.c	172;"	d	file:
+IXGBE_82599_TIMADJL	./ieee1588fwd.c	171;"	d	file:
+IXGBE_82599_TIMINCA	./ieee1588fwd.c	170;"	d	file:
+IXGBE_82599_TRGTTIMH0	./ieee1588fwd.c	175;"	d	file:
+IXGBE_82599_TRGTTIMH1	./ieee1588fwd.c	177;"	d	file:
+IXGBE_82599_TRGTTIML0	./ieee1588fwd.c	174;"	d	file:
+IXGBE_82599_TRGTTIML1	./ieee1588fwd.c	176;"	d	file:
+IXGBE_82599_TSAUXC	./ieee1588fwd.c	173;"	d	file:
+IXGBE_82599_TSYNCRXCTL	./ieee1588fwd.c	155;"	d	file:
+IXGBE_82599_TSYNCRXCTL_RXTS_ENABLE	./ieee1588fwd.c	156;"	d	file:
+IXGBE_82599_TSYNCTXCTL	./ieee1588fwd.c	163;"	d	file:
+IXGBE_82599_TSYNCTXCTL_TXTS_ENABLE	./ieee1588fwd.c	164;"	d	file:
+IXGBE_82599_TXSTMPH	./ieee1588fwd.c	167;"	d	file:
+IXGBE_82599_TXSTMPL	./ieee1588fwd.c	166;"	d	file:
+MAX_CHECK_TIME	./testpmd.c	1435;"	d	file:
+MAX_PKT_BURST	./testpmd.h	65;"	d
+MAX_PKT_RX_FLAGS	./rxonly.c	72;"	d	file:
+MAX_QUEUE_ID	./testpmd.h	79;"	d
+MAX_RX_QUEUE_STATS_MAPPINGS	./testpmd.h	251;"	d
+MAX_SOCKET	./testpmd.h	281;"	d
+MAX_TX_QUEUE_STATS_MAPPINGS	./testpmd.h	250;"	d
+MAX_TX_TMST_WAIT_MICROSECS	./ieee1588fwd.c	501;"	d	file:
+NUMA_NO_CONFIG	./testpmd.h	71;"	d
+PAGEMAP_FNAME	./mempool_anon.c	46;"	d	file:
+PAGEMAP_PFN_BITS	./mempool_anon.c	52;"	d	file:
+PAGEMAP_PFN_MASK	./mempool_anon.c	53;"	d	file:
+PMD_TEST_CMD_NB	./testpmd.c	1428;"	d	file:
+PORT_TOPOLOGY_CHAINED	./testpmd.h	/^	PORT_TOPOLOGY_CHAINED$/;"	e	enum:__anon2
+PORT_TOPOLOGY_PAIRED	./testpmd.h	/^	PORT_TOPOLOGY_PAIRED,$/;"	e	enum:__anon2
+PTP_ANNOUNCE_MESSAGE	./ieee1588fwd.c	88;"	d	file:
+PTP_DELAY_REQ_MESSAGE	./ieee1588fwd.c	82;"	d	file:
+PTP_DELAY_RESP_MESSAGE	./ieee1588fwd.c	86;"	d	file:
+PTP_FOLLOWUP_MESSAGE	./ieee1588fwd.c	85;"	d	file:
+PTP_MANAGEMENT_MESSAGE	./ieee1588fwd.c	90;"	d	file:
+PTP_PATH_DELAY_FOLLOWUP_MESSAGE	./ieee1588fwd.c	87;"	d	file:
+PTP_PATH_DELAY_REQ_MESSAGE	./ieee1588fwd.c	83;"	d	file:
+PTP_PATH_DELAY_RESP_MESSAGE	./ieee1588fwd.c	84;"	d	file:
+PTP_SIGNALLING_MESSAGE	./ieee1588fwd.c	89;"	d	file:
+PTP_SYNC_MESSAGE	./ieee1588fwd.c	81;"	d	file:
+RTE_BE_TO_CPU_16	./testpmd.h	529;"	d
+RTE_BE_TO_CPU_16	./testpmd.h	533;"	d
+RTE_BE_TO_CPU_16	./testpmd.h	536;"	d
+RTE_CPU_TO_BE_16	./testpmd.h	530;"	d
+RTE_CPU_TO_BE_16	./testpmd.h	534;"	d
+RTE_CPU_TO_BE_16	./testpmd.h	538;"	d
+RTE_MAX_SEGS_PER_PKT	./testpmd.h	63;"	d
+RTE_PORT_ALL	./testpmd.h	43;"	d
+RTE_PORT_CLOSED	./testpmd.h	50;"	d
+RTE_PORT_HANDLING	./testpmd.h	51;"	d
+RTE_PORT_STARTED	./testpmd.h	49;"	d
+RTE_PORT_STOPPED	./testpmd.h	48;"	d
+RTE_TEST_RX_DESC_DEFAULT	./testpmd.c	193;"	d	file:
+RTE_TEST_RX_DESC_MAX	./testpmd.h	45;"	d
+RTE_TEST_TX_DESC_DEFAULT	./testpmd.c	194;"	d	file:
+RTE_TEST_TX_DESC_MAX	./testpmd.h	46;"	d
+RXTX_RING	./parameters.c	402;"	d	file:
+RX_HTHRESH	./testpmd.c	202;"	d	file:
+RX_PTHRESH	./testpmd.c	201;"	d	file:
+RX_RING_ONLY	./parameters.c	400;"	d	file:
+RX_WTHRESH	./testpmd.c	203;"	d	file:
+TXONLY_DEF_PACKET_LEN	./testpmd.h	349;"	d
+TX_HTHRESH	./testpmd.c	206;"	d	file:
+TX_PTHRESH	./testpmd.c	205;"	d	file:
+TX_RING_ONLY	./parameters.c	401;"	d	file:
+TX_WTHRESH	./testpmd.c	207;"	d	file:
+UDP_DST_PORT	./txonly.c	77;"	d	file:
+UDP_SRC_PORT	./txonly.c	76;"	d	file:
+UMA_NO_CONFIG	./testpmd.h	72;"	d
+_MEMPOOL_OSDEP_H_	./mempool_osdep.h	35;"	d
+_TESTPMD_H_	./testpmd.h	35;"	d
+__rte_cache_aligned	./testpmd.h	/^} __rte_cache_aligned;$/;"	v	typeref:struct:queue_stats_mappings
+address	./cmdline.c	/^	struct ether_addr address;$/;"	m	struct:cmd_mac_addr_result	typeref:struct:cmd_mac_addr_result::ether_addr	file:
+address	./cmdline.c	/^	struct ether_addr address;$/;"	m	struct:cmd_set_uc_hash_table	typeref:struct:cmd_set_uc_hash_table::ether_addr	file:
+address	./cmdline.c	/^	struct ether_addr address;$/;"	m	struct:cmd_vf_mac_addr_result	typeref:struct:cmd_vf_mac_addr_result::ether_addr	file:
+all	./cmdline.c	/^	cmdline_fixed_string_t all;$/;"	m	struct:cmd_config_burst	file:
+all	./cmdline.c	/^	cmdline_fixed_string_t all;$/;"	m	struct:cmd_config_max_pkt_len_result	file:
+all	./cmdline.c	/^	cmdline_fixed_string_t all;$/;"	m	struct:cmd_config_rss	file:
+all	./cmdline.c	/^	cmdline_fixed_string_t all;$/;"	m	struct:cmd_config_rx_mode_flag	file:
+all	./cmdline.c	/^	cmdline_fixed_string_t all;$/;"	m	struct:cmd_config_rx_tx	file:
+all	./cmdline.c	/^	cmdline_fixed_string_t all;$/;"	m	struct:cmd_config_speed_all	file:
+all	./cmdline.c	/^	cmdline_fixed_string_t all;$/;"	m	struct:cmd_config_thresh	file:
+all	./cmdline.c	/^	cmdline_fixed_string_t all;$/;"	m	struct:cmd_config_threshold	file:
+all	./cmdline.c	/^	cmdline_fixed_string_t all;$/;"	m	struct:cmd_rx_vlan_filter_all_result	file:
+all	./cmdline.c	/^	cmdline_fixed_string_t all;$/;"	m	struct:cmd_showportall_result	file:
+all_ports_started	./testpmd.c	/^all_ports_started(void)$/;"	f	file:
+all_ports_stopped	./testpmd.c	/^all_ports_stopped(void)$/;"	f
+allmulti	./cmdline.c	/^	cmdline_fixed_string_t allmulti;$/;"	m	struct:cmd_set_allmulti_mode_result	file:
+bit1_pos	./cmdline.c	/^	uint8_t bit1_pos;$/;"	m	struct:cmd_read_reg_bit_field_result	file:
+bit1_pos	./cmdline.c	/^	uint8_t bit1_pos;$/;"	m	struct:cmd_write_reg_bit_field_result	file:
+bit2_pos	./cmdline.c	/^	uint8_t bit2_pos;$/;"	m	struct:cmd_read_reg_bit_field_result	file:
+bit2_pos	./cmdline.c	/^	uint8_t bit2_pos;$/;"	m	struct:cmd_write_reg_bit_field_result	file:
+bit_pos	./cmdline.c	/^	uint8_t bit_pos;$/;"	m	struct:cmd_read_reg_bit_result	file:
+bit_pos	./cmdline.c	/^	uint8_t bit_pos;$/;"	m	struct:cmd_write_reg_bit_result	file:
+burst	./cmdline.c	/^	cmdline_fixed_string_t burst;$/;"	m	struct:cmd_set_burst_tx_retry_result	file:
+burst_tx_delay_time	./macfwd-retry.c	/^uint32_t burst_tx_delay_time = BURST_TX_WAIT_US;$/;"	v
+burst_tx_retry_num	./macfwd-retry.c	/^uint32_t burst_tx_retry_num = BURST_TX_RETRIES;$/;"	v
+bypass	./cmdline.c	/^	cmdline_fixed_string_t bypass;$/;"	m	struct:cmd_set_bypass_event_result	file:
+bypass	./cmdline.c	/^	cmdline_fixed_string_t bypass;$/;"	m	struct:cmd_set_bypass_mode_result	file:
+bypass	./cmdline.c	/^	cmdline_fixed_string_t bypass;$/;"	m	struct:cmd_set_bypass_timeout_result	file:
+bypass	./cmdline.c	/^	cmdline_fixed_string_t bypass;$/;"	m	struct:cmd_show_bypass_config_result	file:
+bypass_is_supported	./cmdline.c	/^bypass_is_supported(portid_t port_id)$/;"	f
+bypass_timeout	./testpmd.c	/^uint32_t bypass_timeout = RTE_BYPASS_TMT_OFF; $/;"	v
+cfg	./cmdline.c	/^	cmdline_fixed_string_t cfg;$/;"	m	struct:cmd_showcfg_result	file:
+check_all_ports_link_status	./testpmd.c	/^check_all_ports_link_status(uint8_t port_num, uint32_t port_mask)$/;"	f	file:
+cksum_mask	./cmdline.c	/^	uint8_t cksum_mask;$/;"	m	struct:cmd_tx_cksum_set_result	file:
+close_port	./testpmd.c	/^close_port(portid_t pid)$/;"	f
+cmd_add_perfect_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_add_perfect_filter = {$/;"	v
+cmd_add_signature_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_add_signature_filter = {$/;"	v
+cmd_config_burst	./cmdline.c	/^cmdline_parse_inst_t cmd_config_burst = {$/;"	v
+cmd_config_burst	./cmdline.c	/^struct cmd_config_burst {$/;"	s	file:
+cmd_config_burst_all	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_burst_all =$/;"	v
+cmd_config_burst_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_burst_keyword =$/;"	v
+cmd_config_burst_name	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_burst_name =$/;"	v
+cmd_config_burst_parsed	./cmdline.c	/^cmd_config_burst_parsed(void *parsed_result,$/;"	f	file:
+cmd_config_burst_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_burst_port =$/;"	v
+cmd_config_burst_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_config_burst_value =$/;"	v
+cmd_config_dcb	./cmdline.c	/^cmdline_parse_inst_t cmd_config_dcb = {$/;"	v
+cmd_config_dcb	./cmdline.c	/^struct cmd_config_dcb {$/;"	s	file:
+cmd_config_dcb_config	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_dcb_config =$/;"	v
+cmd_config_dcb_dcb	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_dcb_dcb =$/;"	v
+cmd_config_dcb_num_tcs	./cmdline.c	/^cmdline_parse_token_num_t cmd_config_dcb_num_tcs =$/;"	v
+cmd_config_dcb_parsed	./cmdline.c	/^cmd_config_dcb_parsed(void *parsed_result,$/;"	f	file:
+cmd_config_dcb_pfc	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_dcb_pfc=$/;"	v
+cmd_config_dcb_pfc_en	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_dcb_pfc_en =$/;"	v
+cmd_config_dcb_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_dcb_port =$/;"	v
+cmd_config_dcb_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_config_dcb_port_id =$/;"	v
+cmd_config_dcb_vt	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_dcb_vt =$/;"	v
+cmd_config_dcb_vt_en	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_dcb_vt_en =$/;"	v
+cmd_config_max_pkt_len	./cmdline.c	/^cmdline_parse_inst_t cmd_config_max_pkt_len = {$/;"	v
+cmd_config_max_pkt_len_all	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_max_pkt_len_all =$/;"	v
+cmd_config_max_pkt_len_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_max_pkt_len_keyword =$/;"	v
+cmd_config_max_pkt_len_name	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_max_pkt_len_name =$/;"	v
+cmd_config_max_pkt_len_parsed	./cmdline.c	/^cmd_config_max_pkt_len_parsed(void *parsed_result,$/;"	f	file:
+cmd_config_max_pkt_len_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_max_pkt_len_port =$/;"	v
+cmd_config_max_pkt_len_result	./cmdline.c	/^struct cmd_config_max_pkt_len_result {$/;"	s	file:
+cmd_config_max_pkt_len_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_config_max_pkt_len_value =$/;"	v
+cmd_config_rss	./cmdline.c	/^cmdline_parse_inst_t cmd_config_rss = {$/;"	v
+cmd_config_rss	./cmdline.c	/^struct cmd_config_rss {$/;"	s	file:
+cmd_config_rss_all	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rss_all =$/;"	v
+cmd_config_rss_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rss_keyword =$/;"	v
+cmd_config_rss_name	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rss_name =$/;"	v
+cmd_config_rss_parsed	./cmdline.c	/^cmd_config_rss_parsed(void *parsed_result,$/;"	f	file:
+cmd_config_rss_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rss_port =$/;"	v
+cmd_config_rss_reta	./cmdline.c	/^cmdline_parse_inst_t cmd_config_rss_reta = {$/;"	v
+cmd_config_rss_reta	./cmdline.c	/^struct cmd_config_rss_reta {$/;"	s	file:
+cmd_config_rss_reta_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rss_reta_keyword =$/;"	v
+cmd_config_rss_reta_list_name	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rss_reta_list_name =$/;"	v
+cmd_config_rss_reta_list_of_items	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rss_reta_list_of_items =$/;"	v
+cmd_config_rss_reta_name	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rss_reta_name =$/;"	v
+cmd_config_rss_reta_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rss_reta_port =$/;"	v
+cmd_config_rss_reta_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_config_rss_reta_port_id =$/;"	v
+cmd_config_rss_value	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rss_value =$/;"	v
+cmd_config_rx_mode_flag	./cmdline.c	/^cmdline_parse_inst_t cmd_config_rx_mode_flag = {$/;"	v
+cmd_config_rx_mode_flag	./cmdline.c	/^struct cmd_config_rx_mode_flag {$/;"	s	file:
+cmd_config_rx_mode_flag_all	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rx_mode_flag_all =$/;"	v
+cmd_config_rx_mode_flag_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rx_mode_flag_keyword =$/;"	v
+cmd_config_rx_mode_flag_name	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rx_mode_flag_name =$/;"	v
+cmd_config_rx_mode_flag_parsed	./cmdline.c	/^cmd_config_rx_mode_flag_parsed(void *parsed_result,$/;"	f	file:
+cmd_config_rx_mode_flag_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rx_mode_flag_port =$/;"	v
+cmd_config_rx_mode_flag_value	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rx_mode_flag_value =$/;"	v
+cmd_config_rx_tx	./cmdline.c	/^cmdline_parse_inst_t cmd_config_rx_tx = {$/;"	v
+cmd_config_rx_tx	./cmdline.c	/^struct cmd_config_rx_tx {$/;"	s	file:
+cmd_config_rx_tx_all	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rx_tx_all =$/;"	v
+cmd_config_rx_tx_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rx_tx_keyword =$/;"	v
+cmd_config_rx_tx_name	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rx_tx_name =$/;"	v
+cmd_config_rx_tx_parsed	./cmdline.c	/^cmd_config_rx_tx_parsed(void *parsed_result,$/;"	f	file:
+cmd_config_rx_tx_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_rx_tx_port =$/;"	v
+cmd_config_rx_tx_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_config_rx_tx_value =$/;"	v
+cmd_config_speed_all	./cmdline.c	/^cmdline_parse_inst_t cmd_config_speed_all = {$/;"	v
+cmd_config_speed_all	./cmdline.c	/^struct cmd_config_speed_all {$/;"	s	file:
+cmd_config_speed_all_all	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_all_all =$/;"	v
+cmd_config_speed_all_item1	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_all_item1 =$/;"	v
+cmd_config_speed_all_item2	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_all_item2 =$/;"	v
+cmd_config_speed_all_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_all_keyword =$/;"	v
+cmd_config_speed_all_parsed	./cmdline.c	/^cmd_config_speed_all_parsed(void *parsed_result,$/;"	f	file:
+cmd_config_speed_all_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_all_port =$/;"	v
+cmd_config_speed_all_value1	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_all_value1 =$/;"	v
+cmd_config_speed_all_value2	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_all_value2 =$/;"	v
+cmd_config_speed_specific	./cmdline.c	/^cmdline_parse_inst_t cmd_config_speed_specific = {$/;"	v
+cmd_config_speed_specific	./cmdline.c	/^struct cmd_config_speed_specific {$/;"	s	file:
+cmd_config_speed_specific_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_config_speed_specific_id =$/;"	v
+cmd_config_speed_specific_item1	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_specific_item1 =$/;"	v
+cmd_config_speed_specific_item2	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_specific_item2 =$/;"	v
+cmd_config_speed_specific_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_specific_keyword =$/;"	v
+cmd_config_speed_specific_parsed	./cmdline.c	/^cmd_config_speed_specific_parsed(void *parsed_result,$/;"	f	file:
+cmd_config_speed_specific_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_specific_port =$/;"	v
+cmd_config_speed_specific_value1	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_specific_value1 =$/;"	v
+cmd_config_speed_specific_value2	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_speed_specific_value2 =$/;"	v
+cmd_config_thresh	./cmdline.c	/^cmdline_parse_inst_t cmd_config_thresh = {$/;"	v
+cmd_config_thresh	./cmdline.c	/^struct cmd_config_thresh {$/;"	s	file:
+cmd_config_thresh_all	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_thresh_all =$/;"	v
+cmd_config_thresh_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_thresh_keyword =$/;"	v
+cmd_config_thresh_name	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_thresh_name =$/;"	v
+cmd_config_thresh_parsed	./cmdline.c	/^cmd_config_thresh_parsed(void *parsed_result,$/;"	f	file:
+cmd_config_thresh_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_thresh_port =$/;"	v
+cmd_config_thresh_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_config_thresh_value =$/;"	v
+cmd_config_threshold	./cmdline.c	/^cmdline_parse_inst_t cmd_config_threshold = {$/;"	v
+cmd_config_threshold	./cmdline.c	/^struct cmd_config_threshold {$/;"	s	file:
+cmd_config_threshold_all	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_threshold_all =$/;"	v
+cmd_config_threshold_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_threshold_keyword =$/;"	v
+cmd_config_threshold_name	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_threshold_name =$/;"	v
+cmd_config_threshold_parsed	./cmdline.c	/^cmd_config_threshold_parsed(void *parsed_result,$/;"	f	file:
+cmd_config_threshold_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_config_threshold_port =$/;"	v
+cmd_config_threshold_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_config_threshold_value =$/;"	v
+cmd_func	./testpmd.c	/^	cmd_func_t cmd_func;$/;"	m	struct:pmd_test_command	file:
+cmd_func_t	./testpmd.c	/^typedef void (*cmd_func_t)(void);$/;"	t	file:
+cmd_help_brief	./cmdline.c	/^cmdline_parse_inst_t cmd_help_brief = {$/;"	v
+cmd_help_brief_help	./cmdline.c	/^cmdline_parse_token_string_t cmd_help_brief_help =$/;"	v
+cmd_help_brief_parsed	./cmdline.c	/^static void cmd_help_brief_parsed(__attribute__((unused)) void *parsed_result,$/;"	f	file:
+cmd_help_brief_result	./cmdline.c	/^struct cmd_help_brief_result {$/;"	s	file:
+cmd_help_long	./cmdline.c	/^cmdline_parse_inst_t cmd_help_long = {$/;"	v
+cmd_help_long_help	./cmdline.c	/^cmdline_parse_token_string_t cmd_help_long_help =$/;"	v
+cmd_help_long_parsed	./cmdline.c	/^static void cmd_help_long_parsed(void *parsed_result,$/;"	f	file:
+cmd_help_long_result	./cmdline.c	/^struct cmd_help_long_result {$/;"	s	file:
+cmd_help_long_section	./cmdline.c	/^cmdline_parse_token_string_t cmd_help_long_section =$/;"	v
+cmd_keyword	./cmdline.c	/^	cmdline_fixed_string_t cmd_keyword;$/;"	m	struct:cmd_set_list_result	file:
+cmd_keyword	./cmdline.c	/^	cmdline_fixed_string_t cmd_keyword;$/;"	m	struct:cmd_set_txpkts_result	file:
+cmd_lfc_set_flow_ctrl	./cmdline.c	/^cmdline_parse_token_string_t cmd_lfc_set_flow_ctrl =$/;"	v
+cmd_lfc_set_high_water	./cmdline.c	/^cmdline_parse_token_num_t cmd_lfc_set_high_water =$/;"	v
+cmd_lfc_set_low_water	./cmdline.c	/^cmdline_parse_token_num_t cmd_lfc_set_low_water =$/;"	v
+cmd_lfc_set_mac_ctrl_frame_fwd	./cmdline.c	/^cmdline_parse_token_string_t cmd_lfc_set_mac_ctrl_frame_fwd =$/;"	v
+cmd_lfc_set_mac_ctrl_frame_fwd_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_lfc_set_mac_ctrl_frame_fwd_mode =$/;"	v
+cmd_lfc_set_pause_time	./cmdline.c	/^cmdline_parse_token_num_t cmd_lfc_set_pause_time =$/;"	v
+cmd_lfc_set_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_lfc_set_portid =$/;"	v
+cmd_lfc_set_rx	./cmdline.c	/^cmdline_parse_token_string_t cmd_lfc_set_rx =$/;"	v
+cmd_lfc_set_rx_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_lfc_set_rx_mode =$/;"	v
+cmd_lfc_set_send_xon	./cmdline.c	/^cmdline_parse_token_num_t cmd_lfc_set_send_xon =$/;"	v
+cmd_lfc_set_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_lfc_set_set =$/;"	v
+cmd_lfc_set_tx	./cmdline.c	/^cmdline_parse_token_string_t cmd_lfc_set_tx =$/;"	v
+cmd_lfc_set_tx_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_lfc_set_tx_mode =$/;"	v
+cmd_link_flow_control_set	./cmdline.c	/^cmdline_parse_inst_t cmd_link_flow_control_set = {$/;"	v
+cmd_link_flow_ctrl_set_parsed	./cmdline.c	/^cmd_link_flow_ctrl_set_parsed(void *parsed_result,$/;"	f	file:
+cmd_link_flow_ctrl_set_result	./cmdline.c	/^struct cmd_link_flow_ctrl_set_result {$/;"	s	file:
+cmd_mac_addr	./cmdline.c	/^cmdline_parse_inst_t cmd_mac_addr = {$/;"	v
+cmd_mac_addr_addr	./cmdline.c	/^cmdline_parse_token_etheraddr_t cmd_mac_addr_addr =$/;"	v
+cmd_mac_addr_cmd	./cmdline.c	/^cmdline_parse_token_string_t cmd_mac_addr_cmd =$/;"	v
+cmd_mac_addr_parsed	./cmdline.c	/^static void cmd_mac_addr_parsed(void *parsed_result,$/;"	f	file:
+cmd_mac_addr_portnum	./cmdline.c	/^cmdline_parse_token_num_t cmd_mac_addr_portnum =$/;"	v
+cmd_mac_addr_result	./cmdline.c	/^struct cmd_mac_addr_result {$/;"	s	file:
+cmd_mac_addr_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_mac_addr_what =$/;"	v
+cmd_mirror_link_dstpool	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_link_dstpool =$/;"	v
+cmd_mirror_link_mirror	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_link_mirror =$/;"	v
+cmd_mirror_link_on	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_link_on =$/;"	v
+cmd_mirror_link_poolid	./cmdline.c	/^cmdline_parse_token_num_t cmd_mirror_link_poolid =$/;"	v
+cmd_mirror_link_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_link_port =$/;"	v
+cmd_mirror_link_portid	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_link_portid =$/;"	v
+cmd_mirror_link_ruleid	./cmdline.c	/^cmdline_parse_token_num_t cmd_mirror_link_ruleid =$/;"	v
+cmd_mirror_link_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_link_set =$/;"	v
+cmd_mirror_link_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_link_what =$/;"	v
+cmd_mirror_mask_dstpool	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_mask_dstpool =$/;"	v
+cmd_mirror_mask_mirror	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_mask_mirror =$/;"	v
+cmd_mirror_mask_on	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_mask_on =$/;"	v
+cmd_mirror_mask_poolid	./cmdline.c	/^cmdline_parse_token_num_t cmd_mirror_mask_poolid =$/;"	v
+cmd_mirror_mask_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_mask_port =$/;"	v
+cmd_mirror_mask_portid	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_mask_portid =$/;"	v
+cmd_mirror_mask_ruleid	./cmdline.c	/^cmdline_parse_token_num_t cmd_mirror_mask_ruleid =$/;"	v
+cmd_mirror_mask_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_mask_set =$/;"	v
+cmd_mirror_mask_value	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_mask_value =$/;"	v
+cmd_mirror_mask_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_mirror_mask_what =$/;"	v
+cmd_name	./testpmd.c	/^	const char *cmd_name;$/;"	m	struct:pmd_test_command	file:
+cmd_operate_port	./cmdline.c	/^cmdline_parse_inst_t cmd_operate_port = {$/;"	v
+cmd_operate_port_all_all	./cmdline.c	/^cmdline_parse_token_string_t cmd_operate_port_all_all =$/;"	v
+cmd_operate_port_all_cmd	./cmdline.c	/^cmdline_parse_token_string_t cmd_operate_port_all_cmd =$/;"	v
+cmd_operate_port_all_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_operate_port_all_port =$/;"	v
+cmd_operate_port_parsed	./cmdline.c	/^static void cmd_operate_port_parsed(void *parsed_result,$/;"	f	file:
+cmd_operate_port_result	./cmdline.c	/^struct cmd_operate_port_result {$/;"	s	file:
+cmd_operate_specific_port	./cmdline.c	/^cmdline_parse_inst_t cmd_operate_specific_port = {$/;"	v
+cmd_operate_specific_port_cmd	./cmdline.c	/^cmdline_parse_token_string_t cmd_operate_specific_port_cmd =$/;"	v
+cmd_operate_specific_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_operate_specific_port_id =$/;"	v
+cmd_operate_specific_port_parsed	./cmdline.c	/^static void cmd_operate_specific_port_parsed(void *parsed_result,$/;"	f	file:
+cmd_operate_specific_port_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_operate_specific_port_port =$/;"	v
+cmd_operate_specific_port_result	./cmdline.c	/^struct cmd_operate_specific_port_result {$/;"	s	file:
+cmd_pfc_set_flow_ctrl	./cmdline.c	/^cmdline_parse_token_string_t cmd_pfc_set_flow_ctrl =$/;"	v
+cmd_pfc_set_high_water	./cmdline.c	/^cmdline_parse_token_num_t cmd_pfc_set_high_water =$/;"	v
+cmd_pfc_set_low_water	./cmdline.c	/^cmdline_parse_token_num_t cmd_pfc_set_low_water =$/;"	v
+cmd_pfc_set_pause_time	./cmdline.c	/^cmdline_parse_token_num_t cmd_pfc_set_pause_time =$/;"	v
+cmd_pfc_set_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_pfc_set_portid =$/;"	v
+cmd_pfc_set_priority	./cmdline.c	/^cmdline_parse_token_num_t cmd_pfc_set_priority =$/;"	v
+cmd_pfc_set_rx	./cmdline.c	/^cmdline_parse_token_string_t cmd_pfc_set_rx =$/;"	v
+cmd_pfc_set_rx_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_pfc_set_rx_mode =$/;"	v
+cmd_pfc_set_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_pfc_set_set =$/;"	v
+cmd_pfc_set_tx	./cmdline.c	/^cmdline_parse_token_string_t cmd_pfc_set_tx =$/;"	v
+cmd_pfc_set_tx_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_pfc_set_tx_mode =$/;"	v
+cmd_pkt_filter_add_perfect_filter	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_add_perfect_filter =$/;"	v
+cmd_pkt_filter_add_signature_filter	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_add_signature_filter =$/;"	v
+cmd_pkt_filter_dst	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_dst =$/;"	v
+cmd_pkt_filter_flexbytes	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_flexbytes =$/;"	v
+cmd_pkt_filter_flexbytes_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_flexbytes_value =$/;"	v
+cmd_pkt_filter_ip_dst	./cmdline.c	/^cmdline_parse_token_ipaddr_t cmd_pkt_filter_ip_dst =$/;"	v
+cmd_pkt_filter_ip_src	./cmdline.c	/^cmdline_parse_token_ipaddr_t cmd_pkt_filter_ip_src =$/;"	v
+cmd_pkt_filter_masks_comp_ipv6_dst	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_masks_comp_ipv6_dst =$/;"	v
+cmd_pkt_filter_masks_comp_ipv6_dst_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_comp_ipv6_dst_value =$/;"	v
+cmd_pkt_filter_masks_dst_mask	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_masks_dst_mask =$/;"	v
+cmd_pkt_filter_masks_dst_mask_ipv6_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_dst_mask_ipv6_value =$/;"	v
+cmd_pkt_filter_masks_filter_mask	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_masks_filter_mask =$/;"	v
+cmd_pkt_filter_masks_filter_mask_ipv6	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_masks_filter_mask_ipv6 =$/;"	v
+cmd_pkt_filter_masks_flexbytes	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_masks_flexbytes =$/;"	v
+cmd_pkt_filter_masks_flexbytes_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_flexbytes_value =$/;"	v
+cmd_pkt_filter_masks_ip_dst_mask	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_ip_dst_mask =$/;"	v
+cmd_pkt_filter_masks_ip_src_mask	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_ip_src_mask =$/;"	v
+cmd_pkt_filter_masks_ipv6_parsed	./cmdline.c	/^cmd_pkt_filter_masks_ipv6_parsed(void *parsed_result,$/;"	f	file:
+cmd_pkt_filter_masks_only_ip_flow	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_masks_only_ip_flow =$/;"	v
+cmd_pkt_filter_masks_only_ip_flow_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_only_ip_flow_value =$/;"	v
+cmd_pkt_filter_masks_parsed	./cmdline.c	/^cmd_pkt_filter_masks_parsed(void *parsed_result,$/;"	f	file:
+cmd_pkt_filter_masks_port_dst_mask	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_port_dst_mask =$/;"	v
+cmd_pkt_filter_masks_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_port_id =$/;"	v
+cmd_pkt_filter_masks_port_src_mask	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_port_src_mask =$/;"	v
+cmd_pkt_filter_masks_result	./cmdline.c	/^struct cmd_pkt_filter_masks_result {$/;"	s	file:
+cmd_pkt_filter_masks_src_mask	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_masks_src_mask =$/;"	v
+cmd_pkt_filter_masks_src_mask_ipv6_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_src_mask_ipv6_value =$/;"	v
+cmd_pkt_filter_masks_vlan_id	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_masks_vlan_id =$/;"	v
+cmd_pkt_filter_masks_vlan_id_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_vlan_id_value =$/;"	v
+cmd_pkt_filter_masks_vlan_prio	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_masks_vlan_prio =$/;"	v
+cmd_pkt_filter_masks_vlan_prio_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_masks_vlan_prio_value =$/;"	v
+cmd_pkt_filter_parsed	./cmdline.c	/^cmd_pkt_filter_parsed(void *parsed_result,$/;"	f	file:
+cmd_pkt_filter_port_dst	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_port_dst =$/;"	v
+cmd_pkt_filter_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_port_id =$/;"	v
+cmd_pkt_filter_port_src	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_port_src =$/;"	v
+cmd_pkt_filter_protocol	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_protocol =$/;"	v
+cmd_pkt_filter_queue	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_queue =$/;"	v
+cmd_pkt_filter_queue_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_queue_id =$/;"	v
+cmd_pkt_filter_result	./cmdline.c	/^struct cmd_pkt_filter_result {$/;"	s	file:
+cmd_pkt_filter_rm_perfect_filter	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_rm_perfect_filter =$/;"	v
+cmd_pkt_filter_rm_signature_filter	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_rm_signature_filter =$/;"	v
+cmd_pkt_filter_soft	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_soft =$/;"	v
+cmd_pkt_filter_soft_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_soft_id =$/;"	v
+cmd_pkt_filter_src	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_src =$/;"	v
+cmd_pkt_filter_upd_perfect_filter	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_upd_perfect_filter =$/;"	v
+cmd_pkt_filter_upd_signature_filter	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_upd_signature_filter =$/;"	v
+cmd_pkt_filter_vlan	./cmdline.c	/^cmdline_parse_token_string_t cmd_pkt_filter_vlan =$/;"	v
+cmd_pkt_filter_vlan_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_pkt_filter_vlan_id =$/;"	v
+cmd_priority_flow_control_set	./cmdline.c	/^cmdline_parse_inst_t cmd_priority_flow_control_set = {$/;"	v
+cmd_priority_flow_ctrl_set_parsed	./cmdline.c	/^cmd_priority_flow_ctrl_set_parsed(void *parsed_result,$/;"	f	file:
+cmd_priority_flow_ctrl_set_result	./cmdline.c	/^struct cmd_priority_flow_ctrl_set_result {$/;"	s	file:
+cmd_quit	./cmdline.c	/^cmdline_parse_inst_t cmd_quit = {$/;"	v
+cmd_quit_parsed	./cmdline.c	/^static void cmd_quit_parsed(__attribute__((unused)) void *parsed_result,$/;"	f	file:
+cmd_quit_quit	./cmdline.c	/^cmdline_parse_token_string_t cmd_quit_quit =$/;"	v
+cmd_quit_result	./cmdline.c	/^struct cmd_quit_result {$/;"	s	file:
+cmd_read_reg	./cmdline.c	/^cmdline_parse_inst_t cmd_read_reg = {$/;"	v
+cmd_read_reg_bit	./cmdline.c	/^cmdline_parse_inst_t cmd_read_reg_bit = {$/;"	v
+cmd_read_reg_bit_bit_pos	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_reg_bit_bit_pos =$/;"	v
+cmd_read_reg_bit_field	./cmdline.c	/^cmdline_parse_inst_t cmd_read_reg_bit_field = {$/;"	v
+cmd_read_reg_bit_field_bit1_pos	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_reg_bit_field_bit1_pos =$/;"	v
+cmd_read_reg_bit_field_bit2_pos	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_reg_bit_field_bit2_pos =$/;"	v
+cmd_read_reg_bit_field_parsed	./cmdline.c	/^cmd_read_reg_bit_field_parsed(void *parsed_result,$/;"	f	file:
+cmd_read_reg_bit_field_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_reg_bit_field_port_id =$/;"	v
+cmd_read_reg_bit_field_read	./cmdline.c	/^cmdline_parse_token_string_t cmd_read_reg_bit_field_read =$/;"	v
+cmd_read_reg_bit_field_reg_off	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_reg_bit_field_reg_off =$/;"	v
+cmd_read_reg_bit_field_regfield	./cmdline.c	/^cmdline_parse_token_string_t cmd_read_reg_bit_field_regfield =$/;"	v
+cmd_read_reg_bit_field_result	./cmdline.c	/^struct cmd_read_reg_bit_field_result {$/;"	s	file:
+cmd_read_reg_bit_parsed	./cmdline.c	/^cmd_read_reg_bit_parsed(void *parsed_result,$/;"	f	file:
+cmd_read_reg_bit_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_reg_bit_port_id =$/;"	v
+cmd_read_reg_bit_read	./cmdline.c	/^cmdline_parse_token_string_t cmd_read_reg_bit_read =$/;"	v
+cmd_read_reg_bit_reg_off	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_reg_bit_reg_off =$/;"	v
+cmd_read_reg_bit_regbit	./cmdline.c	/^cmdline_parse_token_string_t cmd_read_reg_bit_regbit =$/;"	v
+cmd_read_reg_bit_result	./cmdline.c	/^struct cmd_read_reg_bit_result {$/;"	s	file:
+cmd_read_reg_parsed	./cmdline.c	/^cmd_read_reg_parsed(void *parsed_result,$/;"	f	file:
+cmd_read_reg_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_reg_port_id =$/;"	v
+cmd_read_reg_read	./cmdline.c	/^cmdline_parse_token_string_t cmd_read_reg_read =$/;"	v
+cmd_read_reg_reg	./cmdline.c	/^cmdline_parse_token_string_t cmd_read_reg_reg =$/;"	v
+cmd_read_reg_reg_off	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_reg_reg_off =$/;"	v
+cmd_read_reg_result	./cmdline.c	/^struct cmd_read_reg_result {$/;"	s	file:
+cmd_read_rxd_txd	./cmdline.c	/^cmdline_parse_inst_t cmd_read_rxd_txd = {$/;"	v
+cmd_read_rxd_txd_desc_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_rxd_txd_desc_id =$/;"	v
+cmd_read_rxd_txd_parsed	./cmdline.c	/^cmd_read_rxd_txd_parsed(void *parsed_result,$/;"	f	file:
+cmd_read_rxd_txd_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_rxd_txd_port_id =$/;"	v
+cmd_read_rxd_txd_queue_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_read_rxd_txd_queue_id =$/;"	v
+cmd_read_rxd_txd_read	./cmdline.c	/^cmdline_parse_token_string_t cmd_read_rxd_txd_read =$/;"	v
+cmd_read_rxd_txd_result	./cmdline.c	/^struct cmd_read_rxd_txd_result {$/;"	s	file:
+cmd_read_rxd_txd_rxd_txd	./cmdline.c	/^cmdline_parse_token_string_t cmd_read_rxd_txd_rxd_txd =$/;"	v
+cmd_reconfig_device_queue	./cmdline.c	/^cmd_reconfig_device_queue(portid_t id, uint8_t dev, uint8_t queue)$/;"	f	file:
+cmd_reset	./cmdline.c	/^cmdline_parse_inst_t cmd_reset = {$/;"	v
+cmd_reset_def	./cmdline.c	/^cmdline_parse_token_string_t cmd_reset_def =$/;"	v
+cmd_reset_mirror_rule	./cmdline.c	/^cmdline_parse_inst_t cmd_reset_mirror_rule = {$/;"	v
+cmd_reset_mirror_rule_parsed	./cmdline.c	/^cmd_reset_mirror_rule_parsed(void *parsed_result,$/;"	f	file:
+cmd_reset_parsed	./cmdline.c	/^static void cmd_reset_parsed(__attribute__((unused)) void *parsed_result,$/;"	f	file:
+cmd_reset_result	./cmdline.c	/^struct cmd_reset_result {$/;"	s	file:
+cmd_reset_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_reset_set =$/;"	v
+cmd_rm_mirror_rule_mirror	./cmdline.c	/^cmdline_parse_token_string_t cmd_rm_mirror_rule_mirror =$/;"	v
+cmd_rm_mirror_rule_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_rm_mirror_rule_port =$/;"	v
+cmd_rm_mirror_rule_portid	./cmdline.c	/^cmdline_parse_token_string_t cmd_rm_mirror_rule_portid =$/;"	v
+cmd_rm_mirror_rule_reset	./cmdline.c	/^cmdline_parse_token_string_t cmd_rm_mirror_rule_reset =$/;"	v
+cmd_rm_mirror_rule_result	./cmdline.c	/^struct cmd_rm_mirror_rule_result {$/;"	s	file:
+cmd_rm_mirror_rule_ruleid	./cmdline.c	/^cmdline_parse_token_num_t cmd_rm_mirror_rule_ruleid =$/;"	v
+cmd_rm_perfect_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_rm_perfect_filter = {$/;"	v
+cmd_rm_signature_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_rm_signature_filter = {$/;"	v
+cmd_rx_vlan_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_rx_vlan_filter = {$/;"	v
+cmd_rx_vlan_filter_all	./cmdline.c	/^cmdline_parse_inst_t cmd_rx_vlan_filter_all = {$/;"	v
+cmd_rx_vlan_filter_all_all	./cmdline.c	/^cmdline_parse_token_string_t cmd_rx_vlan_filter_all_all =$/;"	v
+cmd_rx_vlan_filter_all_parsed	./cmdline.c	/^cmd_rx_vlan_filter_all_parsed(void *parsed_result,$/;"	f	file:
+cmd_rx_vlan_filter_all_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_rx_vlan_filter_all_portid =$/;"	v
+cmd_rx_vlan_filter_all_result	./cmdline.c	/^struct cmd_rx_vlan_filter_all_result {$/;"	s	file:
+cmd_rx_vlan_filter_all_rx_vlan	./cmdline.c	/^cmdline_parse_token_string_t cmd_rx_vlan_filter_all_rx_vlan =$/;"	v
+cmd_rx_vlan_filter_all_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_rx_vlan_filter_all_what =$/;"	v
+cmd_rx_vlan_filter_parsed	./cmdline.c	/^cmd_rx_vlan_filter_parsed(void *parsed_result,$/;"	f	file:
+cmd_rx_vlan_filter_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_rx_vlan_filter_portid =$/;"	v
+cmd_rx_vlan_filter_result	./cmdline.c	/^struct cmd_rx_vlan_filter_result {$/;"	s	file:
+cmd_rx_vlan_filter_rx_vlan	./cmdline.c	/^cmdline_parse_token_string_t cmd_rx_vlan_filter_rx_vlan =$/;"	v
+cmd_rx_vlan_filter_vlanid	./cmdline.c	/^cmdline_parse_token_num_t cmd_rx_vlan_filter_vlanid =$/;"	v
+cmd_rx_vlan_filter_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_rx_vlan_filter_what =$/;"	v
+cmd_set_allmulti_mode_all	./cmdline.c	/^cmdline_parse_inst_t cmd_set_allmulti_mode_all = {$/;"	v
+cmd_set_allmulti_mode_one	./cmdline.c	/^cmdline_parse_inst_t cmd_set_allmulti_mode_one = {$/;"	v
+cmd_set_allmulti_mode_parsed	./cmdline.c	/^static void cmd_set_allmulti_mode_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_allmulti_mode_result	./cmdline.c	/^struct cmd_set_allmulti_mode_result {$/;"	s	file:
+cmd_set_burst_tx_retry	./cmdline.c	/^cmdline_parse_inst_t cmd_set_burst_tx_retry = {$/;"	v
+cmd_set_burst_tx_retry_burst	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_burst_tx_retry_burst =$/;"	v
+cmd_set_burst_tx_retry_delay	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_burst_tx_retry_delay =$/;"	v
+cmd_set_burst_tx_retry_parsed	./cmdline.c	/^static void cmd_set_burst_tx_retry_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_burst_tx_retry_result	./cmdline.c	/^struct cmd_set_burst_tx_retry_result {$/;"	s	file:
+cmd_set_burst_tx_retry_retry	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_burst_tx_retry_retry =$/;"	v
+cmd_set_burst_tx_retry_retry_num	./cmdline.c	/^cmdline_parse_token_num_t cmd_set_burst_tx_retry_retry_num =$/;"	v
+cmd_set_burst_tx_retry_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_burst_tx_retry_set =$/;"	v
+cmd_set_burst_tx_retry_time	./cmdline.c	/^cmdline_parse_token_num_t cmd_set_burst_tx_retry_time =$/;"	v
+cmd_set_burst_tx_retry_tx	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_burst_tx_retry_tx =$/;"	v
+cmd_set_bypass_event	./cmdline.c	/^cmdline_parse_inst_t cmd_set_bypass_event = {$/;"	v
+cmd_set_bypass_event_parsed	./cmdline.c	/^cmd_set_bypass_event_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_bypass_event_result	./cmdline.c	/^struct cmd_set_bypass_event_result {$/;"	s	file:
+cmd_set_bypass_mode	./cmdline.c	/^cmdline_parse_inst_t cmd_set_bypass_mode = {$/;"	v
+cmd_set_bypass_mode_parsed	./cmdline.c	/^cmd_set_bypass_mode_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_bypass_mode_result	./cmdline.c	/^struct cmd_set_bypass_mode_result {$/;"	s	file:
+cmd_set_bypass_timeout	./cmdline.c	/^cmdline_parse_inst_t cmd_set_bypass_timeout = {$/;"	v
+cmd_set_bypass_timeout_parsed	./cmdline.c	/^cmd_set_bypass_timeout_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_bypass_timeout_result	./cmdline.c	/^struct cmd_set_bypass_timeout_result {$/;"	s	file:
+cmd_set_flush_rx	./cmdline.c	/^cmdline_parse_inst_t cmd_set_flush_rx = {$/;"	v
+cmd_set_flush_rx	./cmdline.c	/^struct cmd_set_flush_rx {$/;"	s	file:
+cmd_set_flush_rx_parsed	./cmdline.c	/^cmd_set_flush_rx_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_fwd_list	./cmdline.c	/^cmdline_parse_inst_t cmd_set_fwd_list = {$/;"	v
+cmd_set_fwd_mask	./cmdline.c	/^cmdline_parse_inst_t cmd_set_fwd_mask = {$/;"	v
+cmd_set_fwd_mode	./cmdline.c	/^cmdline_parse_inst_t cmd_set_fwd_mode = {$/;"	v
+cmd_set_fwd_mode_parsed	./cmdline.c	/^static void cmd_set_fwd_mode_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_fwd_mode_result	./cmdline.c	/^struct cmd_set_fwd_mode_result {$/;"	s	file:
+cmd_set_ipv6_masks_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_set_ipv6_masks_filter = {$/;"	v
+cmd_set_list_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_list_keyword =$/;"	v
+cmd_set_list_name	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_list_name =$/;"	v
+cmd_set_list_of_items	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_list_of_items =$/;"	v
+cmd_set_list_parsed	./cmdline.c	/^static void cmd_set_list_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_list_result	./cmdline.c	/^struct cmd_set_list_result {$/;"	s	file:
+cmd_set_mask_parsed	./cmdline.c	/^static void cmd_set_mask_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_masks_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_set_masks_filter = {$/;"	v
+cmd_set_mirror_link	./cmdline.c	/^cmdline_parse_inst_t cmd_set_mirror_link = {$/;"	v
+cmd_set_mirror_link_parsed	./cmdline.c	/^cmd_set_mirror_link_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_mirror_link_result	./cmdline.c	/^struct cmd_set_mirror_link_result {$/;"	s	file:
+cmd_set_mirror_mask	./cmdline.c	/^cmdline_parse_inst_t cmd_set_mirror_mask = {$/;"	v
+cmd_set_mirror_mask_parsed	./cmdline.c	/^cmd_set_mirror_mask_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_mirror_mask_result	./cmdline.c	/^struct cmd_set_mirror_mask_result {$/;"	s	file:
+cmd_set_numbers	./cmdline.c	/^cmdline_parse_inst_t cmd_set_numbers = {$/;"	v
+cmd_set_parsed	./cmdline.c	/^static void cmd_set_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_promisc_mode_all	./cmdline.c	/^cmdline_parse_inst_t cmd_set_promisc_mode_all = {$/;"	v
+cmd_set_promisc_mode_one	./cmdline.c	/^cmdline_parse_inst_t cmd_set_promisc_mode_one = {$/;"	v
+cmd_set_promisc_mode_parsed	./cmdline.c	/^static void cmd_set_promisc_mode_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_promisc_mode_result	./cmdline.c	/^struct cmd_set_promisc_mode_result {$/;"	s	file:
+cmd_set_qmap	./cmdline.c	/^cmdline_parse_inst_t cmd_set_qmap = {$/;"	v
+cmd_set_qmap_parsed	./cmdline.c	/^cmd_set_qmap_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_qmap_result	./cmdline.c	/^struct cmd_set_qmap_result {$/;"	s	file:
+cmd_set_result	./cmdline.c	/^struct cmd_set_result {$/;"	s	file:
+cmd_set_rss_reta_parsed	./cmdline.c	/^cmd_set_rss_reta_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_set =$/;"	v
+cmd_set_txpkts	./cmdline.c	/^cmdline_parse_inst_t cmd_set_txpkts = {$/;"	v
+cmd_set_txpkts_keyword	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_txpkts_keyword =$/;"	v
+cmd_set_txpkts_lengths	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_txpkts_lengths =$/;"	v
+cmd_set_txpkts_name	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_txpkts_name =$/;"	v
+cmd_set_txpkts_parsed	./cmdline.c	/^cmd_set_txpkts_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_txpkts_result	./cmdline.c	/^struct cmd_set_txpkts_result {$/;"	s	file:
+cmd_set_uc_all_hash_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_set_uc_all_hash_filter = {$/;"	v
+cmd_set_uc_all_hash_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_uc_all_hash_mode =$/;"	v
+cmd_set_uc_all_hash_parsed	./cmdline.c	/^cmd_set_uc_all_hash_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_uc_all_hash_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_uc_all_hash_port =$/;"	v
+cmd_set_uc_all_hash_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_set_uc_all_hash_portid =$/;"	v
+cmd_set_uc_all_hash_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_uc_all_hash_set =$/;"	v
+cmd_set_uc_all_hash_table	./cmdline.c	/^struct cmd_set_uc_all_hash_table {$/;"	s	file:
+cmd_set_uc_all_hash_value	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_uc_all_hash_value =$/;"	v
+cmd_set_uc_all_hash_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_uc_all_hash_what =$/;"	v
+cmd_set_uc_hash_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_set_uc_hash_filter = {$/;"	v
+cmd_set_uc_hash_mac	./cmdline.c	/^cmdline_parse_token_etheraddr_t cmd_set_uc_hash_mac =$/;"	v
+cmd_set_uc_hash_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_uc_hash_mode =$/;"	v
+cmd_set_uc_hash_parsed	./cmdline.c	/^cmd_set_uc_hash_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_uc_hash_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_uc_hash_port =$/;"	v
+cmd_set_uc_hash_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_set_uc_hash_portid =$/;"	v
+cmd_set_uc_hash_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_uc_hash_set =$/;"	v
+cmd_set_uc_hash_table	./cmdline.c	/^struct cmd_set_uc_hash_table {$/;"	s	file:
+cmd_set_uc_hash_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_uc_hash_what =$/;"	v
+cmd_set_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_set_value =$/;"	v
+cmd_set_vf_rxmode	./cmdline.c	/^cmdline_parse_inst_t cmd_set_vf_rxmode = {$/;"	v
+cmd_set_vf_rxmode	./cmdline.c	/^struct cmd_set_vf_rxmode {$/;"	s	file:
+cmd_set_vf_rxmode_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_vf_rxmode_mode =$/;"	v
+cmd_set_vf_rxmode_on	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_vf_rxmode_on =$/;"	v
+cmd_set_vf_rxmode_parsed	./cmdline.c	/^cmd_set_vf_rxmode_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_vf_rxmode_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_vf_rxmode_port =$/;"	v
+cmd_set_vf_rxmode_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_set_vf_rxmode_portid =$/;"	v
+cmd_set_vf_rxmode_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_vf_rxmode_set =$/;"	v
+cmd_set_vf_rxmode_vf	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_vf_rxmode_vf =$/;"	v
+cmd_set_vf_rxmode_vfid	./cmdline.c	/^cmdline_parse_token_num_t cmd_set_vf_rxmode_vfid =$/;"	v
+cmd_set_vf_rxmode_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_vf_rxmode_what =$/;"	v
+cmd_set_vf_traffic	./cmdline.c	/^cmdline_parse_inst_t cmd_set_vf_traffic = {$/;"	v
+cmd_set_vf_traffic	./cmdline.c	/^struct cmd_set_vf_traffic {$/;"	s	file:
+cmd_set_vf_traffic_parsed	./cmdline.c	/^cmd_set_vf_traffic_parsed(void *parsed_result,$/;"	f	file:
+cmd_set_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_set_what =$/;"	v
+cmd_setallmulti_allmulti	./cmdline.c	/^cmdline_parse_token_string_t cmd_setallmulti_allmulti =$/;"	v
+cmd_setallmulti_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_setallmulti_mode =$/;"	v
+cmd_setallmulti_portall	./cmdline.c	/^cmdline_parse_token_string_t cmd_setallmulti_portall =$/;"	v
+cmd_setallmulti_portnum	./cmdline.c	/^cmdline_parse_token_num_t cmd_setallmulti_portnum =$/;"	v
+cmd_setallmulti_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_setallmulti_set =$/;"	v
+cmd_setbypass_event_bypass	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_event_bypass =$/;"	v
+cmd_setbypass_event_event	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_event_event =$/;"	v
+cmd_setbypass_event_event_value	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_event_event_value =$/;"	v
+cmd_setbypass_event_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_event_mode =$/;"	v
+cmd_setbypass_event_mode_value	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_event_mode_value =$/;"	v
+cmd_setbypass_event_port	./cmdline.c	/^cmdline_parse_token_num_t cmd_setbypass_event_port =$/;"	v
+cmd_setbypass_event_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_event_set =$/;"	v
+cmd_setbypass_mode_bypass	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_mode_bypass =$/;"	v
+cmd_setbypass_mode_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_mode_mode =$/;"	v
+cmd_setbypass_mode_port	./cmdline.c	/^cmdline_parse_token_num_t cmd_setbypass_mode_port =$/;"	v
+cmd_setbypass_mode_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_mode_set =$/;"	v
+cmd_setbypass_mode_value	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_mode_value =$/;"	v
+cmd_setbypass_timeout_bypass	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_timeout_bypass =$/;"	v
+cmd_setbypass_timeout_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_timeout_set =$/;"	v
+cmd_setbypass_timeout_timeout	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_timeout_timeout =$/;"	v
+cmd_setbypass_timeout_value	./cmdline.c	/^cmdline_parse_token_string_t cmd_setbypass_timeout_value =$/;"	v
+cmd_setflushrx_flush_rx	./cmdline.c	/^cmdline_parse_token_string_t cmd_setflushrx_flush_rx =$/;"	v
+cmd_setflushrx_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_setflushrx_mode =$/;"	v
+cmd_setflushrx_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_setflushrx_set =$/;"	v
+cmd_setfwd_fwd	./cmdline.c	/^cmdline_parse_token_string_t cmd_setfwd_fwd =$/;"	v
+cmd_setfwd_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_setfwd_mode =$/;"	v
+cmd_setfwd_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_setfwd_set =$/;"	v
+cmd_setmask_mask	./cmdline.c	/^cmdline_parse_token_string_t cmd_setmask_mask =$/;"	v
+cmd_setmask_result	./cmdline.c	/^struct cmd_setmask_result {$/;"	s	file:
+cmd_setmask_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_setmask_set =$/;"	v
+cmd_setmask_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_setmask_value =$/;"	v
+cmd_setpromisc_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_setpromisc_mode =$/;"	v
+cmd_setpromisc_portall	./cmdline.c	/^cmdline_parse_token_string_t cmd_setpromisc_portall =$/;"	v
+cmd_setpromisc_portnum	./cmdline.c	/^cmdline_parse_token_num_t cmd_setpromisc_portnum =$/;"	v
+cmd_setpromisc_promisc	./cmdline.c	/^cmdline_parse_token_string_t cmd_setpromisc_promisc =$/;"	v
+cmd_setpromisc_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_setpromisc_set =$/;"	v
+cmd_setqmap_mapvalue	./cmdline.c	/^cmdline_parse_token_num_t cmd_setqmap_mapvalue =$/;"	v
+cmd_setqmap_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_setqmap_portid =$/;"	v
+cmd_setqmap_qmap	./cmdline.c	/^cmdline_parse_token_string_t cmd_setqmap_qmap =$/;"	v
+cmd_setqmap_queueid	./cmdline.c	/^cmdline_parse_token_num_t cmd_setqmap_queueid =$/;"	v
+cmd_setqmap_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_setqmap_set =$/;"	v
+cmd_setqmap_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_setqmap_what =$/;"	v
+cmd_setvf_traffic_mode	./cmdline.c	/^cmdline_parse_token_string_t cmd_setvf_traffic_mode =$/;"	v
+cmd_setvf_traffic_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_setvf_traffic_port =$/;"	v
+cmd_setvf_traffic_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_setvf_traffic_portid =$/;"	v
+cmd_setvf_traffic_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_setvf_traffic_set =$/;"	v
+cmd_setvf_traffic_vf	./cmdline.c	/^cmdline_parse_token_string_t cmd_setvf_traffic_vf =$/;"	v
+cmd_setvf_traffic_vfid	./cmdline.c	/^cmdline_parse_token_num_t cmd_setvf_traffic_vfid =$/;"	v
+cmd_setvf_traffic_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_setvf_traffic_what =$/;"	v
+cmd_show_bypass_config	./cmdline.c	/^cmdline_parse_inst_t cmd_show_bypass_config = {$/;"	v
+cmd_show_bypass_config_parsed	./cmdline.c	/^cmd_show_bypass_config_parsed(void *parsed_result,$/;"	f	file:
+cmd_show_bypass_config_result	./cmdline.c	/^struct cmd_show_bypass_config_result {$/;"	s	file:
+cmd_showbypass_config_bypass	./cmdline.c	/^cmdline_parse_token_string_t cmd_showbypass_config_bypass =$/;"	v
+cmd_showbypass_config_config	./cmdline.c	/^cmdline_parse_token_string_t cmd_showbypass_config_config =$/;"	v
+cmd_showbypass_config_port	./cmdline.c	/^cmdline_parse_token_num_t cmd_showbypass_config_port =$/;"	v
+cmd_showbypass_config_show	./cmdline.c	/^cmdline_parse_token_string_t cmd_showbypass_config_show =$/;"	v
+cmd_showcfg	./cmdline.c	/^cmdline_parse_inst_t cmd_showcfg = {$/;"	v
+cmd_showcfg_parsed	./cmdline.c	/^static void cmd_showcfg_parsed(void *parsed_result,$/;"	f	file:
+cmd_showcfg_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_showcfg_port =$/;"	v
+cmd_showcfg_result	./cmdline.c	/^struct cmd_showcfg_result {$/;"	s	file:
+cmd_showcfg_show	./cmdline.c	/^cmdline_parse_token_string_t cmd_showcfg_show =$/;"	v
+cmd_showcfg_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_showcfg_what =$/;"	v
+cmd_showport	./cmdline.c	/^cmdline_parse_inst_t cmd_showport = {$/;"	v
+cmd_showport_parsed	./cmdline.c	/^static void cmd_showport_parsed(void *parsed_result,$/;"	f	file:
+cmd_showport_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_showport_port =$/;"	v
+cmd_showport_portnum	./cmdline.c	/^cmdline_parse_token_num_t cmd_showport_portnum =$/;"	v
+cmd_showport_result	./cmdline.c	/^struct cmd_showport_result {$/;"	s	file:
+cmd_showport_reta	./cmdline.c	/^cmdline_parse_inst_t cmd_showport_reta = {$/;"	v
+cmd_showport_reta	./cmdline.c	/^struct cmd_showport_reta {$/;"	s	file:
+cmd_showport_reta_mask_hi	./cmdline.c	/^cmdline_parse_token_num_t cmd_showport_reta_mask_hi =$/;"	v
+cmd_showport_reta_mask_lo	./cmdline.c	/^cmdline_parse_token_num_t cmd_showport_reta_mask_lo =$/;"	v
+cmd_showport_reta_parsed	./cmdline.c	/^static void cmd_showport_reta_parsed(void *parsed_result,$/;"	f	file:
+cmd_showport_reta_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_showport_reta_port =$/;"	v
+cmd_showport_reta_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_showport_reta_port_id =$/;"	v
+cmd_showport_reta_reta	./cmdline.c	/^cmdline_parse_token_string_t cmd_showport_reta_reta =$/;"	v
+cmd_showport_reta_rss	./cmdline.c	/^cmdline_parse_token_string_t cmd_showport_reta_rss =$/;"	v
+cmd_showport_reta_show	./cmdline.c	/^cmdline_parse_token_string_t cmd_showport_reta_show =$/;"	v
+cmd_showport_show	./cmdline.c	/^cmdline_parse_token_string_t cmd_showport_show =$/;"	v
+cmd_showport_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_showport_what =$/;"	v
+cmd_showportall	./cmdline.c	/^cmdline_parse_inst_t cmd_showportall = {$/;"	v
+cmd_showportall_all	./cmdline.c	/^cmdline_parse_token_string_t cmd_showportall_all =$/;"	v
+cmd_showportall_parsed	./cmdline.c	/^static void cmd_showportall_parsed(void *parsed_result,$/;"	f	file:
+cmd_showportall_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_showportall_port =$/;"	v
+cmd_showportall_result	./cmdline.c	/^struct cmd_showportall_result {$/;"	s	file:
+cmd_showportall_show	./cmdline.c	/^cmdline_parse_token_string_t cmd_showportall_show =$/;"	v
+cmd_showportall_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_showportall_what =$/;"	v
+cmd_start	./cmdline.c	/^cmdline_parse_inst_t cmd_start = {$/;"	v
+cmd_start_parsed	./cmdline.c	/^static void cmd_start_parsed(__attribute__((unused)) void *parsed_result,$/;"	f	file:
+cmd_start_result	./cmdline.c	/^struct cmd_start_result {$/;"	s	file:
+cmd_start_start	./cmdline.c	/^cmdline_parse_token_string_t cmd_start_start =$/;"	v
+cmd_start_tx_first	./cmdline.c	/^cmdline_parse_inst_t cmd_start_tx_first = {$/;"	v
+cmd_start_tx_first_parsed	./cmdline.c	/^cmd_start_tx_first_parsed(__attribute__((unused)) void *parsed_result,$/;"	f	file:
+cmd_start_tx_first_result	./cmdline.c	/^struct cmd_start_tx_first_result {$/;"	s	file:
+cmd_start_tx_first_start	./cmdline.c	/^cmdline_parse_token_string_t cmd_start_tx_first_start =$/;"	v
+cmd_start_tx_first_tx_first	./cmdline.c	/^cmdline_parse_token_string_t cmd_start_tx_first_tx_first =$/;"	v
+cmd_stop	./cmdline.c	/^cmdline_parse_inst_t cmd_stop = {$/;"	v
+cmd_stop_parsed	./cmdline.c	/^static void cmd_stop_parsed(__attribute__((unused)) void *parsed_result,$/;"	f	file:
+cmd_stop_result	./cmdline.c	/^struct cmd_stop_result {$/;"	s	file:
+cmd_stop_stop	./cmdline.c	/^cmdline_parse_token_string_t cmd_stop_stop =$/;"	v
+cmd_tx_cksum_set	./cmdline.c	/^cmdline_parse_inst_t cmd_tx_cksum_set = {$/;"	v
+cmd_tx_cksum_set_cksum_mask	./cmdline.c	/^cmdline_parse_token_num_t cmd_tx_cksum_set_cksum_mask =$/;"	v
+cmd_tx_cksum_set_parsed	./cmdline.c	/^cmd_tx_cksum_set_parsed(void *parsed_result,$/;"	f	file:
+cmd_tx_cksum_set_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_tx_cksum_set_portid =$/;"	v
+cmd_tx_cksum_set_result	./cmdline.c	/^struct cmd_tx_cksum_set_result {$/;"	s	file:
+cmd_tx_cksum_set_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_tx_cksum_set_set =$/;"	v
+cmd_tx_cksum_set_tx_cksum	./cmdline.c	/^cmdline_parse_token_string_t cmd_tx_cksum_set_tx_cksum =$/;"	v
+cmd_tx_vlan_reset	./cmdline.c	/^cmdline_parse_inst_t cmd_tx_vlan_reset = {$/;"	v
+cmd_tx_vlan_reset_parsed	./cmdline.c	/^cmd_tx_vlan_reset_parsed(void *parsed_result,$/;"	f	file:
+cmd_tx_vlan_reset_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_tx_vlan_reset_portid =$/;"	v
+cmd_tx_vlan_reset_reset	./cmdline.c	/^cmdline_parse_token_string_t cmd_tx_vlan_reset_reset =$/;"	v
+cmd_tx_vlan_reset_result	./cmdline.c	/^struct cmd_tx_vlan_reset_result {$/;"	s	file:
+cmd_tx_vlan_reset_tx_vlan	./cmdline.c	/^cmdline_parse_token_string_t cmd_tx_vlan_reset_tx_vlan =$/;"	v
+cmd_tx_vlan_set	./cmdline.c	/^cmdline_parse_inst_t cmd_tx_vlan_set = {$/;"	v
+cmd_tx_vlan_set_parsed	./cmdline.c	/^cmd_tx_vlan_set_parsed(void *parsed_result,$/;"	f	file:
+cmd_tx_vlan_set_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_tx_vlan_set_portid =$/;"	v
+cmd_tx_vlan_set_result	./cmdline.c	/^struct cmd_tx_vlan_set_result {$/;"	s	file:
+cmd_tx_vlan_set_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_tx_vlan_set_set =$/;"	v
+cmd_tx_vlan_set_tx_vlan	./cmdline.c	/^cmdline_parse_token_string_t cmd_tx_vlan_set_tx_vlan =$/;"	v
+cmd_tx_vlan_set_vlanid	./cmdline.c	/^cmdline_parse_token_num_t cmd_tx_vlan_set_vlanid =$/;"	v
+cmd_upd_perfect_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_upd_perfect_filter = {$/;"	v
+cmd_upd_signature_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_upd_signature_filter = {$/;"	v
+cmd_vf_mac_addr_addr	./cmdline.c	/^cmdline_parse_token_etheraddr_t cmd_vf_mac_addr_addr =$/;"	v
+cmd_vf_mac_addr_cmd	./cmdline.c	/^cmdline_parse_token_string_t cmd_vf_mac_addr_cmd =$/;"	v
+cmd_vf_mac_addr_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_vf_mac_addr_filter = {$/;"	v
+cmd_vf_mac_addr_parsed	./cmdline.c	/^static void cmd_vf_mac_addr_parsed(void *parsed_result,$/;"	f	file:
+cmd_vf_mac_addr_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_vf_mac_addr_port =$/;"	v
+cmd_vf_mac_addr_portnum	./cmdline.c	/^cmdline_parse_token_num_t cmd_vf_mac_addr_portnum =$/;"	v
+cmd_vf_mac_addr_result	./cmdline.c	/^struct cmd_vf_mac_addr_result {$/;"	s	file:
+cmd_vf_mac_addr_vf	./cmdline.c	/^cmdline_parse_token_string_t cmd_vf_mac_addr_vf =$/;"	v
+cmd_vf_mac_addr_vfnum	./cmdline.c	/^cmdline_parse_token_num_t cmd_vf_mac_addr_vfnum =$/;"	v
+cmd_vf_mac_addr_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_vf_mac_addr_what =$/;"	v
+cmd_vf_rx_vlan_filter	./cmdline.c	/^struct cmd_vf_rx_vlan_filter {$/;"	s	file:
+cmd_vf_rx_vlan_filter_parsed	./cmdline.c	/^cmd_vf_rx_vlan_filter_parsed(void *parsed_result,$/;"	f	file:
+cmd_vf_rx_vlan_filter_port	./cmdline.c	/^cmdline_parse_token_string_t cmd_vf_rx_vlan_filter_port =$/;"	v
+cmd_vf_rx_vlan_filter_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_vf_rx_vlan_filter_portid =$/;"	v
+cmd_vf_rx_vlan_filter_rx_vlan	./cmdline.c	/^cmdline_parse_token_string_t cmd_vf_rx_vlan_filter_rx_vlan =$/;"	v
+cmd_vf_rx_vlan_filter_vf	./cmdline.c	/^cmdline_parse_token_string_t cmd_vf_rx_vlan_filter_vf =$/;"	v
+cmd_vf_rx_vlan_filter_vf_mask	./cmdline.c	/^cmdline_parse_token_num_t cmd_vf_rx_vlan_filter_vf_mask =$/;"	v
+cmd_vf_rx_vlan_filter_vlanid	./cmdline.c	/^cmdline_parse_token_num_t cmd_vf_rx_vlan_filter_vlanid =$/;"	v
+cmd_vf_rx_vlan_filter_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_vf_rx_vlan_filter_what =$/;"	v
+cmd_vf_rxvlan_filter	./cmdline.c	/^cmdline_parse_inst_t cmd_vf_rxvlan_filter = {$/;"	v
+cmd_vlan_offload	./cmdline.c	/^cmdline_parse_inst_t cmd_vlan_offload = {$/;"	v
+cmd_vlan_offload_on	./cmdline.c	/^cmdline_parse_token_string_t cmd_vlan_offload_on =$/;"	v
+cmd_vlan_offload_parsed	./cmdline.c	/^cmd_vlan_offload_parsed(void *parsed_result,$/;"	f	file:
+cmd_vlan_offload_portid	./cmdline.c	/^cmdline_parse_token_string_t cmd_vlan_offload_portid =$/;"	v
+cmd_vlan_offload_result	./cmdline.c	/^struct cmd_vlan_offload_result {$/;"	s	file:
+cmd_vlan_offload_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_vlan_offload_set =$/;"	v
+cmd_vlan_offload_vlan	./cmdline.c	/^cmdline_parse_token_string_t cmd_vlan_offload_vlan =$/;"	v
+cmd_vlan_offload_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_vlan_offload_what =$/;"	v
+cmd_vlan_tpid	./cmdline.c	/^cmdline_parse_inst_t cmd_vlan_tpid = {$/;"	v
+cmd_vlan_tpid_parsed	./cmdline.c	/^cmd_vlan_tpid_parsed(void *parsed_result,$/;"	f	file:
+cmd_vlan_tpid_portid	./cmdline.c	/^cmdline_parse_token_num_t cmd_vlan_tpid_portid =$/;"	v
+cmd_vlan_tpid_result	./cmdline.c	/^struct cmd_vlan_tpid_result {$/;"	s	file:
+cmd_vlan_tpid_set	./cmdline.c	/^cmdline_parse_token_string_t cmd_vlan_tpid_set =$/;"	v
+cmd_vlan_tpid_tpid	./cmdline.c	/^cmdline_parse_token_num_t cmd_vlan_tpid_tpid =$/;"	v
+cmd_vlan_tpid_vlan	./cmdline.c	/^cmdline_parse_token_string_t cmd_vlan_tpid_vlan =$/;"	v
+cmd_vlan_tpid_what	./cmdline.c	/^cmdline_parse_token_string_t cmd_vlan_tpid_what =$/;"	v
+cmd_write_reg	./cmdline.c	/^cmdline_parse_inst_t cmd_write_reg = {$/;"	v
+cmd_write_reg_bit	./cmdline.c	/^cmdline_parse_inst_t cmd_write_reg_bit = {$/;"	v
+cmd_write_reg_bit_bit_pos	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_bit_bit_pos =$/;"	v
+cmd_write_reg_bit_field	./cmdline.c	/^cmdline_parse_inst_t cmd_write_reg_bit_field = {$/;"	v
+cmd_write_reg_bit_field_bit1_pos	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_bit_field_bit1_pos =$/;"	v
+cmd_write_reg_bit_field_bit2_pos	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_bit_field_bit2_pos =$/;"	v
+cmd_write_reg_bit_field_parsed	./cmdline.c	/^cmd_write_reg_bit_field_parsed(void *parsed_result,$/;"	f	file:
+cmd_write_reg_bit_field_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_bit_field_port_id =$/;"	v
+cmd_write_reg_bit_field_reg_off	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_bit_field_reg_off =$/;"	v
+cmd_write_reg_bit_field_regfield	./cmdline.c	/^cmdline_parse_token_string_t cmd_write_reg_bit_field_regfield =$/;"	v
+cmd_write_reg_bit_field_result	./cmdline.c	/^struct cmd_write_reg_bit_field_result {$/;"	s	file:
+cmd_write_reg_bit_field_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_bit_field_value =$/;"	v
+cmd_write_reg_bit_field_write	./cmdline.c	/^cmdline_parse_token_string_t cmd_write_reg_bit_field_write =$/;"	v
+cmd_write_reg_bit_parsed	./cmdline.c	/^cmd_write_reg_bit_parsed(void *parsed_result,$/;"	f	file:
+cmd_write_reg_bit_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_bit_port_id =$/;"	v
+cmd_write_reg_bit_reg_off	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_bit_reg_off =$/;"	v
+cmd_write_reg_bit_regbit	./cmdline.c	/^cmdline_parse_token_string_t cmd_write_reg_bit_regbit =$/;"	v
+cmd_write_reg_bit_result	./cmdline.c	/^struct cmd_write_reg_bit_result {$/;"	s	file:
+cmd_write_reg_bit_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_bit_value =$/;"	v
+cmd_write_reg_bit_write	./cmdline.c	/^cmdline_parse_token_string_t cmd_write_reg_bit_write =$/;"	v
+cmd_write_reg_parsed	./cmdline.c	/^cmd_write_reg_parsed(void *parsed_result,$/;"	f	file:
+cmd_write_reg_port_id	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_port_id =$/;"	v
+cmd_write_reg_reg	./cmdline.c	/^cmdline_parse_token_string_t cmd_write_reg_reg =$/;"	v
+cmd_write_reg_reg_off	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_reg_off =$/;"	v
+cmd_write_reg_result	./cmdline.c	/^struct cmd_write_reg_result {$/;"	s	file:
+cmd_write_reg_value	./cmdline.c	/^cmdline_parse_token_num_t cmd_write_reg_value =$/;"	v
+cmd_write_reg_write	./cmdline.c	/^cmdline_parse_token_string_t cmd_write_reg_write =$/;"	v
+comp_ipv6_dst	./cmdline.c	/^	cmdline_fixed_string_t comp_ipv6_dst;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+comp_ipv6_dst_value	./cmdline.c	/^	uint8_t  comp_ipv6_dst_value;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+config	./cmdline.c	/^	cmdline_fixed_string_t config;$/;"	m	struct:cmd_config_dcb	file:
+config	./cmdline.c	/^	cmdline_fixed_string_t config;$/;"	m	struct:cmd_show_bypass_config_result	file:
+copy_buf_to_pkt	./txonly.c	/^copy_buf_to_pkt(void* buf, unsigned len, struct rte_mbuf *pkt, unsigned offset)$/;"	f	file:
+copy_buf_to_pkt_segs	./txonly.c	/^copy_buf_to_pkt_segs(void* buf, unsigned len, struct rte_mbuf *pkt,$/;"	f	file:
+core_cycles	./testpmd.h	/^	uint64_t     core_cycles; \/**< used for RX and TX processing *\/$/;"	m	struct:fwd_stream
+cpuid_idx	./testpmd.h	/^	lcoreid_t  cpuid_idx;    \/**< index of logical core in CPU id table *\/$/;"	m	struct:fwd_lcore
+csum_fwd_engine	./csumonly.c	/^struct fwd_engine csum_fwd_engine = {$/;"	v	typeref:struct:fwd_engine
+cur_fwd_config	./testpmd.c	/^struct fwd_config cur_fwd_config;$/;"	v	typeref:struct:fwd_config
+cur_fwd_eng	./testpmd.c	/^struct fwd_engine *cur_fwd_eng = &io_fwd_engine; \/**< IO mode by default. *\/$/;"	v	typeref:struct:fwd_engine
+current_fwd_lcore	./testpmd.h	/^current_fwd_lcore(void)$/;"	f
+dcb	./cmdline.c	/^	cmdline_fixed_string_t dcb;$/;"	m	struct:cmd_config_dcb	file:
+dcb_config	./testpmd.c	/^uint8_t dcb_config = 0;$/;"	v
+dcb_config	./testpmd.h	/^struct dcb_config {$/;"	s
+dcb_flag	./testpmd.h	/^	uint8_t			dcb_flag;   \/**< enable dcb *\/$/;"	m	struct:rte_port
+dcb_fwd_config_setup	./config.c	/^dcb_fwd_config_setup(void)$/;"	f	file:
+dcb_mode	./testpmd.h	/^	enum dcb_mode_enable dcb_mode;$/;"	m	struct:dcb_config	typeref:enum:dcb_config::dcb_mode_enable
+dcb_mode_enable	./testpmd.h	/^enum dcb_mode_enable$/;"	g
+dcb_q_mapping	./testpmd.c	/^enum dcb_queue_mapping_mode dcb_q_mapping = DCB_VT_Q_MAPPING;$/;"	v	typeref:enum:dcb_queue_mapping_mode
+dcb_queue_mapping_mode	./testpmd.h	/^enum dcb_queue_mapping_mode {$/;"	g
+dcb_rxq_2_txq_mapping	./config.c	/^dcb_rxq_2_txq_mapping(queueid_t rxq, queueid_t *txq)$/;"	f	file:
+dcb_test	./testpmd.c	/^uint8_t dcb_test = 0;$/;"	v
+def	./cmdline.c	/^	cmdline_fixed_string_t def;$/;"	m	struct:cmd_reset_result	file:
+delay	./cmdline.c	/^	cmdline_fixed_string_t delay;$/;"	m	struct:cmd_set_burst_tx_retry_result	file:
+desc_id	./cmdline.c	/^	uint16_t desc_id;$/;"	m	struct:cmd_read_rxd_txd_result	file:
+dev_conf	./testpmd.h	/^	struct rte_eth_conf     dev_conf;   \/**< Port configuration. *\/$/;"	m	struct:rte_port	typeref:struct:rte_port::rte_eth_conf
+dev_info	./testpmd.h	/^	struct rte_eth_dev_info dev_info;   \/**< PCI info + driver name *\/$/;"	m	struct:rte_port	typeref:struct:rte_port::rte_eth_dev_info
+display_port_and_reg_off	./config.c	344;"	d	file:
+display_port_reg_value	./config.c	/^display_port_reg_value(portid_t port_id, uint32_t reg_off, uint32_t reg_v)$/;"	f	file:
+dst	./cmdline.c	/^	cmdline_fixed_string_t dst;$/;"	m	struct:cmd_pkt_filter_result	file:
+dst_mask	./cmdline.c	/^	cmdline_fixed_string_t dst_mask;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+dstpool	./cmdline.c	/^	cmdline_fixed_string_t dstpool;$/;"	m	struct:cmd_set_mirror_link_result	file:
+dstpool	./cmdline.c	/^	cmdline_fixed_string_t dstpool;$/;"	m	struct:cmd_set_mirror_mask_result	file:
+dstpool_id	./cmdline.c	/^	uint8_t dstpool_id;$/;"	m	struct:cmd_set_mirror_link_result	file:
+dstpool_id	./cmdline.c	/^	uint8_t dstpool_id;$/;"	m	struct:cmd_set_mirror_mask_result	file:
+dword	./config.c	/^	uint64_t dword;$/;"	m	union:igb_ring_dword	file:
+eth_addr	./testpmd.h	/^	struct ether_addr       eth_addr;   \/**< Port ethernet address *\/$/;"	m	struct:rte_port	typeref:struct:rte_port::ether_addr
+event	./cmdline.c	/^	cmdline_fixed_string_t event;$/;"	m	struct:cmd_set_bypass_event_result	file:
+event_value	./cmdline.c	/^	cmdline_fixed_string_t event_value;$/;"	m	struct:cmd_set_bypass_event_result	file:
+fdir_add_perfect_filter	./config.c	/^fdir_add_perfect_filter(portid_t port_id, uint16_t soft_id, uint8_t queue_id,$/;"	f
+fdir_add_signature_filter	./config.c	/^fdir_add_signature_filter(portid_t port_id, uint8_t queue_id,$/;"	f
+fdir_conf	./testpmd.c	/^struct rte_fdir_conf fdir_conf = {$/;"	v	typeref:struct:rte_fdir_conf
+fdir_get_infos	./config.c	/^fdir_get_infos(portid_t port_id)$/;"	f
+fdir_remove_perfect_filter	./config.c	/^fdir_remove_perfect_filter(portid_t port_id, uint16_t soft_id,$/;"	f
+fdir_remove_signature_filter	./config.c	/^fdir_remove_signature_filter(portid_t port_id,$/;"	f
+fdir_set_masks	./config.c	/^fdir_set_masks(portid_t port_id, struct rte_fdir_masks *fdir_masks)$/;"	f
+fdir_update_perfect_filter	./config.c	/^fdir_update_perfect_filter(portid_t port_id, uint16_t soft_id, uint8_t queue_id,$/;"	f
+fdir_update_signature_filter	./config.c	/^fdir_update_signature_filter(portid_t port_id, uint8_t queue_id,$/;"	f
+filter_mask	./cmdline.c	/^	cmdline_fixed_string_t filter_mask;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+flexbytes	./cmdline.c	/^	cmdline_fixed_string_t flexbytes;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+flexbytes	./cmdline.c	/^	cmdline_fixed_string_t flexbytes;$/;"	m	struct:cmd_pkt_filter_result	file:
+flexbytes_value	./cmdline.c	/^	uint16_t flexbytes_value;$/;"	m	struct:cmd_pkt_filter_result	file:
+flexbytes_value	./cmdline.c	/^	uint8_t flexbytes_value;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+flow_ctrl	./cmdline.c	/^	cmdline_fixed_string_t flow_ctrl;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+flush_fwd_rx_queues	./testpmd.c	/^flush_fwd_rx_queues(void)$/;"	f	file:
+flush_rx	./cmdline.c	/^	cmdline_fixed_string_t flush_rx;$/;"	m	struct:cmd_set_flush_rx	file:
+fwd	./cmdline.c	/^	cmdline_fixed_string_t fwd;$/;"	m	struct:cmd_set_fwd_mode_result	file:
+fwd_config	./testpmd.h	/^struct fwd_config {$/;"	s
+fwd_config_display	./config.c	/^fwd_config_display(void)$/;"	f
+fwd_config_setup	./config.c	/^fwd_config_setup(void)$/;"	f
+fwd_ctx	./testpmd.h	/^	void                    *fwd_ctx;   \/**< Forwarding mode context *\/$/;"	m	struct:rte_port
+fwd_dropped	./testpmd.h	/^	unsigned int fwd_dropped; \/**< received packets not forwarded *\/$/;"	m	struct:fwd_stream
+fwd_eng	./testpmd.h	/^	struct fwd_engine *fwd_eng; \/**< Packet forwarding mode. *\/$/;"	m	struct:fwd_config	typeref:struct:fwd_config::fwd_engine
+fwd_engine	./testpmd.h	/^struct fwd_engine {$/;"	s
+fwd_engines	./testpmd.c	/^struct fwd_engine * fwd_engines[] = {$/;"	v	typeref:struct:fwd_engine
+fwd_lcore	./testpmd.h	/^struct fwd_lcore {$/;"	s
+fwd_lcores	./testpmd.c	/^struct fwd_lcore **fwd_lcores; \/**< For all probed logical cores. *\/$/;"	v	typeref:struct:fwd_lcore
+fwd_lcores_config_display	./config.c	/^fwd_lcores_config_display(void)$/;"	f
+fwd_lcores_cpuids	./testpmd.c	/^unsigned int fwd_lcores_cpuids[RTE_MAX_LCORE]; \/**< CPU ids configuration. *\/$/;"	v
+fwd_mode_name	./testpmd.h	/^	const char       *fwd_mode_name; \/**< Forwarding mode name. *\/$/;"	m	struct:fwd_engine
+fwd_port_stats_display	./testpmd.c	/^fwd_port_stats_display(portid_t port_id, struct rte_eth_stats *stats)$/;"	f	file:
+fwd_ports_ids	./testpmd.c	/^portid_t fwd_ports_ids[RTE_MAX_ETHPORTS];      \/**< Port ids configuration. *\/$/;"	v
+fwd_stream	./testpmd.h	/^struct fwd_stream {$/;"	s
+fwd_stream_stats_display	./testpmd.c	/^fwd_stream_stats_display(streamid_t stream_id)$/;"	f	file:
+fwd_streams	./testpmd.c	/^struct fwd_stream **fwd_streams; \/**< For each RX queue of each port. *\/$/;"	v	typeref:struct:fwd_stream
+get_16b_sum	./csumonly.c	/^get_16b_sum(uint16_t *ptr16, uint32_t nr)$/;"	f	file:
+get_eth_dcb_conf	./testpmd.c	/^get_eth_dcb_conf(struct rte_eth_conf *eth_conf, struct dcb_config *dcb_conf)$/;"	f	file:
+get_ipv4_cksum	./csumonly.c	/^get_ipv4_cksum(struct ipv4_hdr *ipv4_hdr)$/;"	f	file:
+get_ipv4_psd_sum	./csumonly.c	/^get_ipv4_psd_sum (struct ipv4_hdr * ip_hdr)$/;"	f	file:
+get_ipv4_udptcp_checksum	./csumonly.c	/^get_ipv4_udptcp_checksum(struct ipv4_hdr *ipv4_hdr, uint16_t *l4_hdr)$/;"	f	file:
+get_ipv6_psd_sum	./csumonly.c	/^get_ipv6_psd_sum (struct ipv6_hdr * ip_hdr)$/;"	f	file:
+get_ipv6_udptcp_checksum	./csumonly.c	/^get_ipv6_udptcp_checksum(struct ipv6_hdr *ipv6_hdr, uint16_t *l4_hdr)$/;"	f	file:
+get_phys_map	./mempool_anon.c	/^get_phys_map(void *va, phys_addr_t pa[], uint32_t pg_num, uint32_t pg_sz)$/;"	f	file:
+help	./cmdline.c	/^	cmdline_fixed_string_t help;$/;"	m	struct:cmd_help_brief_result	file:
+help	./cmdline.c	/^	cmdline_fixed_string_t help;$/;"	m	struct:cmd_help_long_result	file:
+hexavalue	./cmdline.c	/^	uint64_t hexavalue;$/;"	m	struct:cmd_setmask_result	file:
+hi	./config.c	/^		uint32_t hi;$/;"	m	struct:igb_ring_dword::__anon1	file:
+hi_dword	./config.c	/^	union igb_ring_dword hi_dword;$/;"	m	struct:igb_ring_desc	typeref:union:igb_ring_desc::igb_ring_dword	file:
+high_water	./cmdline.c	/^	uint32_t high_water;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+high_water	./cmdline.c	/^	uint32_t high_water;$/;"	m	struct:cmd_priority_flow_ctrl_set_result	file:
+id	./cmdline.c	/^	uint8_t id;$/;"	m	struct:cmd_config_speed_specific	file:
+ieee1588_fwd_engine	./ieee1588fwd.c	/^struct fwd_engine ieee1588_fwd_engine = {$/;"	v	typeref:struct:fwd_engine
+ieee1588_packet_fwd	./ieee1588fwd.c	/^ieee1588_packet_fwd(struct fwd_stream *fs)$/;"	f	file:
+ieee1588_start	./ieee1588fwd.c	/^	ieee1588_start_t ieee1588_start;$/;"	m	struct:port_ieee1588_ops	file:
+ieee1588_start_t	./ieee1588fwd.c	/^typedef void (*ieee1588_start_t)(portid_t pi); \/**< Start IEEE1588 feature. *\/$/;"	t	file:
+ieee1588_stop	./ieee1588fwd.c	/^	ieee1588_stop_t  ieee1588_stop;$/;"	m	struct:port_ieee1588_ops	file:
+ieee1588_stop_t	./ieee1588fwd.c	/^typedef void (*ieee1588_stop_t)(portid_t pi);  \/**< Stop IEEE1588 feature.  *\/$/;"	t	file:
+igb_ring_desc	./config.c	/^struct igb_ring_desc {$/;"	s	file:
+igb_ring_dword	./config.c	/^union igb_ring_dword {$/;"	u	file:
+igbe_82576_ieee1588_ops	./ieee1588fwd.c	/^static struct port_ieee1588_ops igbe_82576_ieee1588_ops = {$/;"	v	typeref:struct:port_ieee1588_ops	file:
+igbe_82576_ieee1588_start	./ieee1588fwd.c	/^igbe_82576_ieee1588_start(portid_t pi)$/;"	f	file:
+igbe_82576_ieee1588_stop	./ieee1588fwd.c	/^igbe_82576_ieee1588_stop(portid_t pi)$/;"	f	file:
+igbe_82576_rx_timestamp_read	./ieee1588fwd.c	/^igbe_82576_rx_timestamp_read(portid_t pi, uint64_t *tmst)$/;"	f	file:
+igbe_82576_tx_timestamp_read	./ieee1588fwd.c	/^igbe_82576_tx_timestamp_read(portid_t pi, uint64_t *tmst)$/;"	f	file:
+init_config	./testpmd.c	/^init_config(void)$/;"	f	file:
+init_fwd_streams	./testpmd.c	/^init_fwd_streams(void)$/;"	f
+init_peer_eth_addrs	./parameters.c	/^init_peer_eth_addrs(char *config_filename)$/;"	f	file:
+init_port_config	./testpmd.c	/^init_port_config(void)$/;"	f
+init_port_dcb_config	./testpmd.c	/^init_port_dcb_config(portid_t pid,struct dcb_config *dcb_conf)$/;"	f
+interactive	./testpmd.c	/^uint8_t interactive = 0;$/;"	v
+io_fwd_engine	./iofwd.c	/^struct fwd_engine io_fwd_engine = {$/;"	v	typeref:struct:fwd_engine
+ip_dst	./cmdline.c	/^	cmdline_ipaddr_t ip_dst;$/;"	m	struct:cmd_pkt_filter_result	file:
+ip_dst_mask	./cmdline.c	/^	uint32_t ip_dst_mask;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+ip_src	./cmdline.c	/^	cmdline_ipaddr_t ip_src;$/;"	m	struct:cmd_pkt_filter_result	file:
+ip_src_mask	./cmdline.c	/^	uint32_t ip_src_mask;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+ipv6_dst_mask	./cmdline.c	/^	uint16_t ipv6_dst_mask;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+ipv6_src_mask	./cmdline.c	/^	uint16_t ipv6_src_mask;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+item1	./cmdline.c	/^	cmdline_fixed_string_t item1;$/;"	m	struct:cmd_config_speed_all	file:
+item1	./cmdline.c	/^	cmdline_fixed_string_t item1;$/;"	m	struct:cmd_config_speed_specific	file:
+item2	./cmdline.c	/^	cmdline_fixed_string_t item2;$/;"	m	struct:cmd_config_speed_all	file:
+item2	./cmdline.c	/^	cmdline_fixed_string_t item2;$/;"	m	struct:cmd_config_speed_specific	file:
+ixgbe_82599_ieee1588_ops	./ieee1588fwd.c	/^static struct port_ieee1588_ops ixgbe_82599_ieee1588_ops = {$/;"	v	typeref:struct:port_ieee1588_ops	file:
+ixgbe_82599_ieee1588_start	./ieee1588fwd.c	/^ixgbe_82599_ieee1588_start(portid_t pi)$/;"	f	file:
+ixgbe_82599_ieee1588_stop	./ieee1588fwd.c	/^ixgbe_82599_ieee1588_stop(portid_t pi)$/;"	f	file:
+ixgbe_82599_rx_timestamp_read	./ieee1588fwd.c	/^ixgbe_82599_rx_timestamp_read(portid_t pi, uint64_t *tmst)$/;"	f	file:
+ixgbe_82599_tx_timestamp_read	./ieee1588fwd.c	/^ixgbe_82599_tx_timestamp_read(portid_t pi, uint64_t *tmst)$/;"	f	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_config_burst	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_config_max_pkt_len_result	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_config_rss	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_config_rss_reta	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_config_rx_mode_flag	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_config_rx_tx	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_config_speed_all	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_config_speed_specific	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_config_thresh	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_config_threshold	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_operate_port_result	file:
+keyword	./cmdline.c	/^	cmdline_fixed_string_t keyword;$/;"	m	struct:cmd_operate_specific_port_result	file:
+launch_args_parse	./parameters.c	/^launch_args_parse(int argc, char** argv)$/;"	f
+launch_packet_forwarding	./testpmd.c	/^launch_packet_forwarding(lcore_function_t *pkt_fwd_on_lcore)$/;"	f	file:
+lcore_num	./testpmd.h	/^lcore_num(void)$/;"	f
+lcoreid_t	./testpmd.h	/^typedef uint8_t  lcoreid_t;$/;"	t
+list_name	./cmdline.c	/^	cmdline_fixed_string_t list_name;$/;"	m	struct:cmd_config_rss_reta	file:
+list_name	./cmdline.c	/^	cmdline_fixed_string_t list_name;$/;"	m	struct:cmd_set_list_result	file:
+list_of_items	./cmdline.c	/^	cmdline_fixed_string_t list_of_items;$/;"	m	struct:cmd_config_rss_reta	file:
+list_of_items	./cmdline.c	/^	cmdline_fixed_string_t list_of_items;$/;"	m	struct:cmd_set_list_result	file:
+lo	./config.c	/^		uint32_t lo;$/;"	m	struct:igb_ring_dword::__anon1	file:
+lo_dword	./config.c	/^	union igb_ring_dword lo_dword;$/;"	m	struct:igb_ring_desc	typeref:union:igb_ring_desc::igb_ring_dword	file:
+low_water	./cmdline.c	/^	uint32_t low_water;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+low_water	./cmdline.c	/^	uint32_t low_water;$/;"	m	struct:cmd_priority_flow_ctrl_set_result	file:
+mac_addr_cmd	./cmdline.c	/^	cmdline_fixed_string_t mac_addr_cmd;$/;"	m	struct:cmd_mac_addr_result	file:
+mac_addr_cmd	./cmdline.c	/^	cmdline_fixed_string_t mac_addr_cmd;$/;"	m	struct:cmd_vf_mac_addr_result	file:
+mac_ctrl_frame_fwd	./cmdline.c	/^	cmdline_fixed_string_t mac_ctrl_frame_fwd;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+mac_ctrl_frame_fwd_mode	./cmdline.c	/^	cmdline_fixed_string_t mac_ctrl_frame_fwd_mode;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+mac_fwd_engine	./macfwd.c	/^struct fwd_engine mac_fwd_engine = {$/;"	v	typeref:struct:fwd_engine
+mac_retry_fwd_engine	./macfwd-retry.c	/^struct fwd_engine mac_retry_fwd_engine = {$/;"	v	typeref:struct:fwd_engine
+main	./testpmd.c	/^main(int argc, char** argv)$/;"	f
+main	./testpmd.c	1735;"	d	file:
+main	./testpmd.h	39;"	d
+main_ctx	./cmdline.c	/^cmdline_parse_ctx_t main_ctx[] = {$/;"	v
+map_port_queue_stats_mapping_registers	./testpmd.c	/^map_port_queue_stats_mapping_registers(uint8_t pi, struct rte_port *port)$/;"	f	file:
+map_value	./cmdline.c	/^	uint8_t map_value;$/;"	m	struct:cmd_set_qmap_result	file:
+mask	./cmdline.c	/^	cmdline_fixed_string_t mask;$/;"	m	struct:cmd_setmask_result	file:
+mask_hi	./cmdline.c	/^	uint64_t mask_hi;$/;"	m	struct:cmd_showport_reta	file:
+mask_lo	./cmdline.c	/^	uint64_t mask_lo;$/;"	m	struct:cmd_showport_reta	file:
+mb_mempool_cache	./testpmd.c	/^uint16_t mb_mempool_cache = DEF_PKT_BURST; \/**< Size of mbuf mempool cache. *\/$/;"	v
+mbp	./testpmd.h	/^	struct rte_mempool *mbp; \/**< The mbuf pool to use by this core *\/$/;"	m	struct:fwd_lcore	typeref:struct:fwd_lcore::rte_mempool
+mbuf_ctor_arg	./testpmd.c	/^struct mbuf_ctor_arg {$/;"	s	file:
+mbuf_data_size	./testpmd.c	/^uint16_t mbuf_data_size = DEFAULT_MBUF_DATA_SIZE; \/**< Mbuf data space size. *\/$/;"	v
+mbuf_pool_create	./testpmd.c	/^mbuf_pool_create(uint16_t mbuf_seg_size, unsigned nb_mbuf,$/;"	f	file:
+mbuf_pool_ctor_arg	./testpmd.c	/^struct mbuf_pool_ctor_arg {$/;"	s	file:
+mbuf_pool_find	./testpmd.h	/^mbuf_pool_find(unsigned int sock_id)$/;"	f
+mbuf_poolname_build	./testpmd.h	/^mbuf_poolname_build(unsigned int sock_id, char* mp_name, int name_size)$/;"	f
+mempool_anon_create	./mempool_anon.c	/^mempool_anon_create(__rte_unused const char *name,$/;"	f
+mempool_anon_create	./mempool_anon.c	/^mempool_anon_create(const char *name, unsigned elt_num, unsigned elt_size,$/;"	f
+mirror	./cmdline.c	/^	cmdline_fixed_string_t mirror;$/;"	m	struct:cmd_rm_mirror_rule_result	file:
+mirror	./cmdline.c	/^	cmdline_fixed_string_t mirror;$/;"	m	struct:cmd_set_mirror_link_result	file:
+mirror	./cmdline.c	/^	cmdline_fixed_string_t mirror;$/;"	m	struct:cmd_set_mirror_mask_result	file:
+mode	./cmdline.c	/^	cmdline_fixed_string_t mode;$/;"	m	struct:cmd_set_allmulti_mode_result	file:
+mode	./cmdline.c	/^	cmdline_fixed_string_t mode;$/;"	m	struct:cmd_set_bypass_event_result	file:
+mode	./cmdline.c	/^	cmdline_fixed_string_t mode;$/;"	m	struct:cmd_set_bypass_mode_result	file:
+mode	./cmdline.c	/^	cmdline_fixed_string_t mode;$/;"	m	struct:cmd_set_flush_rx	file:
+mode	./cmdline.c	/^	cmdline_fixed_string_t mode;$/;"	m	struct:cmd_set_fwd_mode_result	file:
+mode	./cmdline.c	/^	cmdline_fixed_string_t mode;$/;"	m	struct:cmd_set_promisc_mode_result	file:
+mode	./cmdline.c	/^	cmdline_fixed_string_t mode;$/;"	m	struct:cmd_set_uc_all_hash_table	file:
+mode	./cmdline.c	/^	cmdline_fixed_string_t mode;$/;"	m	struct:cmd_set_uc_hash_table	file:
+mode	./cmdline.c	/^	cmdline_fixed_string_t mode;$/;"	m	struct:cmd_set_vf_rxmode	file:
+mode	./cmdline.c	/^	cmdline_fixed_string_t mode;$/;"	m	struct:cmd_set_vf_traffic	file:
+mode_value	./cmdline.c	/^	cmdline_fixed_string_t mode_value;$/;"	m	struct:cmd_set_bypass_event_result	file:
+mp_anon	./testpmd.c	/^uint8_t mp_anon = 0;$/;"	v
+msg_id	./ieee1588fwd.c	/^	uint8_t msg_id;$/;"	m	struct:ptpv2_msg	file:
+name	./cmdline.c	/^	cmdline_fixed_string_t name;$/;"	m	struct:cmd_config_burst	file:
+name	./cmdline.c	/^	cmdline_fixed_string_t name;$/;"	m	struct:cmd_config_max_pkt_len_result	file:
+name	./cmdline.c	/^	cmdline_fixed_string_t name;$/;"	m	struct:cmd_config_rss	file:
+name	./cmdline.c	/^	cmdline_fixed_string_t name;$/;"	m	struct:cmd_config_rss_reta	file:
+name	./cmdline.c	/^	cmdline_fixed_string_t name;$/;"	m	struct:cmd_config_rx_mode_flag	file:
+name	./cmdline.c	/^	cmdline_fixed_string_t name;$/;"	m	struct:cmd_config_rx_tx	file:
+name	./cmdline.c	/^	cmdline_fixed_string_t name;$/;"	m	struct:cmd_config_thresh	file:
+name	./cmdline.c	/^	cmdline_fixed_string_t name;$/;"	m	struct:cmd_config_threshold	file:
+name	./cmdline.c	/^	cmdline_fixed_string_t name;$/;"	m	struct:cmd_operate_port_result	file:
+name	./cmdline.c	/^	cmdline_fixed_string_t name;$/;"	m	struct:cmd_operate_specific_port_result	file:
+nb_cfg_lcores	./testpmd.c	/^lcoreid_t nb_cfg_lcores; \/**< Number of configured logical cores. *\/$/;"	v
+nb_cfg_ports	./testpmd.c	/^portid_t  nb_cfg_ports;  \/**< Number of configured ports. *\/$/;"	v
+nb_fwd_lcores	./testpmd.c	/^lcoreid_t nb_fwd_lcores; \/**< Number of forwarding logical cores. *\/$/;"	v
+nb_fwd_lcores	./testpmd.h	/^	lcoreid_t  nb_fwd_lcores;   \/**< Nb. of logical cores to launch. *\/$/;"	m	struct:fwd_config
+nb_fwd_ports	./testpmd.c	/^portid_t  nb_fwd_ports;  \/**< Number of forwarding ports. *\/$/;"	v
+nb_fwd_ports	./testpmd.h	/^	portid_t   nb_fwd_ports;    \/**< Nb. of ports involved. *\/$/;"	m	struct:fwd_config
+nb_fwd_streams	./testpmd.c	/^streamid_t nb_fwd_streams;       \/**< Is equal to (nb_ports * nb_rxq). *\/$/;"	v
+nb_fwd_streams	./testpmd.h	/^	streamid_t nb_fwd_streams;  \/**< Nb. of forward streams to process. *\/$/;"	m	struct:fwd_config
+nb_lcores	./testpmd.c	/^lcoreid_t nb_lcores;           \/**< Number of probed logical cores. *\/$/;"	v
+nb_peer_eth_addrs	./testpmd.c	/^portid_t nb_peer_eth_addrs = 0;$/;"	v
+nb_pkt_per_burst	./testpmd.c	/^uint16_t nb_pkt_per_burst = DEF_PKT_BURST; \/**< Number of packets per burst. *\/$/;"	v
+nb_ports	./testpmd.c	/^portid_t nb_ports;             \/**< Number of probed ethernet ports. *\/$/;"	v
+nb_rx_queue_stats_mappings	./testpmd.c	/^uint16_t nb_rx_queue_stats_mappings = 0;$/;"	v
+nb_rxd	./testpmd.c	/^uint16_t nb_rxd = RTE_TEST_RX_DESC_DEFAULT; \/**< Number of RX descriptors. *\/$/;"	v
+nb_rxq	./testpmd.c	/^queueid_t nb_rxq = 1; \/**< Number of RX queues per port. *\/$/;"	v
+nb_tx_queue_stats_mappings	./testpmd.c	/^uint16_t nb_tx_queue_stats_mappings = 0;$/;"	v
+nb_txd	./testpmd.c	/^uint16_t nb_txd = RTE_TEST_TX_DESC_DEFAULT; \/**< Number of TX descriptors. *\/$/;"	v
+nb_txq	./testpmd.c	/^queueid_t nb_txq = 1; \/**< Number of TX queues per port. *\/$/;"	v
+need_reconfig	./testpmd.h	/^	uint8_t                 need_reconfig;  \/**< need reconfiguring port or not *\/$/;"	m	struct:rte_port
+need_reconfig_queues	./testpmd.h	/^	uint8_t                 need_reconfig_queues; \/**< need reconfiguring queues or not *\/$/;"	m	struct:rte_port
+nic_stats_clear	./config.c	/^nic_stats_clear(portid_t port_id)$/;"	f
+nic_stats_display	./config.c	/^nic_stats_display(portid_t port_id)$/;"	f
+nic_stats_mapping_display	./config.c	/^nic_stats_mapping_display(portid_t port_id)$/;"	f
+no_flush_rx	./testpmd.c	/^uint8_t no_flush_rx = 0; \/* flush by default *\/$/;"	v
+num_tcs	./cmdline.c	/^	uint8_t num_tcs;$/;"	m	struct:cmd_config_dcb	file:
+num_tcs	./testpmd.h	/^	enum rte_eth_nb_tcs num_tcs;$/;"	m	struct:dcb_config	typeref:enum:dcb_config::rte_eth_nb_tcs
+numa_support	./testpmd.c	/^uint8_t numa_support = 0; \/**< No numa support by default *\/$/;"	v
+on	./cmdline.c	/^	cmdline_fixed_string_t on;$/;"	m	struct:cmd_set_mirror_link_result	file:
+on	./cmdline.c	/^	cmdline_fixed_string_t on;$/;"	m	struct:cmd_set_mirror_mask_result	file:
+on	./cmdline.c	/^	cmdline_fixed_string_t on;$/;"	m	struct:cmd_set_vf_rxmode	file:
+on	./cmdline.c	/^	cmdline_fixed_string_t on;$/;"	m	struct:cmd_vlan_offload_result	file:
+only_ip_flow	./cmdline.c	/^	cmdline_fixed_string_t only_ip_flow;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+only_ip_flow_value	./cmdline.c	/^	uint8_t  only_ip_flow_value;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+packet_fwd	./testpmd.h	/^	packet_fwd_t     packet_fwd;     \/**< Mandatory. *\/$/;"	m	struct:fwd_engine
+packet_fwd_t	./testpmd.h	/^typedef void (*packet_fwd_t)(struct fwd_stream *fs);$/;"	t
+param_total_num_mbufs	./testpmd.c	/^uint32_t param_total_num_mbufs = 0;  \/**< number of mbufs in all pools - if$/;"	v
+parse_fwd_coremask	./parameters.c	/^parse_fwd_coremask(const char *coremask)$/;"	f	file:
+parse_fwd_portmask	./parameters.c	/^parse_fwd_portmask(const char *portmask)$/;"	f	file:
+parse_item_list	./cmdline.c	/^parse_item_list(char* str, const char* item_name, unsigned int max_items,$/;"	f	file:
+parse_portnuma_config	./parameters.c	/^parse_portnuma_config(const char *q_arg)$/;"	f	file:
+parse_queue_stats_mapping_config	./parameters.c	/^parse_queue_stats_mapping_config(const char *q_arg, int is_rx)$/;"	f	file:
+parse_reta_config	./cmdline.c	/^parse_reta_config(const char *str, struct rte_eth_rss_reta *reta_conf)$/;"	f	file:
+parse_ringnuma_config	./parameters.c	/^parse_ringnuma_config(const char *q_arg)$/;"	f	file:
+pause_time	./cmdline.c	/^	uint16_t pause_time;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+pause_time	./cmdline.c	/^	uint16_t pause_time;$/;"	m	struct:cmd_priority_flow_ctrl_set_result	file:
+peer_addr	./testpmd.h	/^	streamid_t peer_addr; \/**< index of peer ethernet address of packets *\/$/;"	m	struct:fwd_stream
+peer_eth_addrs	./testpmd.c	/^struct ether_addr peer_eth_addrs[RTE_MAX_ETHPORTS];$/;"	v	typeref:struct:ether_addr
+pfc	./cmdline.c	/^	cmdline_fixed_string_t pfc;$/;"	m	struct:cmd_config_dcb	file:
+pfc_ctrl	./cmdline.c	/^	cmdline_fixed_string_t pfc_ctrl;$/;"	m	struct:cmd_priority_flow_ctrl_set_result	file:
+pfc_en	./cmdline.c	/^	cmdline_fixed_string_t pfc_en;$/;"	m	struct:cmd_config_dcb	file:
+pfc_en	./testpmd.h	/^	uint8_t pfc_en;$/;"	m	struct:dcb_config
+pkt_burst_checksum_forward	./csumonly.c	/^pkt_burst_checksum_forward(struct fwd_stream *fs)$/;"	f	file:
+pkt_burst_io_forward	./iofwd.c	/^pkt_burst_io_forward(struct fwd_stream *fs)$/;"	f	file:
+pkt_burst_mac_forward	./macfwd.c	/^pkt_burst_mac_forward(struct fwd_stream *fs)$/;"	f	file:
+pkt_burst_mac_retry_forward	./macfwd-retry.c	/^pkt_burst_mac_retry_forward(struct fwd_stream *fs)$/;"	f	file:
+pkt_burst_receive	./rxonly.c	/^pkt_burst_receive(struct fwd_stream *fs)$/;"	f	file:
+pkt_burst_spread	./testpmd.h	/^	unsigned int pkt_burst_spread[MAX_PKT_BURST];$/;"	m	struct:pkt_burst_stats
+pkt_burst_stats	./testpmd.h	/^struct pkt_burst_stats {$/;"	s
+pkt_burst_stats_display	./testpmd.c	/^pkt_burst_stats_display(const char *rx_tx, struct pkt_burst_stats *pbs)$/;"	f	file:
+pkt_burst_transmit	./txonly.c	/^pkt_burst_transmit(struct fwd_stream *fs)$/;"	f	file:
+pkt_filter	./cmdline.c	/^	cmdline_fixed_string_t pkt_filter;$/;"	m	struct:cmd_pkt_filter_result	file:
+pkt_fwd_config_display	./config.c	/^pkt_fwd_config_display(struct fwd_config *cfg)$/;"	f	file:
+pkt_ip_hdr	./txonly.c	/^static struct ipv4_hdr  pkt_ip_hdr;  \/**< IP header of transmitted packets. *\/$/;"	v	typeref:struct:ipv4_hdr	file:
+pkt_rx_flag_names	./rxonly.c	/^static const char *pkt_rx_flag_names[MAX_PKT_RX_FLAGS] = {$/;"	v	file:
+pkt_udp_hdr	./txonly.c	/^static struct udp_hdr pkt_udp_hdr; \/**< UDP header of transmitted packets. *\/$/;"	v	typeref:struct:udp_hdr	file:
+pmd_test_command	./testpmd.c	/^struct pmd_test_command {$/;"	s	file:
+pmd_test_exit	./testpmd.c	/^pmd_test_exit(void)$/;"	f
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_config_burst	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_config_dcb	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_config_max_pkt_len_result	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_config_rss	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_config_rss_reta	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_config_rx_mode_flag	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_config_rx_tx	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_config_speed_all	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_config_speed_specific	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_config_thresh	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_config_threshold	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_rm_mirror_rule_result	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_set_mirror_link_result	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_set_mirror_mask_result	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_set_uc_all_hash_table	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_set_uc_hash_table	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_set_vf_rxmode	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_set_vf_traffic	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_showport_result	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_showport_reta	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_showportall_result	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_vf_mac_addr_result	file:
+port	./cmdline.c	/^	cmdline_fixed_string_t port;$/;"	m	struct:cmd_vf_rx_vlan_filter	file:
+port_all	./cmdline.c	/^	cmdline_fixed_string_t port_all; \/* valid if "allports" argument == 1 *\/$/;"	m	struct:cmd_set_allmulti_mode_result	file:
+port_all	./cmdline.c	/^	cmdline_fixed_string_t port_all; \/* valid if "allports" argument == 1 *\/$/;"	m	struct:cmd_set_promisc_mode_result	file:
+port_dst	./cmdline.c	/^	uint16_t port_dst;$/;"	m	struct:cmd_pkt_filter_result	file:
+port_dst_mask	./cmdline.c	/^	uint16_t port_dst_mask;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+port_fwd_begin	./testpmd.h	/^	port_fwd_begin_t port_fwd_begin; \/**< NULL if nothing special to do. *\/$/;"	m	struct:fwd_engine
+port_fwd_begin_t	./testpmd.h	/^typedef void (*port_fwd_begin_t)(portid_t pi);$/;"	t
+port_fwd_end	./testpmd.h	/^	port_fwd_end_t   port_fwd_end;   \/**< NULL if nothing special to do. *\/$/;"	m	struct:fwd_engine
+port_fwd_end_t	./testpmd.h	/^typedef void (*port_fwd_end_t)(portid_t pi);$/;"	t
+port_id	./cmdline.c	/^	cmdline_fixed_string_t port_id;$/;"	m	struct:cmd_vlan_offload_result	file:
+port_id	./cmdline.c	/^	uint8_t  port_id;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+port_id	./cmdline.c	/^	uint8_t  port_id;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+port_id	./cmdline.c	/^	uint8_t  port_id;$/;"	m	struct:cmd_pkt_filter_result	file:
+port_id	./cmdline.c	/^	uint8_t  port_id;$/;"	m	struct:cmd_priority_flow_ctrl_set_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_config_dcb	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_config_rss_reta	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_read_reg_bit_field_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_read_reg_bit_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_read_reg_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_read_rxd_txd_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_rm_mirror_rule_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_rx_vlan_filter_all_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_rx_vlan_filter_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_set_bypass_event_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_set_bypass_mode_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_set_mirror_link_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_set_mirror_mask_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_set_qmap_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_set_uc_all_hash_table	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_set_uc_hash_table	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_set_vf_rxmode	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_set_vf_traffic	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_show_bypass_config_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_showport_reta	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_tx_cksum_set_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_tx_vlan_reset_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_tx_vlan_set_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_vf_rx_vlan_filter	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_vlan_tpid_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_write_reg_bit_field_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_write_reg_bit_result	file:
+port_id	./cmdline.c	/^	uint8_t port_id;$/;"	m	struct:cmd_write_reg_result	file:
+port_id	./testpmd.h	/^	uint8_t port_id;$/;"	m	struct:queue_stats_mappings
+port_id_is_invalid	./config.c	/^port_id_is_invalid(portid_t port_id)$/;"	f	file:
+port_id_pci_reg_read	./testpmd.h	420;"	d
+port_id_pci_reg_write	./testpmd.h	434;"	d
+port_ieee1588_fwd_begin	./ieee1588fwd.c	/^port_ieee1588_fwd_begin(portid_t pi)$/;"	f	file:
+port_ieee1588_fwd_end	./ieee1588fwd.c	/^port_ieee1588_fwd_end(portid_t pi)$/;"	f	file:
+port_ieee1588_ops	./ieee1588fwd.c	/^struct port_ieee1588_ops {$/;"	s	file:
+port_ieee1588_rx_timestamp_check	./ieee1588fwd.c	/^port_ieee1588_rx_timestamp_check(portid_t pi)$/;"	f	file:
+port_ieee1588_tx_timestamp_check	./ieee1588fwd.c	/^port_ieee1588_tx_timestamp_check(portid_t pi)$/;"	f	file:
+port_infos_display	./config.c	/^port_infos_display(portid_t port_id)$/;"	f
+port_num	./cmdline.c	/^	uint8_t port_num;                \/* valid if "allports" argument == 0 *\/$/;"	m	struct:cmd_set_allmulti_mode_result	file:
+port_num	./cmdline.c	/^	uint8_t port_num;                \/* valid if "allports" argument == 0 *\/$/;"	m	struct:cmd_set_promisc_mode_result	file:
+port_num	./cmdline.c	/^	uint8_t port_num;$/;"	m	struct:cmd_mac_addr_result	file:
+port_num	./cmdline.c	/^	uint8_t port_num;$/;"	m	struct:cmd_vf_mac_addr_result	file:
+port_numa	./testpmd.h	/^uint8_t port_numa[RTE_MAX_ETHPORTS];$/;"	v
+port_pci_reg_read	./testpmd.h	/^port_pci_reg_read(struct rte_port *port, uint32_t reg_off)$/;"	f
+port_pci_reg_write	./testpmd.h	/^port_pci_reg_write(struct rte_port *port, uint32_t reg_off, uint32_t reg_v)$/;"	f
+port_reg_bit_display	./config.c	/^port_reg_bit_display(portid_t port_id, uint32_t reg_off, uint8_t bit_x)$/;"	f
+port_reg_bit_field_display	./config.c	/^port_reg_bit_field_display(portid_t port_id, uint32_t reg_off,$/;"	f
+port_reg_bit_field_set	./config.c	/^port_reg_bit_field_set(portid_t port_id, uint32_t reg_off,$/;"	f
+port_reg_bit_set	./config.c	/^port_reg_bit_set(portid_t port_id, uint32_t reg_off, uint8_t bit_pos,$/;"	f
+port_reg_display	./config.c	/^port_reg_display(portid_t port_id, uint32_t reg_off)$/;"	f
+port_reg_off_is_invalid	./config.c	/^port_reg_off_is_invalid(portid_t port_id, uint32_t reg_off)$/;"	f	file:
+port_reg_set	./config.c	/^port_reg_set(portid_t port_id, uint32_t reg_off, uint32_t reg_v)$/;"	f
+port_rss_reta_info	./config.c	/^port_rss_reta_info(portid_t port_id,struct rte_eth_rss_reta *reta_conf)$/;"	f
+port_src	./cmdline.c	/^	uint16_t port_src;$/;"	m	struct:cmd_pkt_filter_result	file:
+port_src_mask	./cmdline.c	/^	uint16_t port_src_mask;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+port_status	./testpmd.h	/^	volatile uint16_t        port_status;    \/**< port started or not *\/$/;"	m	struct:rte_port
+port_topology	./testpmd.c	/^uint16_t port_topology = PORT_TOPOLOGY_PAIRED; \/* Ports are paired by default *\/$/;"	v
+portid_t	./testpmd.h	/^typedef uint8_t  portid_t;$/;"	t
+portnum	./cmdline.c	/^	uint8_t portnum;$/;"	m	struct:cmd_showport_result	file:
+ports	./testpmd.c	/^struct rte_port *ports;	       \/**< For all probed ethernet ports. *\/$/;"	v	typeref:struct:rte_port
+print_ethaddr	./config.c	/^print_ethaddr(const char *name, struct ether_addr *eth_addr)$/;"	f	file:
+print_ether_addr	./rxonly.c	/^print_ether_addr(const char *what, struct ether_addr *eth_addr)$/;"	f	file:
+priority	./cmdline.c	/^	uint8_t  priority;$/;"	m	struct:cmd_priority_flow_ctrl_set_result	file:
+promisc	./cmdline.c	/^	cmdline_fixed_string_t promisc;$/;"	m	struct:cmd_set_promisc_mode_result	file:
+prompt	./cmdline.c	/^prompt(void)$/;"	f
+protocol	./cmdline.c	/^	cmdline_fixed_string_t protocol;$/;"	m	struct:cmd_pkt_filter_result	file:
+ptpv2_msg	./ieee1588fwd.c	/^struct ptpv2_msg {$/;"	s	file:
+qmap	./cmdline.c	/^	cmdline_fixed_string_t qmap;$/;"	m	struct:cmd_set_qmap_result	file:
+queue	./cmdline.c	/^	cmdline_fixed_string_t queue;$/;"	m	struct:cmd_pkt_filter_result	file:
+queue_id	./cmdline.c	/^	int8_t  queue_id;$/;"	m	struct:cmd_pkt_filter_result	file:
+queue_id	./cmdline.c	/^	uint16_t queue_id;$/;"	m	struct:cmd_read_rxd_txd_result	file:
+queue_id	./cmdline.c	/^	uint16_t queue_id;$/;"	m	struct:cmd_set_qmap_result	file:
+queue_id	./testpmd.h	/^	uint16_t queue_id;$/;"	m	struct:queue_stats_mappings
+queue_stats_mappings	./testpmd.h	/^struct queue_stats_mappings {$/;"	s
+queueid_t	./testpmd.h	/^typedef uint16_t queueid_t;$/;"	t
+quit	./cmdline.c	/^	cmdline_fixed_string_t quit;$/;"	m	struct:cmd_quit_result	file:
+read	./cmdline.c	/^	cmdline_fixed_string_t read;$/;"	m	struct:cmd_read_reg_bit_field_result	file:
+read	./cmdline.c	/^	cmdline_fixed_string_t read;$/;"	m	struct:cmd_read_reg_bit_result	file:
+read	./cmdline.c	/^	cmdline_fixed_string_t read;$/;"	m	struct:cmd_read_reg_result	file:
+read	./cmdline.c	/^	cmdline_fixed_string_t read;$/;"	m	struct:cmd_read_rxd_txd_result	file:
+reg	./cmdline.c	/^	cmdline_fixed_string_t reg;$/;"	m	struct:cmd_read_reg_result	file:
+reg	./cmdline.c	/^	cmdline_fixed_string_t reg;$/;"	m	struct:cmd_write_reg_result	file:
+reg_bit_pos_is_invalid	./config.c	/^reg_bit_pos_is_invalid(uint8_t bit_pos)$/;"	f	file:
+reg_off	./cmdline.c	/^	uint32_t reg_off;$/;"	m	struct:cmd_read_reg_bit_field_result	file:
+reg_off	./cmdline.c	/^	uint32_t reg_off;$/;"	m	struct:cmd_read_reg_bit_result	file:
+reg_off	./cmdline.c	/^	uint32_t reg_off;$/;"	m	struct:cmd_read_reg_result	file:
+reg_off	./cmdline.c	/^	uint32_t reg_off;$/;"	m	struct:cmd_write_reg_bit_field_result	file:
+reg_off	./cmdline.c	/^	uint32_t reg_off;$/;"	m	struct:cmd_write_reg_bit_result	file:
+reg_off	./cmdline.c	/^	uint32_t reg_off;$/;"	m	struct:cmd_write_reg_result	file:
+regbit	./cmdline.c	/^	cmdline_fixed_string_t regbit;$/;"	m	struct:cmd_read_reg_bit_result	file:
+regbit	./cmdline.c	/^	cmdline_fixed_string_t regbit;$/;"	m	struct:cmd_write_reg_bit_result	file:
+regfield	./cmdline.c	/^	cmdline_fixed_string_t regfield;$/;"	m	struct:cmd_read_reg_bit_field_result	file:
+regfield	./cmdline.c	/^	cmdline_fixed_string_t regfield;$/;"	m	struct:cmd_write_reg_bit_field_result	file:
+reset	./cmdline.c	/^	cmdline_fixed_string_t reset;$/;"	m	struct:cmd_reset_result	file:
+reset	./cmdline.c	/^	cmdline_fixed_string_t reset;$/;"	m	struct:cmd_rm_mirror_rule_result	file:
+reset	./cmdline.c	/^	cmdline_fixed_string_t reset;$/;"	m	struct:cmd_tx_vlan_reset_result	file:
+reta	./cmdline.c	/^	cmdline_fixed_string_t reta;$/;"	m	struct:cmd_showport_reta	file:
+retry	./cmdline.c	/^	cmdline_fixed_string_t retry;$/;"	m	struct:cmd_set_burst_tx_retry_result	file:
+retry_num	./cmdline.c	/^	uint32_t retry_num;$/;"	m	struct:cmd_set_burst_tx_retry_result	file:
+ring_descriptor_display	./config.c	/^ring_descriptor_display(const struct rte_memzone *ring_mz, uint16_t desc_id)$/;"	f	file:
+ring_dma_zone_lookup	./config.c	/^ring_dma_zone_lookup(const char *ring_name, uint8_t port_id, uint16_t q_id)$/;"	f	file:
+rss	./cmdline.c	/^	cmdline_fixed_string_t rss;$/;"	m	struct:cmd_showport_reta	file:
+rss_flag	./testpmd.h	/^	uint8_t                 rss_flag;   \/**< enable rss or not *\/$/;"	m	struct:rte_port
+rss_fwd_config_setup	./config.c	/^rss_fwd_config_setup(void)$/;"	f	file:
+rss_hf	./testpmd.c	/^uint16_t rss_hf = ETH_RSS_IPV4 | ETH_RSS_IPV6; \/* RSS IP by default. *\/$/;"	v
+rte_port	./testpmd.h	/^struct rte_port {$/;"	s
+rule_id	./cmdline.c	/^	uint8_t rule_id;$/;"	m	struct:cmd_rm_mirror_rule_result	file:
+rule_id	./cmdline.c	/^	uint8_t rule_id;$/;"	m	struct:cmd_set_mirror_link_result	file:
+rule_id	./cmdline.c	/^	uint8_t rule_id;$/;"	m	struct:cmd_set_mirror_mask_result	file:
+run_one_txonly_burst_on_core	./testpmd.c	/^run_one_txonly_burst_on_core(void *fwd_arg)$/;"	f	file:
+run_pkt_fwd_on_lcore	./testpmd.c	/^run_pkt_fwd_on_lcore(struct fwd_lcore *fc, packet_fwd_t pkt_fwd)$/;"	f	file:
+rx	./cmdline.c	/^	cmdline_fixed_string_t rx;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+rx	./cmdline.c	/^	cmdline_fixed_string_t rx;$/;"	m	struct:cmd_priority_flow_ctrl_set_result	file:
+rx_bad_ip_csum	./testpmd.h	/^	uint64_t                rx_bad_ip_csum; \/**< rx pkts with bad ip checksum  *\/$/;"	m	struct:rte_port
+rx_bad_ip_csum	./testpmd.h	/^	unsigned int rx_bad_ip_csum ; \/**< received packets has bad ip checksum *\/$/;"	m	struct:fwd_stream
+rx_bad_l4_csum	./testpmd.h	/^	uint64_t                rx_bad_l4_csum; \/**< rx pkts with bad l4 checksum *\/$/;"	m	struct:rte_port
+rx_bad_l4_csum	./testpmd.h	/^	unsigned int rx_bad_l4_csum ; \/**< received packets has bad l4 checksum *\/$/;"	m	struct:fwd_stream
+rx_burst_stats	./testpmd.h	/^	struct pkt_burst_stats rx_burst_stats;$/;"	m	struct:fwd_stream	typeref:struct:fwd_stream::pkt_burst_stats
+rx_conf	./testpmd.h	/^	struct rte_eth_rxconf   rx_conf;    \/**< rx configuration *\/$/;"	m	struct:rte_port	typeref:struct:rte_port::rte_eth_rxconf
+rx_desc_id_is_invalid	./config.c	/^rx_desc_id_is_invalid(uint16_t rxdesc_id)$/;"	f	file:
+rx_drop_en	./testpmd.c	/^uint8_t rx_drop_en = 0; \/* Drop packets when no descriptors for queue. *\/$/;"	v
+rx_free_thresh	./testpmd.c	/^uint16_t rx_free_thresh = 0; \/* Immediately free RX descriptors by default. *\/$/;"	v
+rx_lfc_mode	./cmdline.c	/^	cmdline_fixed_string_t rx_lfc_mode;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+rx_mode	./testpmd.c	/^struct rte_eth_rxmode rx_mode = {$/;"	v	typeref:struct:rte_eth_rxmode
+rx_only_engine	./rxonly.c	/^struct fwd_engine rx_only_engine = {$/;"	v	typeref:struct:fwd_engine
+rx_packets	./testpmd.h	/^	unsigned int rx_packets;  \/**< received packets *\/$/;"	m	struct:fwd_stream
+rx_pfc_mode	./cmdline.c	/^	cmdline_fixed_string_t rx_pfc_mode;$/;"	m	struct:cmd_priority_flow_ctrl_set_result	file:
+rx_port	./testpmd.h	/^	portid_t   rx_port;   \/**< port to poll for received packets *\/$/;"	m	struct:fwd_stream
+rx_queue	./testpmd.h	/^	queueid_t  rx_queue;  \/**< RX queue to poll on "rx_port" *\/$/;"	m	struct:fwd_stream
+rx_queue_id_is_invalid	./config.c	/^rx_queue_id_is_invalid(queueid_t rxq_id)$/;"	f	file:
+rx_queue_stats_mapping_enabled	./testpmd.h	/^	uint8_t                 rx_queue_stats_mapping_enabled;$/;"	m	struct:rte_port
+rx_queue_stats_mappings	./testpmd.c	/^struct queue_stats_mappings *rx_queue_stats_mappings = rx_queue_stats_mappings_array;$/;"	v	typeref:struct:queue_stats_mappings
+rx_queue_stats_mappings_array	./testpmd.c	/^struct queue_stats_mappings rx_queue_stats_mappings_array[MAX_RX_QUEUE_STATS_MAPPINGS];$/;"	v	typeref:struct:queue_stats_mappings
+rx_ring_desc_display	./config.c	/^rx_ring_desc_display(portid_t port_id, queueid_t rxq_id, uint16_t rxd_id)$/;"	f
+rx_stream	./testpmd.h	/^	struct fwd_stream       *rx_stream; \/**< Port RX stream, if unique *\/$/;"	m	struct:rte_port	typeref:struct:rte_port::fwd_stream
+rx_thresh	./testpmd.c	/^struct rte_eth_thresh rx_thresh = {$/;"	v	typeref:struct:rte_eth_thresh
+rx_tmst_read	./ieee1588fwd.c	/^	tmst_read_t      rx_tmst_read;$/;"	m	struct:port_ieee1588_ops	file:
+rx_vft_set	./config.c	/^rx_vft_set(portid_t port_id, uint16_t vlan_id, int on)$/;"	f
+rx_vlan	./cmdline.c	/^	cmdline_fixed_string_t rx_vlan;$/;"	m	struct:cmd_rx_vlan_filter_all_result	file:
+rx_vlan	./cmdline.c	/^	cmdline_fixed_string_t rx_vlan;$/;"	m	struct:cmd_rx_vlan_filter_result	file:
+rx_vlan	./cmdline.c	/^	cmdline_fixed_string_t rx_vlan;$/;"	m	struct:cmd_vf_rx_vlan_filter	file:
+rx_vlan_all_filter_set	./config.c	/^rx_vlan_all_filter_set(portid_t port_id, int on)$/;"	f
+rx_vlan_filter_set	./config.c	/^rx_vlan_filter_set(portid_t port_id, int on)$/;"	f
+rx_vlan_strip_set	./config.c	/^rx_vlan_strip_set(portid_t port_id, int on)$/;"	f
+rx_vlan_strip_set_on_queue	./config.c	/^rx_vlan_strip_set_on_queue(portid_t port_id, uint16_t queue_id, int on)$/;"	f
+rxd_txd	./cmdline.c	/^	cmdline_fixed_string_t rxd_txd;$/;"	m	struct:cmd_read_rxd_txd_result	file:
+rxring_numa	./testpmd.h	/^uint8_t rxring_numa[RTE_MAX_ETHPORTS];$/;"	v
+rxtx_config_display	./config.c	/^rxtx_config_display(void)$/;"	f
+section	./cmdline.c	/^	cmdline_fixed_string_t section;$/;"	m	struct:cmd_help_long_result	file:
+seg_buf_offset	./testpmd.c	/^	uint16_t seg_buf_offset; \/**< offset of data in data segment of mbuf. *\/$/;"	m	struct:mbuf_ctor_arg	file:
+seg_buf_size	./testpmd.c	/^	uint16_t seg_buf_size;   \/**< size of data segment in mbuf. *\/$/;"	m	struct:mbuf_ctor_arg	file:
+seg_buf_size	./testpmd.c	/^	uint16_t seg_buf_size; \/**< size of data segment in mbuf. *\/$/;"	m	struct:mbuf_pool_ctor_arg	file:
+seg_lengths	./cmdline.c	/^	cmdline_fixed_string_t seg_lengths;$/;"	m	struct:cmd_set_txpkts_result	file:
+send_xon	./cmdline.c	/^	uint16_t send_xon;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_priority_flow_ctrl_set_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_allmulti_mode_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_burst_tx_retry_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_bypass_event_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_bypass_mode_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_bypass_timeout_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_flush_rx	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_fwd_mode_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_mirror_link_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_mirror_mask_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_promisc_mode_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_qmap_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_uc_all_hash_table	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_uc_hash_table	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_vf_rxmode	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_set_vf_traffic	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_setmask_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_tx_cksum_set_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_tx_vlan_set_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_vlan_offload_result	file:
+set	./cmdline.c	/^	cmdline_fixed_string_t set;$/;"	m	struct:cmd_vlan_tpid_result	file:
+set_def_fwd_config	./testpmd.c	/^set_def_fwd_config(void)$/;"	f
+set_def_peer_eth_addrs	./testpmd.c	/^set_def_peer_eth_addrs(void)$/;"	f	file:
+set_default_fwd_lcores_config	./testpmd.c	/^set_default_fwd_lcores_config(void)$/;"	f	file:
+set_default_fwd_ports_config	./testpmd.c	/^set_default_fwd_ports_config(void)$/;"	f	file:
+set_fwd_lcores_list	./config.c	/^set_fwd_lcores_list(unsigned int *lcorelist, unsigned int nb_lc)$/;"	f
+set_fwd_lcores_mask	./config.c	/^set_fwd_lcores_mask(uint64_t lcoremask)$/;"	f
+set_fwd_lcores_number	./config.c	/^set_fwd_lcores_number(uint16_t nb_lc)$/;"	f
+set_fwd_ports_list	./config.c	/^set_fwd_ports_list(unsigned int *portlist, unsigned int nb_pt)$/;"	f
+set_fwd_ports_mask	./config.c	/^set_fwd_ports_mask(uint64_t portmask)$/;"	f
+set_fwd_ports_number	./config.c	/^set_fwd_ports_number(uint16_t nb_pt)$/;"	f
+set_nb_pkt_per_burst	./config.c	/^set_nb_pkt_per_burst(uint16_t nb)$/;"	f
+set_pkt_forwarding_mode	./config.c	/^set_pkt_forwarding_mode(const char *fwd_mode_name)$/;"	f
+set_qmap	./config.c	/^set_qmap(portid_t port_id, uint8_t is_rx, uint16_t queue_id, uint8_t map_value)$/;"	f
+set_rx_queue_stats_mapping_registers	./testpmd.c	/^set_rx_queue_stats_mapping_registers(uint8_t port_id, struct rte_port *port)$/;"	f	file:
+set_tx_pkt_segments	./config.c	/^set_tx_pkt_segments(unsigned *seg_lengths, unsigned nb_segs)$/;"	f
+set_tx_queue_stats_mapping_registers	./testpmd.c	/^set_tx_queue_stats_mapping_registers(uint8_t port_id, struct rte_port *port)$/;"	f	file:
+set_verbose_level	./config.c	/^set_verbose_level(uint16_t vb_level)$/;"	f
+set_vf_rx_vlan	./config.c	/^set_vf_rx_vlan(portid_t port_id, uint16_t vlan_id, uint64_t vf_mask, uint8_t on)$/;"	f
+set_vf_traffic	./config.c	/^set_vf_traffic(portid_t port_id, uint8_t is_rx, uint16_t vf, uint8_t on)$/;"	f
+setup_fwd_config_of_each_lcore	./config.c	/^setup_fwd_config_of_each_lcore(struct fwd_config *cfg)$/;"	f	file:
+setup_pkt_udp_ip_headers	./txonly.c	/^setup_pkt_udp_ip_headers(struct ipv4_hdr *ip_hdr,$/;"	f	file:
+show	./cmdline.c	/^	cmdline_fixed_string_t show;$/;"	m	struct:cmd_show_bypass_config_result	file:
+show	./cmdline.c	/^	cmdline_fixed_string_t show;$/;"	m	struct:cmd_showcfg_result	file:
+show	./cmdline.c	/^	cmdline_fixed_string_t show;$/;"	m	struct:cmd_showport_result	file:
+show	./cmdline.c	/^	cmdline_fixed_string_t show;$/;"	m	struct:cmd_showport_reta	file:
+show	./cmdline.c	/^	cmdline_fixed_string_t show;$/;"	m	struct:cmd_showportall_result	file:
+simple_fwd_config_setup	./config.c	/^simple_fwd_config_setup(void)$/;"	f	file:
+socket_id	./testpmd.h	/^	unsigned int            socket_id;  \/**< For NUMA support *\/$/;"	m	struct:rte_port
+socket_num	./testpmd.c	/^uint8_t socket_num = UMA_NO_CONFIG; $/;"	v
+soft	./cmdline.c	/^	cmdline_fixed_string_t soft;$/;"	m	struct:cmd_pkt_filter_result	file:
+soft_id	./cmdline.c	/^	uint8_t  soft_id;$/;"	m	struct:cmd_pkt_filter_result	file:
+src	./cmdline.c	/^	cmdline_fixed_string_t src;$/;"	m	struct:cmd_pkt_filter_result	file:
+src_mask	./cmdline.c	/^	cmdline_fixed_string_t src_mask;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+start	./cmdline.c	/^	cmdline_fixed_string_t start;$/;"	m	struct:cmd_start_result	file:
+start	./cmdline.c	/^	cmdline_fixed_string_t start;$/;"	m	struct:cmd_start_tx_first_result	file:
+start_packet_forwarding	./testpmd.c	/^start_packet_forwarding(int with_tx_first)$/;"	f
+start_pkt_forward_on_core	./testpmd.c	/^start_pkt_forward_on_core(void *fwd_arg)$/;"	f	file:
+start_port	./testpmd.c	/^start_port(portid_t pid)$/;"	f
+stats	./testpmd.h	/^	struct rte_eth_stats    stats;      \/**< Last port statistics *\/$/;"	m	struct:rte_port	typeref:struct:rte_port::rte_eth_stats
+stats_counter_id	./testpmd.h	/^	uint8_t stats_counter_id;$/;"	m	struct:queue_stats_mappings
+stop	./cmdline.c	/^	cmdline_fixed_string_t stop;$/;"	m	struct:cmd_stop_result	file:
+stop_packet_forwarding	./testpmd.c	/^stop_packet_forwarding(void)$/;"	f
+stop_port	./testpmd.c	/^stop_port(portid_t pid)$/;"	f
+stopped	./testpmd.h	/^	volatile char stopped;   \/**< stop forwarding when set *\/$/;"	m	struct:fwd_lcore
+stream_idx	./testpmd.h	/^	streamid_t stream_idx;   \/**< index of 1st stream in "fwd_streams" *\/$/;"	m	struct:fwd_lcore
+stream_nb	./testpmd.h	/^	streamid_t stream_nb;    \/**< number of streams in "fwd_streams" *\/$/;"	m	struct:fwd_lcore
+streamid_t	./testpmd.h	/^typedef uint16_t streamid_t;$/;"	t
+test_done	./testpmd.c	/^static volatile int test_done = 1; \/* stop packet forwarding when set to 1. *\/$/;"	v	file:
+testpmd_mbuf_ctor	./testpmd.c	/^testpmd_mbuf_ctor(struct rte_mempool *mp,$/;"	f	file:
+testpmd_mbuf_pool_ctor	./testpmd.c	/^testpmd_mbuf_pool_ctor(struct rte_mempool *mp,$/;"	f	file:
+time	./cmdline.c	/^	uint32_t time;$/;"	m	struct:cmd_set_burst_tx_retry_result	file:
+timeout	./cmdline.c	/^	cmdline_fixed_string_t timeout;$/;"	m	struct:cmd_set_bypass_timeout_result	file:
+tmst_read_t	./ieee1588fwd.c	/^typedef int  (*tmst_read_t)(portid_t pi, uint64_t *tmst); \/**< Read TMST regs *\/$/;"	t	file:
+tp_id	./cmdline.c	/^	uint16_t tp_id;$/;"	m	struct:cmd_vlan_tpid_result	file:
+tx	./cmdline.c	/^	cmdline_fixed_string_t tx;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+tx	./cmdline.c	/^	cmdline_fixed_string_t tx;$/;"	m	struct:cmd_priority_flow_ctrl_set_result	file:
+tx	./cmdline.c	/^	cmdline_fixed_string_t tx;$/;"	m	struct:cmd_set_burst_tx_retry_result	file:
+tx_burst_stats	./testpmd.h	/^	struct pkt_burst_stats tx_burst_stats;$/;"	m	struct:fwd_stream	typeref:struct:fwd_stream::pkt_burst_stats
+tx_cksum	./cmdline.c	/^	cmdline_fixed_string_t tx_cksum;$/;"	m	struct:cmd_tx_cksum_set_result	file:
+tx_cksum_set	./config.c	/^tx_cksum_set(portid_t port_id, uint8_t cksum_mask)$/;"	f
+tx_conf	./testpmd.h	/^	struct rte_eth_txconf   tx_conf;    \/**< tx configuration *\/$/;"	m	struct:rte_port	typeref:struct:rte_port::rte_eth_txconf
+tx_desc_id_is_invalid	./config.c	/^tx_desc_id_is_invalid(uint16_t txdesc_id)$/;"	f	file:
+tx_dropped	./testpmd.h	/^	uint64_t                tx_dropped; \/**< If no descriptor in TX ring *\/$/;"	m	struct:rte_port
+tx_first	./cmdline.c	/^	cmdline_fixed_string_t tx_first;$/;"	m	struct:cmd_start_tx_first_result	file:
+tx_free_thresh	./testpmd.c	/^uint16_t tx_free_thresh = 0; \/* Use default values. *\/$/;"	v
+tx_lfc_mode	./cmdline.c	/^	cmdline_fixed_string_t tx_lfc_mode;$/;"	m	struct:cmd_link_flow_ctrl_set_result	file:
+tx_mbuf_alloc	./txonly.c	/^tx_mbuf_alloc(struct rte_mempool *mp)$/;"	f	file:
+tx_ol_flags	./testpmd.h	/^	uint16_t                tx_ol_flags;\/**< Offload Flags of TX packets. *\/$/;"	m	struct:rte_port
+tx_only_begin	./txonly.c	/^tx_only_begin(__attribute__((unused)) portid_t pi)$/;"	f	file:
+tx_only_engine	./txonly.c	/^struct fwd_engine tx_only_engine = {$/;"	v	typeref:struct:fwd_engine
+tx_packets	./testpmd.h	/^	unsigned int tx_packets;  \/**< received packets transmitted *\/$/;"	m	struct:fwd_stream
+tx_pfc_mode	./cmdline.c	/^	cmdline_fixed_string_t tx_pfc_mode;$/;"	m	struct:cmd_priority_flow_ctrl_set_result	file:
+tx_pkt_length	./testpmd.c	/^uint16_t tx_pkt_length = TXONLY_DEF_PACKET_LEN; \/**< TXONLY packet length. *\/$/;"	v
+tx_pkt_nb_segs	./testpmd.c	/^uint8_t  tx_pkt_nb_segs = 1; \/**< Number of segments in TXONLY packets *\/$/;"	v
+tx_pkt_seg_lengths	./testpmd.c	/^uint16_t tx_pkt_seg_lengths[RTE_MAX_SEGS_PER_PKT] = {$/;"	v
+tx_port	./testpmd.h	/^	portid_t   tx_port;   \/**< forwarding port of received packets *\/$/;"	m	struct:fwd_stream
+tx_queue	./testpmd.h	/^	queueid_t  tx_queue;     \/**< TX queue to send forwarded packets *\/$/;"	m	struct:fwd_lcore
+tx_queue	./testpmd.h	/^	queueid_t  tx_queue;  \/**< TX queue to send forwarded packets *\/$/;"	m	struct:fwd_stream
+tx_queue_id_is_invalid	./config.c	/^tx_queue_id_is_invalid(queueid_t txq_id)$/;"	f	file:
+tx_queue_stats_mapping_enabled	./testpmd.h	/^	uint8_t                 tx_queue_stats_mapping_enabled;$/;"	m	struct:rte_port
+tx_queue_stats_mappings	./testpmd.c	/^struct queue_stats_mappings *tx_queue_stats_mappings = tx_queue_stats_mappings_array;$/;"	v	typeref:struct:queue_stats_mappings
+tx_queue_stats_mappings_array	./testpmd.c	/^struct queue_stats_mappings tx_queue_stats_mappings_array[MAX_TX_QUEUE_STATS_MAPPINGS];$/;"	v	typeref:struct:queue_stats_mappings
+tx_ring_desc_display	./config.c	/^tx_ring_desc_display(portid_t port_id, queueid_t txq_id, uint16_t txd_id)$/;"	f
+tx_rs_thresh	./testpmd.c	/^uint16_t tx_rs_thresh = 0; \/* Use default values. *\/$/;"	v
+tx_stream	./testpmd.h	/^	struct fwd_stream       *tx_stream; \/**< Port TX stream, if unique *\/$/;"	m	struct:rte_port	typeref:struct:rte_port::fwd_stream
+tx_thresh	./testpmd.c	/^struct rte_eth_thresh tx_thresh = {$/;"	v	typeref:struct:rte_eth_thresh
+tx_tmst_read	./ieee1588fwd.c	/^	tmst_read_t      tx_tmst_read;$/;"	m	struct:port_ieee1588_ops	file:
+tx_vlan	./cmdline.c	/^	cmdline_fixed_string_t tx_vlan;$/;"	m	struct:cmd_tx_vlan_reset_result	file:
+tx_vlan	./cmdline.c	/^	cmdline_fixed_string_t tx_vlan;$/;"	m	struct:cmd_tx_vlan_set_result	file:
+tx_vlan_id	./testpmd.h	/^	uint16_t                tx_vlan_id; \/**< Tag Id. in TX VLAN packets. *\/$/;"	m	struct:rte_port
+tx_vlan_reset	./config.c	/^tx_vlan_reset(portid_t port_id)$/;"	f
+tx_vlan_set	./config.c	/^tx_vlan_set(portid_t port_id, uint16_t vlan_id)$/;"	f
+txpkts	./cmdline.c	/^	cmdline_fixed_string_t txpkts;$/;"	m	struct:cmd_set_txpkts_result	file:
+txq_flags	./testpmd.c	/^uint32_t txq_flags = 0; \/* No flags set. *\/$/;"	v
+txring_numa	./testpmd.h	/^uint8_t txring_numa[RTE_MAX_ETHPORTS];$/;"	v
+unused	./ieee1588fwd.c	/^	uint8_t unused[34];$/;"	m	struct:ptpv2_msg	file:
+usage	./parameters.c	/^usage(char* progname)$/;"	f	file:
+value	./cmdline.c	/^	cmdline_fixed_string_t value;$/;"	m	struct:cmd_config_rss	file:
+value	./cmdline.c	/^	cmdline_fixed_string_t value;$/;"	m	struct:cmd_config_rx_mode_flag	file:
+value	./cmdline.c	/^	cmdline_fixed_string_t value;$/;"	m	struct:cmd_operate_port_result	file:
+value	./cmdline.c	/^	cmdline_fixed_string_t value;$/;"	m	struct:cmd_set_bypass_mode_result	file:
+value	./cmdline.c	/^	cmdline_fixed_string_t value;$/;"	m	struct:cmd_set_bypass_timeout_result	file:
+value	./cmdline.c	/^	cmdline_fixed_string_t value;$/;"	m	struct:cmd_set_mirror_mask_result	file:
+value	./cmdline.c	/^	cmdline_fixed_string_t value;$/;"	m	struct:cmd_set_uc_all_hash_table	file:
+value	./cmdline.c	/^	uint16_t value;$/;"	m	struct:cmd_config_burst	file:
+value	./cmdline.c	/^	uint16_t value;$/;"	m	struct:cmd_config_rx_tx	file:
+value	./cmdline.c	/^	uint16_t value;$/;"	m	struct:cmd_config_threshold	file:
+value	./cmdline.c	/^	uint16_t value;$/;"	m	struct:cmd_set_result	file:
+value	./cmdline.c	/^	uint32_t value;$/;"	m	struct:cmd_config_max_pkt_len_result	file:
+value	./cmdline.c	/^	uint32_t value;$/;"	m	struct:cmd_write_reg_bit_field_result	file:
+value	./cmdline.c	/^	uint32_t value;$/;"	m	struct:cmd_write_reg_result	file:
+value	./cmdline.c	/^	uint8_t value;$/;"	m	struct:cmd_config_thresh	file:
+value	./cmdline.c	/^	uint8_t value;$/;"	m	struct:cmd_operate_specific_port_result	file:
+value	./cmdline.c	/^	uint8_t value;$/;"	m	struct:cmd_write_reg_bit_result	file:
+value1	./cmdline.c	/^	cmdline_fixed_string_t value1;$/;"	m	struct:cmd_config_speed_all	file:
+value1	./cmdline.c	/^	cmdline_fixed_string_t value1;$/;"	m	struct:cmd_config_speed_specific	file:
+value2	./cmdline.c	/^	cmdline_fixed_string_t value2;$/;"	m	struct:cmd_config_speed_all	file:
+value2	./cmdline.c	/^	cmdline_fixed_string_t value2;$/;"	m	struct:cmd_config_speed_specific	file:
+verbose_level	./testpmd.c	/^uint16_t verbose_level = 0; \/**< Silent by default. *\/$/;"	v
+version	./ieee1588fwd.c	/^	uint8_t version; \/**< must be 0x02 *\/$/;"	m	struct:ptpv2_msg	file:
+vf	./cmdline.c	/^	cmdline_fixed_string_t vf;$/;"	m	struct:cmd_set_vf_rxmode	file:
+vf	./cmdline.c	/^	cmdline_fixed_string_t vf;$/;"	m	struct:cmd_set_vf_traffic	file:
+vf	./cmdline.c	/^	cmdline_fixed_string_t vf;$/;"	m	struct:cmd_vf_mac_addr_result	file:
+vf	./cmdline.c	/^	cmdline_fixed_string_t vf;$/;"	m	struct:cmd_vf_rx_vlan_filter	file:
+vf_id	./cmdline.c	/^	uint8_t vf_id;$/;"	m	struct:cmd_set_vf_rxmode	file:
+vf_id	./cmdline.c	/^	uint8_t vf_id;$/;"	m	struct:cmd_set_vf_traffic	file:
+vf_mask	./cmdline.c	/^	uint64_t vf_mask;$/;"	m	struct:cmd_vf_rx_vlan_filter	file:
+vf_num	./cmdline.c	/^	uint8_t vf_num;$/;"	m	struct:cmd_vf_mac_addr_result	file:
+vlan	./cmdline.c	/^	cmdline_fixed_string_t vlan;$/;"	m	struct:cmd_pkt_filter_result	file:
+vlan	./cmdline.c	/^	cmdline_fixed_string_t vlan;$/;"	m	struct:cmd_vlan_offload_result	file:
+vlan	./cmdline.c	/^	cmdline_fixed_string_t vlan;$/;"	m	struct:cmd_vlan_tpid_result	file:
+vlan_extend_set	./config.c	/^vlan_extend_set(portid_t port_id, int on)$/;"	f
+vlan_id	./cmdline.c	/^	cmdline_fixed_string_t vlan_id;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+vlan_id	./cmdline.c	/^	uint16_t  vlan_id;$/;"	m	struct:cmd_pkt_filter_result	file:
+vlan_id	./cmdline.c	/^	uint16_t vlan_id;$/;"	m	struct:cmd_rx_vlan_filter_result	file:
+vlan_id	./cmdline.c	/^	uint16_t vlan_id;$/;"	m	struct:cmd_tx_vlan_set_result	file:
+vlan_id	./cmdline.c	/^	uint16_t vlan_id;$/;"	m	struct:cmd_vf_rx_vlan_filter	file:
+vlan_id_is_invalid	./config.c	/^vlan_id_is_invalid(uint16_t vlan_id)$/;"	f	file:
+vlan_id_value	./cmdline.c	/^	uint8_t  vlan_id_value;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+vlan_prio	./cmdline.c	/^	cmdline_fixed_string_t vlan_prio;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+vlan_prio_value	./cmdline.c	/^	uint8_t  vlan_prio_value;$/;"	m	struct:cmd_pkt_filter_masks_result	file:
+vlan_tags	./testpmd.c	/^const uint16_t vlan_tags[] = {$/;"	v
+vlan_tpid_set	./config.c	/^vlan_tpid_set(portid_t port_id, uint16_t tp_id)$/;"	f
+vt	./cmdline.c	/^	cmdline_fixed_string_t vt;$/;"	m	struct:cmd_config_dcb	file:
+vt_en	./cmdline.c	/^	cmdline_fixed_string_t vt_en;$/;"	m	struct:cmd_config_dcb	file:
+vt_en	./testpmd.h	/^	uint8_t vt_en;$/;"	m	struct:dcb_config
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_mac_addr_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_rx_vlan_filter_all_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_rx_vlan_filter_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_set_mirror_link_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_set_mirror_mask_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_set_qmap_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_set_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_set_uc_all_hash_table	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_set_uc_hash_table	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_set_vf_rxmode	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_set_vf_traffic	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_showcfg_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_showport_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_showportall_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_vf_mac_addr_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_vf_rx_vlan_filter	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_vlan_offload_result	file:
+what	./cmdline.c	/^	cmdline_fixed_string_t what;$/;"	m	struct:cmd_vlan_tpid_result	file:
+words	./config.c	/^	} words;$/;"	m	union:igb_ring_dword	typeref:struct:igb_ring_dword::__anon1	file:
+write	./cmdline.c	/^	cmdline_fixed_string_t write;$/;"	m	struct:cmd_write_reg_bit_field_result	file:
+write	./cmdline.c	/^	cmdline_fixed_string_t write;$/;"	m	struct:cmd_write_reg_bit_result	file:
+write	./cmdline.c	/^	cmdline_fixed_string_t write;$/;"	m	struct:cmd_write_reg_result	file:

@@ -1,0 +1,36 @@
+
+# Guide to M4 Macros:
+#
+#   m4_define([name], [substitution])
+#     Substitutes the word(s) given by ``name`` with the text given in
+#     ``substitution``
+#   m4_if([name], [value], [execution])
+#     If the value of the ``name`` variable equals that of the ``value``
+#     variable, then execute ``execution``
+#
+# Guide to Autotest Macros:
+#   Autotest macros are just predefined M4 macros. There are a number of them
+#
+#   AT_SETUP(title)
+#     Begin a test group named ``title``. This title is really the identifier
+#     of the test group, used in quiet and verbose outputs. It should be
+#     short, but descriptive.
+#   AT_CHECK(commands, [status = 0], [stdout], [stderr])
+#     Execute a test by performing given shell commands. These commands
+#     should normally exit with status, while producing expected stdout and
+#     stderr contents.
+#   AT_CLEANUP()
+#     End a test group.
+
+##############################################################################
+# Macros
+##############################################################################
+#
+m4_define([CHECK_DPDK_LINK],
+[AT_BANNER([dpdk-link tests])
+AT_SETUP([Check negative cases for dpdk-link.c])
+AT_CHECK([sudo -E $srcdir/test-dpdk-link -c 1 -n 4], [0], [ignore], [])
+AT_CLEANUP
+])
+
+CHECK_DPDK_LINK([])
